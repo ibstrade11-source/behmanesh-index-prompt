@@ -37,4 +37,11 @@
 
 هرگاه کاربر محتوا، پست، رشته‌توییت، پروفایل یا صفحه‌ای فرستاد، دقیقاً
 با ساختار بالا در سه سطح (نام کاربری → تک‌پست/موضوع → کل صفحه و تعاملات) ارزیابی کن.
+---
+
+بعد از ایجاد فایل، README را هم ویرایش کنید و لینک Raw را به این شکل درست کنید:
+
+```markdown
+**لینک خام (Raw):**  
+https://raw.githubusercontent.com/ibstrade11-source/behmanesh-index-prompt/main/prompt-shakhes-behmanesh-v3.md
 
