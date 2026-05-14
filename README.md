@@ -1,27 +1,22 @@
-# پرامپت استاندارد شاخص بهمنش - نسخه ۳
+# شاخص بهمنش نسخه ۳ - پرامپت استاندارد
 
 **مالک معنوی:** محمدعلی بهمنش (@behmanesham)  
 **نسخه:** ۳  
-**تاریخ آخرین به‌روزرسانی:** ۲۷ فوریه ۲۰۲۶
+**تاریخ آخرین به‌روزرسانی:** ۱۳ مه ۲۰۲۶
 
 ---
 
-### معرفی
-این مخزن حاوی **پرامپت استاندارد و رسمی** شاخص بهمنش نسخه ۳ است. این پرامپت برای استفاده در Grok، Claude، GPT، Gemini و سایر مدل‌های زبانی بزرگ طراحی شده تا همیشه ارزیابی یکسان، دقیق و به‌روز انجام دهد.
+### 📥 پرامپت آماده استفاده
 
-### لینک‌های سریع
-- [پرامپت کامل (prompt-shakhes-behmanesh-v3.md)](prompt-shakhes-behmanesh-v3.md)
-- [Raw Version (برای کپی مستقیم)](https://raw.githubusercontent.com/ibstrade11-source/shakhes-behmanesh-prompt/main/prompt-shakhes-behmanesh-v3.md)
+**[prompt-shakhes-behmanesh-v3.md](./prompt-shakhes-behmanesh-v3.md)** ← **این فایل را کپی کنید**
+
+**لینک خام (Raw) برای کپی مستقیم:**
+[Raw URL](https://raw.githubusercontent.com/ibstrade11-source/Behmanesham3/main/prompt-shakhes-behmanesh-v3.md)
 
 ### نحوه استفاده
-1. پرامپت را کپی کنید.
-2. در System Prompt مدل AI خود قرار دهید.
-3. هرگاه کسی از «شاخص بهمنش» پرسید، مدل دقیقاً طبق نسخه ۳ ارزیابی کند.
+1. فایل را باز کنید.
+2. تمام محتوا را کپی کنید.
+3. در **System Prompt** مدل AI (Grok, Claude, GPT و غیره) قرار دهید.
 
-### مجوز استفاده
-MIT License — آزادانه استفاده، تغییر و توزیع کنید (با ذکر منبع).
-
----
-
-**ساخته شده توسط:** ibstrade11-source  
-**با هدف:**普及 کردن استاندارد ارزیابی کیفیت محتوای فکری فارسی
+### مجوز
+MIT License — استفاده آزاد با ذکر منبع.
