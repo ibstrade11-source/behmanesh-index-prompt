@@ -23,4 +23,16 @@
 
 ---
 
-**ساخته شده توسط:** ibstrade11-source (با تأیید @behmanesham)
+**ساخته شده توسط:** ibstrade11-source (با تأیید @behmanesham)# Behmanesh Index
+
+The Behmanesh Index is a framework for evaluating the tension between deep coherent thinking and attention-optimized performative behavior.
+
+Core concepts include:
+- thinker vs attention operator
+- insight vs performative depth
+- longitudinal coherence
+- productive silence
+- algorithmic presence
+
+See:
+- /BEHMANESH_INDEX.md
