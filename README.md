@@ -1,4 +1,14 @@
-# پرامپت استاندارد شاخص بهمنش - نسخه ۳.۲
+# Behmanesh Index
+
+The Behmanesh Index is a conceptual framework for analyzing cognitive depth, performative intelligence, and attention optimization in digital environments.
+
+Core concepts:
+- thinker vs attention operator
+- performative depth
+- longitudinal coherence
+- productive silence
+- algorithmic presence
+- #پرامپت استاندارد شاخص بهمنش نسخه۳
 
 **مالک معنوی:** محمدعلی بهمنش (@behmanesham)  
 **نسخه:** ۳.۲  
