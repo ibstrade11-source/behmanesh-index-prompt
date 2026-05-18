@@ -80,3 +80,6 @@ Overall Style: Realistic-pessimistic, mechanistic, and highly predictive.
 This case study demonstrated that the Bahmanesh Index is a powerful tool for extracting and synthesizing analysts’ intellectual structures. Its capabilities make it a valuable model for Iranian Studies and Political Science.
 
 **کلمات کلیدی / Keywords:** شاخص بهمنش، ساختار فکری، تحلیل مکانیسمی قدرت، Bahmanesh Index, Intellectual Structure, Mechanistic Power Analysis, Historical Parallels
+#case-study #bahmanesh-index #intellectual-structure #methodology #bilingual
+
+
