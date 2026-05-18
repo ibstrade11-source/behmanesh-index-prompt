@@ -32,7 +32,10 @@ Core concepts:
 **تغییر در خود شاخص بهمنش مجاز نیست.**
 
 ---
+### Case Studies
 
+- [کیس استادی اول - عنوان کیس موجود](Case-Studies/...)
+- [قابلیت‌ها و کارکردهای شاخص بهمنش — مطالعه موردی @behmanesham](Case-Studies/Case-Study_Bahmanesh-Index_Capabilities_@behmanesham.md)
 **ساخته شده توسط:** ibstrade11-source (با تأیید @behmanesham)# Behmanesh Index
 
 The Behmanesh Index is a framework for evaluating the tension between deep coherent thinking and attention-optimized performative behavior.
