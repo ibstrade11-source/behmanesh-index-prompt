@@ -20,7 +20,6 @@
 |------|-------|------|---------------|
 | **[Methodology.md](./Methodology.md)** | روش‌شناسی رسمی، فلسفی و ساختاری شاخص بهمنش | ۱.۱ | **الزامی - اول** |
 | **[SOP_Intellectual_Content_Analysis_v3.2.md](./SOP_Intellectual_Content_Analysis_v3.2.md)** | **Standard Operating Procedure (SOP)** — دستورالعمل عملیاتی استاندارد تحلیل محتوای فکری | ۳.۲ | **الزامی - دوم** |
-| **[SOP_Output_Format_and_Presentation_v1.0.md](./SOP_Output_Format_and_Presentation_v1.0.md)** | **دستورالعمل اجرایی نحوه ارائه تحلیل** — ساختار خروجی الزامی سطح ۳ | ۱.۰ | **الزامی** |
 | **[prompt-shakhes-behmanesh-v3.md](./prompt-shakhes-behmanesh-v3.md)** | پرامپت اجرایی (System Prompt) | ۳.۲ | **الزامی - سوم** |
 | **[BEHMANESH_INDEX.md](./BEHMANESH_INDEX.md)** | توضیحات مفهومی و فلسفی شاخص | — | توصیه‌شده |
 | **[Case-Studies/](./Case-Studies/)** | مطالعات موردی کاربردی | — | توصیه‌شده |
@@ -30,6 +29,10 @@
 ## مطالعات موردی (Case Studies)
 
 - **[قابلیت‌ها و کارکردهای شاخص بهمنش — مطالعه موردی @behmanesham](./Case-Studies/Case-Study_Bahmanesh-Index_Capabilities_@behmanesham.md)** (کیس استادی اول)
+
+- **[شناسایی تم محوری ساختار فکری — خطای Manifest Bias و اصلاح آن](./Case-Studies/Case-Study_01_Manifest_Bias_and_Correction.md)**
+
+- **[مطالعه موردی کاربرد متا شاخص بهمنش — وعده صادق ۴](./Case-Studies/Case-Study_02_Vaade_Sadegh_4_Meta_Example.md)**
 
 *(کیس استادی‌های جدید در حال افزوده شدن هستند)*
 
@@ -60,7 +63,7 @@
 - **روش‌شناسی (Methodology):** نسخه ۱.۱
 - **SOP (دستورالعمل عملیاتی):** نسخه ۳.۲
 - **دستورالعمل اجرایی (Prompt):** نسخه ۳.۲
-- آخرین به‌روزرسانی: ۱۹ مه ۲۰۲۶
+- آخرین به‌روزرسانی: ۲۰ می ۲۰۲۶
 
 ---
 
