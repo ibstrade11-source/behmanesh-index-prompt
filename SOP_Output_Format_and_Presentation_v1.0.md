@@ -86,9 +86,4 @@
 
 **Any analysis that does not fully comply with this structure is considered non-compliant with the official Behmanesh Index standard.**
 
----
 
-این نسخه کاملاً دوزبانه، مرتب و آماده اضافه شدن به ریپو است.  
-می‌توانید مستقیم کپی کنید و در مخزن قرار دهید.  
-
-اگر نیاز به تغییر یا اضافه کردن بخشی دارید، بگویید. 🚀
