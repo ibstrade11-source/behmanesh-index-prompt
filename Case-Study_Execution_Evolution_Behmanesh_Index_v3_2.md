@@ -1,7 +1,3 @@
-نام فایل پیشنهادی
-
-Case-Study_Execution_Evolution_Behmanesh_Index_v3_2.md
-
 
 ---
 
