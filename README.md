@@ -14,14 +14,14 @@
 
 ## فایل‌های اصلی پروژه (به‌روزرسانی شده)
 
-| فایل | توضیح | نسخه | اولویت خواندن |
-|------|------|------|---------------|
-| **Methodology.md** | روش‌شناسی رسمی، فلسفی و ساختاری شاخص بهمنش | ۱.۱ | **الزامی - اول** |
-| **SOP_Intellectual_Content_Analysis_v3.3_Enhanced.md** | **Standard Operating Procedure (SOP)** — دستورالعمل عملیاتی استاندارد و ارتقایافته تحلیل محتوای فکری (نسخه اصلی و فعال) | **۳.۳ Enhanced** | **الزامی - دوم** |
-| **BEHMANESH_INDEX_PROMPT_v3.3.md** | پرامپت اجرایی استاندارد (System Prompt) — **بدون تغییر** | **۳.۳** | **الزامی - سوم** |
-| **SOP_Intellectual_Content_Analysis_v3.3.md** | نسخه قبلی SOP (برای مرجع تاریخی) | ۳.۳ | اختیاری |
-| **BEHMANESH_INDEX.md** | توضیحات مفهومی و فلسفی شاخص | — | توصیه‌شده |
-| **Case-Studies/** | مطالعات موردی کاربردی | — | توصیه‌شده |
+| فایل | توضیح | نسخه | اولویت خواندن | لینک RAW |
+|------|------|------|---------------|----------|
+| **Methodology.md** | روش‌شناسی رسمی، فلسفی و ساختاری شاخص بهمنش | ۱.۱ | **الزامی - اول** | [RAW](https://raw.githubusercontent.com/ibstrade11-source/behmanesh-index-prompt/main/Methodology.md) |
+| **SOP_Intellectual_Content_Analysis_v3.3_Enhanced.md** | **Standard Operating Procedure (SOP)** — دستورالعمل عملیاتی استاندارد و ارتقایافته تحلیل محتوای فکری (نسخه اصلی و فعال) | **۳.۳ Enhanced** | **الزامی - دوم** | [RAW](https://raw.githubusercontent.com/ibstrade11-source/behmanesh-index-prompt/main/SOP_Intellectual_Content_Analysis_v3.3_Enhanced.md) |
+| **BEHMANESH_INDEX_PROMPT_v3.3.md** | پرامپت اجرایی استاندارد (System Prompt) — **بدون تغییر** | **۳.۳** | **الزامی - سوم** | [RAW](https://raw.githubusercontent.com/ibstrade11-source/behmanesh-index-prompt/main/BEHMANESH_INDEX_PROMPT_v3.3.md) |
+| **SOP_Intellectual_Content_Analysis_v3.3.md** | نسخه قبلی SOP (برای مرجع تاریخی) | ۳.۳ | اختیاری | [RAW](https://raw.githubusercontent.com/ibstrade11-source/behmanesh-index-prompt/main/SOP_Intellectual_Content_Analysis_v3.3.md) |
+| **BEHMANESH_INDEX.md** | توضیحات مفهومی و فلسفی شاخص | — | توصیه‌شده | [RAW](https://raw.githubusercontent.com/ibstrade11-source/behmanesh-index-prompt/main/BEHMANESH_INDEX.md) |
+| **Case-Studies/** | مطالعات موردی کاربردی | — | توصیه‌شده | — |
 
 ---
 
