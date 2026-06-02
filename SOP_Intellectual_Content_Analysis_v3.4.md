@@ -7,17 +7,16 @@
 
 ## مقدمه
 این SOP راهنمای اجرایی دقیق برای تحلیل کیفیت فکری افراد، حساب‌ها و متون با استفاده از شاخص بهمنش است. هدف، ارزیابی منصفانه، عمیق و repeatable است.
+
 ## ارتقای مهم — ادغام CORE_BEHMANESH v1.0 + BIO v1.0
 
 **از این نسخه به بعد، تمام تحلیل‌ها باید بر اساس موارد زیر انجام شود:**
 
 - **CORE_BEHMANESH v1.0** به عنوان Meta-Layer و تقویت‌کننده اصلی
 - **BIO v1.0** به عنوان Ontology رسمی ساختاربندی خروجی
-- طبقه‌بندی اجباری ادعاها: [FACT]، [INFERENCE]، [HYPOTHESIS]، [SPECULATION]
-- گزارش سطح اطمینان و ابعاد عدم قطعیت
-- فعال‌سازی ScientificTextAnalysis Module در صورت تشخیص حوزه علمی-
--  **[LLM-Execution-Guardrails_v1.0.md](../CORE-BEHMANESH/LLM-Execution-Guardrails_v1.0.md)** — راهنمای اجرای ایمن شاخص توسط LLMها (اجباری برای تحلیل‌های مهم)
-
+- **[LLM-Execution-Guardrails_v1.0.md](../CORE-BEHMANESH/LLM-Execution-Guardrails_v1.0.md)** — راهنمای اجرای ایمن و جلوگیری از drift (اجباری برای تحلیل‌های مهم)
+- طبقه‌بندی اجباری ادعاها و گزارش اطمینان
+- فعال‌سازی ScientificTextAnalysis Module در حوزه‌های علمی
 ---
 
 **نسخه فعلی:** Hybrid v3.4 + CORE-BEHMANESH v1.0
