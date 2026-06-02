@@ -15,7 +15,7 @@
 - **BIO v1.0** به عنوان Ontology رسمی ساختاربندی خروجی
 - طبقه‌بندی اجباری ادعاها: [FACT]، [INFERENCE]، [HYPOTHESIS]، [SPECULATION]
 - گزارش سطح اطمینان و ابعاد عدم قطعیت
-- فعال‌سازی ScientificTextAnalysis Module در صورت تشخیص حوزه علمی
+- فعال‌سازی ScientificTextAnalysis Module در صورت تشخیص حوزه علمی- **[LLM-Execution-Guardrails_v1.0.md](../CORE-BEHMANESH/LLM-Execution-Guardrails_v1.0.md)** — راهنمای اجرای ایمن شاخص توسط LLMها (اجباری برای تحلیل‌های مهم)
 
 ---
 
