@@ -19,7 +19,8 @@
 - **Ontology/** → هستی‌شناسی رسمی BIO v1.0
 - **Core/** → پرامپت و SOP نسخه ۳.۴
 - **Case-Studies/** → مطالعات موردی
-
+- **[LLM-Execution-Guardrails_v1.0.md](./CORE-BEHMANESH/LLM-Execution-Guardrails_v1.0.md)** → راهنمای اجرای ایمن و جلوگیری از drift توسط مدل‌های زبانی (توصیه‌شده)
+- **Core/** → پرامپت و SOP نسخه ۳.۴
 ---
 
 **توضیح:** در این branch، لایه تقویت‌کننده **CORE_BEHMANESH v1.0** و **Ontology BIO v1.0** اضافه شده است. این تغییرات پایه‌ای برای ارتقای شاخص بهمنش به نسخه Hybrid v4 محسوب می‌شود.
