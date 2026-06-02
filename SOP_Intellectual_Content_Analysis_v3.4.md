@@ -1,61 +1,89 @@
 # SOP_Intellectual_Content_Analysis_v3.4
 
 **نام کامل:** Standard Operating Procedure — شاخص بهمنش نسخه ۳.۴  
-**نسخه:** ۳.۴  
-**تاریخ آخرین به‌روزرسانی:** ۲۷ مه ۲۰۲۶  
+**نسخه:** ۳.۴ (Hybrid)  
+**تاریخ آخرین به‌روزرسانی:** ۳ ژوئن ۲۰۲۶  
 **طراح:** بهمنش
-
-## مقدمه
-این SOP راهنمای اجرایی دقیق برای تحلیل کیفیت فکری افراد، حساب‌ها و متون با استفاده از شاخص بهمنش است. هدف، ارزیابی منصفانه، عمیق و repeatable است.
-
-## گام‌های اجرایی الزامی (به ترتیب)
-
-### گام ۰: استخراج ساختار فکری (الزامی)
-
-1. جمع‌آوری داده Longitudinal
-2. شناسایی Core Nodes
-3. نقشه‌برداری Edges (causal, temporal, self-reference)
-4. **شناسایی تم‌ها (Themes Identification)** — الزامی:
-   - تم‌های غالب (Dominant Themes)
-   - تم‌های فرعی (Secondary Themes)
-   - تم‌های نوظهور (Emerging Themes)
-   - تم‌های تضعیف‌شده یا متروکه (Declining Themes)
-   
-   برای هر تم:
-   - توصیف مختصر
-   - میزان تکرار و پایداری (از ابتدا تا حالا)
-   - ارتباط آن با Node مرکزی
-   - تأثیر آن بر Core Worldview
-
-5. Temporal Triangulation
-6. سنتز Core Worldview و گراف مفهومی
-
-### گام ۱: تحلیل لایه‌ای
-- **Manifest Layer**: آنچه آشکار است (محتوا، ادعاها، سبک)
-- **Latent Layer**: مکانیسم‌های پنهان، presuppositions، causal loops، blind spots
-- **Meta Layer**: جهان‌بینی، خودآگاهی، تکامل فکری، epistemic power
-
-### گام ۲: امتیازدهی و خروجی
-- استفاده از معیارها و وزن‌های تعریف‌شده
-- ارائه جدول امتیازدهی
-- نتیجه‌گیری ساختاریافته
 
 ---
 
-**افزوده‌های نسخه ۳.۴ (ماژول Hybrid)**
+## ارتقای مهم — ادغام CORE_BEHMANESH v1.0 + BIO v1.0
 
-### Latent Hybrid Sub-Layer
-- Epistemic Probe (پیش‌فرض‌ها و assumptions پنهان)
-- Systems Probe (Feedback Loops, Leverage Points, Delays)
-- Anomaly Probe (ناهنجاری‌ها و نقاط کور)
+**از این نسخه به بعد، تمام تحلیل‌ها باید بر اساس موارد زیر انجام شود:**
 
-### Domain-Adaptive Activation
-- کاربر می‌تواند حوزه را مشخص کند تا probes مرتبط فعال شوند.
-- وزن probes جدید حداکثر ۱۵٪ از لایه Latent را تشکیل دهد.
+- **CORE_BEHMANESH v1.0** به عنوان Meta-Layer و تقویت‌کننده اصلی
+- **BIO v1.0** به عنوان Ontology رسمی ساختاربندی خروجی
+- **LLM-Execution-Guardrails_v1.0.md** — راهنمای اجرای ایمن و جلوگیری از drift
+- طبقه‌بندی اجباری ادعاها و گزارش سطح اطمینان
+- فعال‌سازی خودکار Scientific Modules در حوزه‌های علمی
 
-### Safeguards (حفاظت از روح شاخص)
-- ممنوعیت مطلق ideological framing یا politicization
-- حفظ راستی‌آزمایی اجباری و anchoring بلندمدت (حداقل ۶۰٪)
-- خروجی باید actionable، خوانا و فاقد پیچیدگی غیرضروری باشد
+---
 
-این نسخه شاخص بهمنش را به چارچوبی قدرتمند و systematic تبدیل کرده است.
+## سطح‌بندی تحلیل
+
+**سطح ۱: Quick Scan**  
+- ارزیابی اولیه پروفایل، صفحه یا اطلاعات عمومی.  
+- تمرکز: Manifest Layer + تم‌های غالب.
+
+**سطح ۲: تحلیل ساخت‌یافته و ماژولار** ← **پیش‌فرض**  
+- مناسب برای **تک‌پست، تک‌مقاله علمی، پادکست، ویدئو، thread**.  
+- تمرکز: Manifest + Latent + Meta Layer.
+
+**سطح ۳: Comprehensive & Longitudinal**  
+- تحلیل عمیق بلندمدت با دسترسی به تاریخچه تولید محتوا.  
+- وزن Longitudinal: حداقل ۶۰٪.
+
+**قانون پیش‌فرض:** برای تک محتوا (پست، مقاله، پادکست و ...) از سطح ۲ استفاده شود و محدودیت دسترسی به تاریخچه به وضوح اعلام گردد.
+
+---
+
+## ماژول‌های علمی (Scientific Modules)
+
+هنگام تشخیص دامنه علمی، ماژول‌های زیر به صورت اجباری فعال می‌شوند:
+
+### ۱. Physics & Mathematics Module
+- Falsifiability, Dimensional Consistency, Mathematical Rigor
+- Reproducibility, Statistical Validity, Sensitivity Analysis
+
+### ۲. Biomedical & Life Sciences Module
+- CONSORT, PRISMA, STROBE, GRADE, Cochrane Risk of Bias
+- Sample Size Quality, Replication Potential, Ethical Standards
+
+### ۳. Economics & Behavioral Science Module
+- Econometric Robustness, Causal Inference, Endogeneity Detection
+- Model Specification Tests, External Validity
+
+### ۴. Computer Science & AI Module
+- Reproducibility (Code + Data), Benchmarking, Ablation Studies
+- Generalization, Ethical & Bias Analysis
+
+### ۵. General Scientific Module
+- Clarity of Research Question, Methodology Transparency
+- Limitation Discussion, Citation Integrity, Paradigm Consistency
+
+---
+
+## گام‌های اجرایی الزامی
+
+1. Domain & Context Detection
+2. Full Repository / Content Review
+3. Claim Classification + Confidence Scoring
+4. Layered Analysis (Manifest → Latent → Meta)
+5. Scientific Module Activation (در صورت لزوم)
+6. Theme & Core Node Identification
+7. Weighted Scoring (بر اساس BIO v1.0)
+8. Uncertainty Report + Limitations
+9. Final Synthesis & Recommendations
+
+---
+
+## الزامات خروجی
+
+- استفاده از Ontology BIO v1.0
+- رعایت Guardrails ضد drift
+- شفافیت کامل در محدودیت داده
+- خروجی ساخت‌یافته، خوانا و defensibility بالا
+
+---
+
+**این SOP نسخه Hybrid شاخص بهمنش را به یک چارچوب حرفه‌ای، علمی و استاندارد تبدیل کرده است.**
