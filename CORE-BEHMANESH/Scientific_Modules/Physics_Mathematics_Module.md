@@ -1,18 +1,18 @@
 # Physics & Mathematics Module
 
-**استانداردهای ارزیابی**
+**استانداردهای ارزیابی CORE_BEHMANESH**
 
 - Falsifiability (قابلیت ابطال)
 - Dimensional Consistency
-- Mathematical Coherence and Rigor
-- Reproducibility of Results
-- Statistical Validity
-- Model Assumptions Transparency
+- Mathematical Rigor and Coherence
+- Reproducibility of Experiments / Simulations
+- Statistical Validity and Error Analysis
+- Model Assumptions and Boundary Conditions
 - Sensitivity Analysis
-- Boundary Conditions
+- Conservation Laws and Symmetry Considerations
 
 **معیارهای کیفیت:**
 - Theoretical Soundness
-- Numerical/Computational Accuracy
-- Generalizability
-- Novelty in Method or Application
+- Numerical Accuracy
+- Generalizability of Results
+- Novelty in Approach or Application
