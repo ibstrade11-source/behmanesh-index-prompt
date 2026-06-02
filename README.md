@@ -40,7 +40,11 @@
 | **BEHMANESH_INDEX_PROMPT_v3.4.md** | پرامپت اجرایی استاندارد (System Prompt) | **۳.۴** | **الزامی - سوم** | [مشاهده](./BEHMANESH_INDEX_PROMPT_v3.4.md) \| [RAW](https://raw.githubusercontent.com/ibstrade11-source/behmanesh-index-prompt/main/BEHMANESH_INDEX_PROMPT_v3.4.md) |
 | **BEHMANESH_INDEX.md** | توضیحات مفهومی و فلسفی شاخص | — | توصیه‌شده | [مشاهده](./BEHMANESH_INDEX.md) |
 | **Case-Studies/** | مطالعات موردی کاربردی | — | توصیه‌شده | [پوشه](./Case-Studies) |
+| **Case-Studies/** | مطالعات موردی کاربردی | — | توصیه‌شده | [پوشه](/ibstrade11-source/behmanesh-index-prompt/tree/main/Case-Studies) |
 
+### نکته مهم درباره مطالعات موردی
+
+تمام کیس‌های موجود در پوشه **Case-Studies** مهم و دارای ارزش آموزشی والا هستند. مطالعه آن‌ها قبل از استفاده جدی از شاخص بهمنش **الزامی توصیه‌شده** است. این کیس‌ها تجربیات واقعی اجرای شاخص، خطاهای رایج مدل‌ها، فرآیندهای iterative تصحیح و درس‌های عملی را مستند کرده‌اند.
 ---
 
 ## نحوه استفاده
