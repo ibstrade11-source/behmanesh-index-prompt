@@ -1,7 +1,7 @@
 # SOP_Intellectual_Content_Analysis_v3.4.1
 
-**نام کامل:** Standard Operating Procedure — شاخص بهمنش نسخه ۳.۵
-**نسخه:** ۳.۵ (Hybrid)
+**نام کامل:** Standard Operating Procedure — شاخص بهمنش نسخه 3.4.1
+**نسخه:** 3.4.1 (Hybrid)
 **تاریخ آخرین به‌روزرسانی:** ۴ ژوئن ۲۰۲۶
 **طراح:** بهمنش
 **تغییرات نسبت به v3.4:**
