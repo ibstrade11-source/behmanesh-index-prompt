@@ -410,7 +410,20 @@ False-positive rates cannot be estimated.
 5. Calibration may be a more useful design goal than filtering.
 
 ---
+# Replication Protocol
 
+To reproduce this case:
+
+1. Select a short argumentative text.
+2. Perform a standard CDA analysis.
+3. Audit CDA findings using an evidence hierarchy.
+4. Re-analyze using BSI and EIG.
+5. Generate a maximum-pressure interpretation.
+6. Compare:
+   - Interpretations preserved
+   - Interpretations rejected
+   - Confidence adjustments introduced by EIG
+7. Evaluate whether EIG behaved as a filter or calibrator.
 # Final Conclusion
 
 This case provides preliminary validation of one of the central architectural claims of the Behmanesh Index.
