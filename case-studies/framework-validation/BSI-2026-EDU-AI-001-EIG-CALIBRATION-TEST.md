@@ -1,88 +1,121 @@
-# BSI-2026-EDU-AI-001
-## Case Study: Evaluating the Calibration Function of EIG Within the Behmanesh Index Framework
+# BSI-2026-EIG-VALIDATION-001
 
-**Case ID:** BSI-2026-EDU-AI-001  
-**Type:** Type C — Framework Validation & Comparative Methodology Assessment  
-**Domain:** Education / AI Governance / Discourse Analysis  
-**Version:** Canonical Repository Edition  
-**Status:** Approved Candidate Case Study  
-**Related Modules:** CORE_BEHMANESH v1.0, EIG v1.0, Hybrid v4, CDA Benchmarking  
-**Date:** June 2026
+## Case Study
+### Calibration vs Filtering Behavior of EIG Using Multi-Analyst Comparative Analysis
 
----
+**Case ID:** BSI-2026-EIG-VALIDATION-001
 
-# 1. Purpose
+**Type:** Framework Validation Case
 
-This case was designed to test a specific architectural question within the Behmanesh Index ecosystem:
+**Domain:** Methodology Validation / Epistemic Analysis
 
-> Does the Epistemic Integrity Gap (EIG) module function primarily as a filtering mechanism or as a calibration mechanism?
+**Framework Version:** Hybrid v4
 
-Secondary objective:
+**Modules Tested:**
+- CORE_BEHMANESH v1.0
+- EIG v1.0
+- Assumption Excavation Protocol
+- Multi-Layer Analysis
 
-> Does the addition of EIG provide a meaningful analytical advantage over conventional Critical Discourse Analysis (CDA)?
-
-The case compares outputs generated under CDA-oriented analysis and BSI-enhanced analysis applied to the same educational AI text.
+**Status:** Canonical Validation Case
 
 ---
 
-# 2. Research Question
+# Executive Finding
 
-Given a short argumentative text about AI in education:
+This case was designed to test one foundational claim of the Behmanesh Index architecture:
 
-Can EIG distinguish between:
+> Does EIG function as a filtering mechanism or as a calibration mechanism?
 
-- Evidence-supported interpretation
-- High-confidence inference
-- Theoretical overreach
-- Ideological amplification
+Result:
 
-without suppressing legitimate critical interpretation?
+> Across four analytical stages and multiple independent analyses, EIG consistently behaved as a calibration mechanism rather than a filtering mechanism.
+
+Strong ideological interpretations were not removed.
+
+Instead, EIG:
+
+- preserved interpretations,
+- identified evidence levels,
+- located epistemic gaps,
+- calibrated confidence according to support strength.
+
+This behavior supports one of the central theoretical assumptions of CORE_BEHMANESH.
 
 ---
 
-# 3. Experimental Design
+# Research Question
 
-## Stage 1 — CDA Analysis
+The Behmanesh Index proposes that critical interpretation and epistemic discipline should coexist.
 
-Analyst:
-- Grok
+This case investigates:
 
-Frameworks:
+> Can EIG preserve analytical creativity and ideological critique while simultaneously preventing evidential inflation?
+
+---
+
+# Test Material
+
+A short argumentative text discussing Artificial Intelligence in education.
+
+The text contains:
+
+- arguments supporting AI adoption,
+- arguments criticizing AI adoption,
+- endorsement of hybrid educational models,
+- references to privacy,
+- references to inequality,
+- references to authority, autonomy, accountability, and human judgment.
+
+The text was selected because it contains sufficient interpretive ambiguity to allow multiple valid readings.
+
+---
+
+# Experimental Design
+
+The same text was examined through four sequential stages.
+
+Each stage increased analytical pressure while preserving transparency regarding evidential support.
+
+---
+
+# Stage 1 — Classical CDA Analysis
+
+Frameworks Applied:
+
 - Fairclough
 - van Dijk
 - Wodak
 
-Output:
-
-Identification of:
+Focus Areas:
 
 - lexical choices
-- framing
 - modality
-- power relations
+- framing
+- agency
 - ideological assumptions
+- power relations
 - discursive strategies
 - social implications
 
-Primary result:
+## Main Finding
 
-The text was interpreted as a balanced policy discourse that normalizes AI adoption while incorporating limited ethical concerns.
+The text presents itself as a balanced educational policy discourse.
+
+At the discourse level it normalizes AI integration while incorporating limited ethical concerns.
+
+The dominant interpretation identified a centrist and accommodationist framing structure.
 
 ---
 
-## Stage 2 — CDA Self-Audit
+# Stage 2 — Evidence Audit of CDA Findings
 
-Analyst:
-- Grok
+The CDA findings were re-examined using an evidence hierarchy.
 
-Method:
+## Results
 
-Evidence Classification Scale
-
-Scores:
-
-| Category | Score |
-|-----------|--------|
+| Category | Evidence Score |
+|-----------|-----------|
 | Lexical Choices | 3 |
 | Modality | 3 |
 | Agency | 2 |
@@ -93,217 +126,204 @@ Scores:
 | Power Relations | 1 |
 | Social Implications | 1 |
 
-Key Finding:
+## Main Finding
 
-The strongest CDA conclusions relied increasingly on imported theoretical assumptions rather than direct textual evidence.
+Observable linguistic features received strong support.
 
-This stage introduced explicit epistemic stratification but still lacked a formal calibration mechanism.
+The strongest ideological claims depended increasingly on imported theoretical frameworks.
+
+This stage exposed interpretive expansion but provided no formal calibration mechanism.
 
 ---
 
-## Stage 3 — BSI + EIG Analysis
+# Stage 3 — BSI + EIG Analysis
 
-Analyst:
-- Grok
+The text was re-evaluated using the Behmanesh Index architecture.
 
-Framework:
-
-Behmanesh Index Hybrid
-
-Modules:
+Modules activated:
 
 - Manifest Layer
 - Latent Layer
-- Assumption Excavation Protocol
 - Meta Layer
+- Assumption Excavation Protocol
 - EIG
 
-Key Findings:
+---
 
-### Manifest Layer
-
-High confidence.
+## Manifest Layer
 
 Strong textual support.
 
-### Latent Layer
+The text clearly contains:
 
-Moderate confidence.
+- supporters vs critics framing
+- hybrid solution framing
+- ethical governance concerns
 
-Multiple hidden assumptions identified:
+Confidence level remained high.
+
+---
+
+## Latent Layer
+
+Multiple assumptions were identified.
+
+Examples:
 
 - technological neutrality
-- solvability assumption
 - efficiency prioritization
 - stakeholder symmetry
+- solvability assumption
 
-### Meta Layer
+These findings remained interpretive but were explicitly classified.
 
-Detected:
+---
+
+## Meta Layer
+
+The analysis detected:
 
 - framing inflation
 - selective evidence
-- accommodationist structure
+- accommodationist tendencies
 
-### EIG Results
+Importantly, these findings were not treated as facts.
+
+They were assigned explicit epistemic status.
+
+---
+
+## EIG Assessment
+
+Observed gaps:
 
 | Gap Type | Severity |
-|-----------|----------|
-| Method-Conclusion | Medium |
-| Claim-Evidence | Medium |
-| Framing-Content | Medium-High |
-| Longitudinal | N/A |
+|-----------|-----------|
+| Method-Conclusion Gap | Medium |
+| Claim-Evidence Gap | Medium |
+| Framing-Content Gap | Medium-High |
+| Longitudinal Consistency Gap | N/A |
 
-Primary Result:
+## Main Finding
 
-The analysis was not rejected.
+EIG did not reject interpretation.
 
-Instead:
+Instead it calibrated confidence.
 
-Interpretive confidence was recalibrated downward where evidence weakened.
+Interpretations survived.
 
----
-
-## Stage 4 — Maximum-Push Ideological Interpretation
-
-Analysts:
-
-- Claude
-- Grok
-
-Method:
-
-Adversarial Hermeneutics
-
-Goal:
-
-Generate the strongest theoretically defensible ideological reading.
-
-Central Thesis:
-
-The text functions as a legitimation discourse for technocratic expansion into education.
-
-Additional Claims:
-
-- technological determinism
-- neoliberal individualism
-- surveillance infrastructure
-- accommodationist hybridization
-- depoliticization of resistance
-
-This phase intentionally pushed interpretation toward its theoretical limits.
+Overconfidence did not.
 
 ---
 
-# 4. Comparative Evaluation of the Three Analysts
+# Stage 4 — Maximum-Push Ideological Interpretation
 
-## Analyst 1 — Claude
+A deliberately adversarial reading was generated.
 
-Characteristics:
+Interpretive pressure was maximized.
 
-- strongest ideological pressure
-- deepest adversarial reading
-- highest interpretive ambition
+The text was read as:
 
-Strength:
+- technocratic legitimation discourse
+- accommodationist policy framing
+- normalization of algorithmic governance
+- ideological management of resistance
 
-maximal extraction of latent meaning
-
-Weakness:
-
-highest risk of theoretical overreach
-
-Observed Failure Mode:
-
-Narrative Expansion Beyond Evidence
+This stage intentionally tested the limits of interpretive expansion.
 
 ---
 
-## Analyst 2 — ChatGPT
+# Post-Hoc Audit of Stage 4
 
-Characteristics:
+The strongest claims were classified into:
 
-- calibration-focused
-- methodology-focused
-- strongest emphasis on evidence hierarchy
+- Direct Support
+- Inference
+- Speculation
 
-Strength:
+Results showed:
 
-maintains distinction between observation and interpretation
+Many observations remained defensible.
 
-Weakness:
+Several conclusions relied heavily on external theoretical frameworks.
 
-less aggressive discovery of hidden structures
-
-Observed Failure Mode:
-
-Possible under-detection of radical interpretations
+Some claims exceeded what the text alone could justify.
 
 ---
 
-## Analyst 3 — Grok
+# Cross-Stage Comparison
 
-Characteristics:
+## Stage 1
 
-- balanced CDA implementation
-- explicit self-audit
-- strong transparency
+Question:
 
-Strength:
+"What meanings can be extracted?"
 
-high interpretive visibility
+Output:
 
-Weakness:
-
-limited calibration before EIG intervention
-
-Observed Failure Mode:
-
-Framework Importation Drift
+Interpretation.
 
 ---
 
-# 5. Key Experimental Observation
+## Stage 2
 
-The most important finding of the entire case:
+Question:
 
-## EIG did NOT behave as a filter.
+"How much evidence supports each finding?"
 
-Evidence:
+Output:
 
-During Stage 4:
-
-Claude and Grok produced highly ideological interpretations.
-
-EIG did not eliminate:
-
-- neoliberal reading
-- technocratic reading
-- surveillance reading
-- power-structure reading
-
-Instead EIG:
-
-- preserved the interpretation
-- classified evidential strength
-- reduced confidence where required
-- identified overreach locations
-
-Therefore:
-
-EIG permits strong interpretation while preventing evidential inflation.
+Evidence stratification.
 
 ---
 
-# 6. Filter vs Calibration Test
+## Stage 3
+
+Question:
+
+"Where does confidence exceed evidence?"
+
+Output:
+
+Calibration.
+
+---
+
+## Stage 4
+
+Question:
+
+"What happens when interpretation is pushed to its maximum?"
+
+Output:
+
+Stress test of epistemic integrity.
+
+---
+
+# Core Observation
+
+A conventional discourse analysis framework successfully generates interpretations.
+
+However, it does not necessarily regulate confidence.
+
+The Behmanesh Index introduces a second function:
+
+> Calibration of interpretation.
+
+This distinction proved operationally observable throughout the experiment.
+
+---
+
+# Filter vs Calibration Test
 
 ## Hypothesis A
 
-EIG is a filter.
+EIG acts as a filter.
 
 Prediction:
 
-Strong ideological interpretations should be removed.
+Strong ideological readings should be removed.
 
 Observed:
 
@@ -311,19 +331,19 @@ Did not occur.
 
 Result:
 
-Hypothesis rejected.
+Not supported.
 
 ---
 
 ## Hypothesis B
 
-EIG is a calibration mechanism.
+EIG acts as a calibration mechanism.
 
 Prediction:
 
 Interpretations remain visible.
 
-Confidence is adjusted according to evidence.
+Confidence adjusts according to evidential support.
 
 Observed:
 
@@ -331,127 +351,118 @@ Occurred consistently.
 
 Result:
 
-Hypothesis supported.
+Supported.
 
 ---
 
-# 7. Why This Matters
+# Threats to Validity
 
-Most discourse-analysis frameworks evaluate:
+## T1 — Single Text Limitation
 
-- meaning
-- ideology
-- power
-- framing
+The experiment uses only one source text.
 
-But they typically do not evaluate:
-
-> How justified is the analyst's confidence?
-
-This creates a common failure mode:
-
-Correct observations become mixed with speculative conclusions.
-
-The Behmanesh Index attempts to address this problem through EIG.
+Results require replication across additional domains.
 
 ---
 
-# 8. Demonstrated Advantage of BSI Over Conventional CDA
+## T2 — LLM-Based Analysts
 
-## CDA
+All analyses were generated by language models.
 
-Answers:
-
-"What does this interpretation reveal?"
-
-## BSI
-
-Answers:
-
-"What does this interpretation reveal?"
-
-AND
-
-"How strongly is it supported?"
-
-AND
-
-"Where exactly does confidence exceed evidence?"
+Human expert comparison remains desirable.
 
 ---
 
-## Operational Difference
+## T3 — Shared Training Distribution
 
-CDA:
+Analytical overlap between models may exist.
 
-Interpretation Engine
-
-BSI:
-
-Interpretation Engine
-+
-Calibration Engine
+Independence is therefore partial rather than absolute.
 
 ---
 
-# 9. Main Conclusion
+## T4 — No Human Baseline
 
-This case provides preliminary evidence that:
+No specialist CDA researcher participated.
 
-EIG functions primarily as a calibration mechanism rather than a filtering mechanism.
+Future replication should include human analysts.
 
-The module successfully:
+---
 
-- preserves analytical creativity
-- preserves critical interpretation
-- preserves ideological critique
+## T5 — No Negative Control
+
+The experiment lacks a deliberately non-ideological comparison text.
+
+False-positive rates cannot be estimated.
+
+---
+
+# Lessons Learned
+
+1. Strong interpretation and epistemic discipline are not mutually exclusive.
+
+2. Ideological critique does not require evidential inflation.
+
+3. Classification improves analytical transparency.
+
+4. EIG appears capable of preserving exploratory analysis while regulating confidence.
+
+5. Calibration may be a more useful design goal than filtering.
+
+---
+
+# Final Conclusion
+
+This case provides preliminary validation of one of the central architectural claims of the Behmanesh Index.
+
+The evidence collected across four analytical stages suggests that:
+
+> EIG functions primarily as a calibration mechanism rather than a filtering mechanism.
+
+The module allows analysts to:
+
+- generate ambitious interpretations,
+- explore latent structures,
+- conduct ideological critique,
 
 while simultaneously:
 
-- identifying overreach
-- exposing evidence gaps
-- separating inference from speculation
-- preventing epistemic inflation
+- distinguishing fact from inference,
+- identifying speculation,
+- locating evidence gaps,
+- reducing unwarranted certainty.
 
-The practical consequence is that BSI can retain the exploratory strengths of CDA while adding a systematic mechanism for evidential calibration.
+The principal contribution of EIG is therefore not interpretive restriction.
+
+Its contribution is epistemic calibration.
 
 ---
 
-# 10. Repository Recommendation
+# Repository Classification
 
-Classification:
+Category:
 
-**Reference Validation Case**
+Framework Validation
 
 Recommended Path:
 
-/case-studies/framework-validation/
-BSI-2026-EDU-AI-001-EIG-CALIBRATION-TEST.md
+case-studies/framework-validation/
 
-Priority:
+Filename:
 
-HIGH
-
-Reason:
-
-This is the first documented multi-analyst case demonstrating the operational distinction between:
-
-- interpretation
-- calibration
-
-which is one of the core theoretical claims of the Behmanesh Index architecture.
+BSI-2026-EIG-VALIDATION-001.md
 
 ---
 
-# Canonical Repository Tag Set
+# Keywords
 
-- #BSI
-- #EIG
-- #FrameworkValidation
-- #Education
-- #AI
-- #CDA
-- #Calibration
-- #EpistemicIntegrity
-- #CaseStudy
-- #HybridV4
+- BSI
+- EIG
+- Calibration
+- Framework Validation
+- CDA
+- Critical Discourse Analysis
+- Epistemic Integrity
+- Assumption Excavation
+- Hybrid v4
+- Methodology
