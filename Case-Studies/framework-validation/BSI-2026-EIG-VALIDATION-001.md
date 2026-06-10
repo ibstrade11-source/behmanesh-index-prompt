@@ -446,7 +446,7 @@ Framework Validation
 
 Recommended Path:
 
-case-studies/framework-validation/
+Case-Studies/framework-validation/
 
 Filename:
 
