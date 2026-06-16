@@ -13,18 +13,25 @@
 این شاخص نه تنها کیفیت فکری را ارزیابی می‌کند، بلکه به کشف **مکانیسم‌های پنهان**، **پیش‌فرض‌های ضمنی**، **حلقه‌های بازخورد**، **نقاط اهرمی** و **تم‌های ساختاری** فکری کمک می‌کند و استانداردی برای تمایز بین تفکر ساختاریافته عمیق و محتوای سطحی/نمایشی ارائه می‌دهد.
 
 ---
+
 ## ساختار مخزن (به‌روزرسانی‌شده - خرداد ۱۴۰۵)
 
 - **CORE-BEHMANESH/** → لایه تقویت‌کننده معماری و Meta-Layer رسمی (v1.0)
+  - `Shared_Components/EIG/` → ماژول‌های EIG، ECC و Recursive EIG
+  - `Shared_Components/` → Assumption Excavation، Claim Classification، Confidence Scale، Fallacy Detection
+  - `Scientific_Modules/` → ماژول‌های تخصصی علمی (فیزیک، زیست، اقتصاد، AI، عمومی)
+  - `LLM-Execution-Guardrails-v1.2.md` → راهنمای اجرای ایمن و جلوگیری از drift (نسخه فعال)
 - **Ontology/** → هستی‌شناسی رسمی BIO v1.0
-- **CORE-BEHMANESH/LLM-Execution-Guardrails_v1.0.md** → راهنمای اجرای ایمن و جلوگیری از drift توسط مدل‌های زبانی (توصیه‌شده)
-- **Core/** → پرامپت و SOP نسخه ۳.۴.۱
-- **Case-Studies/** → مطالعات موردی
+- **Case-Studies/** → مطالعات موردی کاربردی (شامل framework-validation/)
+- **Archive/** → نسخه‌های قدیمی SOP، پرامپت و فرمت خروجی (نگهداری برای ارجاع تاریخی)
 
 ---
 
-**توضیح:** این branch شامل ادغام **CORE_BEHMANESH v1.0** و **BIO v1.0** است که پایه ارتقای شاخص بهمنش به نسخه Hybrid v4 محسوب می‌شود.
-## معیارهای ارزیابی و وزن‌دهی (نسخه ۳.۴)
+**توضیح:** این مخزن شامل ادغام **CORE_BEHMANESH v1.0** و **BIO v1.0** است که پایه ارتقای شاخص بهمنش به نسخه Hybrid v4 محسوب می‌شود.
+
+---
+
+## معیارهای ارزیابی و وزن‌دهی (نسخه ۳.۴.۱)
 
 | معیار | وزن | توضیح مختصر |
 |------|------|-------------|
@@ -43,18 +50,22 @@
 
 ## فایل‌های اصلی پروژه
 
-| فایل | توضیح | نسخه | اولویت خواندن | نحوه دسترسی |
-|------|------|------|---------------|-------------|
-| **Methodology.md** | روش‌شناسی رسمی، فلسفی و ساختاری شاخص بهمنش | ۱.۱ | **الزامی - اول** | [مشاهده](./Methodology.md) |
-| **SOP_Intellectual_Content_Analysis_v3.4.1.md** | **Standard Operating Procedure (SOP)** — دستورالعمل عملیاتی استاندارد و ارتقایافته (نسخه اصلی و فعال) | **۳.۴** | **الزامی - دوم** | [مشاهده](./SOP_Intellectual_Content_Analysis_v3.4.md) \| [RAW](https://raw.githubusercontent.com/ibstrade11-source/behmanesh-index-prompt/main/SOP_Intellectual_Content_Analysis_v3.4.1.md) |
-| **BEHMANESH_INDEX_PROMPT_v3.4.md** | پرامپت اجرایی استاندارد (System Prompt) | **۳.۴** | **الزامی - سوم** | [مشاهده](./BEHMANESH_INDEX_PROMPT_v3.4.md) \| [RAW](https://raw.githubusercontent.com/ibstrade11-source/behmanesh-index-prompt/main/BEHMANESH_INDEX_PROMPT_v3.4.md) |
-| **BEHMANESH_INDEX.md** | توضیحات مفهومی و فلسفی شاخص | — | توصیه‌شده | [مشاهده](./BEHMANESH_INDEX.md) |
-| **Case-Studies/** | مطالعات موردی کاربردی | — | توصیه‌شده | [پوشه](./Case-Studies) |
-| **Case-Studies/** | مطالعات موردی کاربردی | — | توصیه‌شده | [پوشه](/ibstrade11-source/behmanesh-index-prompt/tree/main/Case-Studies) |
+| فایل | توضیح | نسخه | اولویت خواندن |
+|------|------|------|---------------|
+| **Methodology.md** | روش‌شناسی رسمی، فلسفی و ساختاری شاخص بهمنش | ۱.۱ | **الزامی - اول** |
+| **SOP_Intellectual_Content_Analysis_v3.4.1.md** | **Standard Operating Procedure (SOP)** — دستورالعمل عملیاتی استاندارد (نسخه اصلی و فعال) | **۳.۴.۱** | **الزامی - دوم** |
+| **BEHMANESH_INDEX_PROMPT_v3.4.md** | پرامپت اجرایی استاندارد (System Prompt) | **۳.۴** | **الزامی - سوم** |
+| **SOP_Output_Format_v1.1.md** | فرمت استاندارد خروجی تحلیل | **۱.۱** | **الزامی - چهارم** |
+| **CORE-BEHMANESH/LLM-Execution-Guardrails-v1.2.md** | راهنمای اجرای ایمن — جلوگیری از drift مدل‌های زبانی | **۱.۲** | **الزامی - پنجم** |
+| **Ontology/BIO_v1.0.md** | هستی‌شناسی رسمی ساختار خروجی | **۱.۰** | توصیه‌شده |
+| **CORE-BEHMANESH/v1.0/CORE_BEHMANESH_v1.0.md** | معماری Meta-Layer و پروتکل تقویت‌کننده | **۱.۰** | توصیه‌شده |
+| **BEHMANESH_INDEX.md** | توضیحات مفهومی و فلسفی شاخص | — | توصیه‌شده |
+| **Case-Studies/** | مطالعات موردی کاربردی | — | توصیه‌شده |
 
 ### نکته مهم درباره مطالعات موردی
 
 تمام کیس‌های موجود در پوشه **Case-Studies** مهم و دارای ارزش آموزشی والا هستند. مطالعه آن‌ها قبل از استفاده جدی از شاخص بهمنش **الزامی توصیه‌شده** است. این کیس‌ها تجربیات واقعی اجرای شاخص، خطاهای رایج مدل‌ها، فرآیندهای iterative تصحیح و درس‌های عملی را مستند کرده‌اند.
+
 ---
 
 ## نحوه استفاده
@@ -62,7 +73,8 @@
 1. **Methodology.md** را کامل مطالعه کنید (مبانی فلسفی).
 2. **SOP_Intellectual_Content_Analysis_v3.4.1.md** را به دقت بخوانید و گام‌به‌گام اجرا کنید (این فایل اکنون **SOP اصلی و فعال** پروژه است).
 3. **BEHMANESH_INDEX_PROMPT_v3.4.md** را به‌عنوان System Prompt استفاده کنید.
-4. محتوای مورد نظر (با اولویت محتوای بلندمدت) را ارائه دهید.
+4. **LLM-Execution-Guardrails-v1.2.md** را برای جلوگیری از drift مدل مطالعه کنید.
+5. محتوای مورد نظر (با اولویت محتوای بلندمدت) را ارائه دهید.
 
 **نکته مهم:**  
 در تحلیل حساب‌ها و افراد، بخش «شناسایی تم‌ها» الزامی است.
@@ -77,6 +89,8 @@
 - رویکرد واقع‌گرایانه-مکانیسمی (Mechanistic Realism)
 - فاقد ایدئولوژی‌زدگی و bias سیاسی
 - استفاده از Graph of Thoughts برای سنتز بهتر
+- سنجش فاصله معرفتی (EIG) — یکپارچه در Meta Layer
+- کاوش پیش‌فرض‌های پنهان (Assumption Excavation) — یکپارچه در Latent Layer
 
 ---
 
