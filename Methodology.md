@@ -21,8 +21,8 @@ The Bahmanesh Index is a systematic, multi-layered, and verification-driven anal
 ---
 
 > **نکته مهم / Important Note:**  
-> برای اجرای عملی تحلیل، حتماً سند **SOP_Intellectual_Content_Analysis_v3.2.md** را به عنوان راهنمای گام‌به‌گام مطالعه و اجرا کنید.  
-> For practical implementation, please study and follow the **SOP_Intellectual_Content_Analysis_v3.2.md** as the step-by-step operational guide.
+> برای اجرای عملی تحلیل، حتماً سند **SOP_Intellectual_Content_Analysis_v3.4.1.md** را به عنوان راهنمای گام‌به‌گام مطالعه و اجرا کنید.  
+> For practical implementation, please study and follow the **SOP_Intellectual_Content_Analysis_v3.4.1.md** as the step-by-step operational guide.
 
 ---
 
@@ -96,7 +96,7 @@ The Bahmanesh Index is a systematic, multi-layered, and verification-driven anal
 **این سند پایه نظری و روش‌شناختی شاخص بهمنش است.**  
 **This document serves as the theoretical and methodological foundation of the Bahmanesh Index.**
 
-فایل **SOP_Intellectual_Content_Analysis_v3.2.md** نسخه عملیاتی و گام‌به‌گام این روش‌شناسی محسوب می‌شود.
+فایل **SOP_Intellectual_Content_Analysis_v3.4.1.md** نسخه عملیاتی و گام‌به‌گام این روش‌شناسی محسوب می‌شود.
 
 **نسخه ۱.۱ — به‌روزرسانی شده در ۱۹ مه ۲۰۲۶**  
 **مالک معنوی / Copyright:** محمدعلی بهمنش (@behmanesham)
