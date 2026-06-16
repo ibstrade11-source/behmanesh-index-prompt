@@ -18,7 +18,7 @@
 - **CORE-BEHMANESH/** → لایه تقویت‌کننده معماری و Meta-Layer رسمی (v1.0)
 - **Ontology/** → هستی‌شناسی رسمی BIO v1.0
 - **CORE-BEHMANESH/LLM-Execution-Guardrails_v1.0.md** → راهنمای اجرای ایمن و جلوگیری از drift توسط مدل‌های زبانی (توصیه‌شده)
-- **Core/** → پرامپت و SOP نسخه ۳.۴
+- **Core/** → پرامپت و SOP نسخه ۳.۴.۱
 - **Case-Studies/** → مطالعات موردی
 
 ---
@@ -46,7 +46,7 @@
 | فایل | توضیح | نسخه | اولویت خواندن | نحوه دسترسی |
 |------|------|------|---------------|-------------|
 | **Methodology.md** | روش‌شناسی رسمی، فلسفی و ساختاری شاخص بهمنش | ۱.۱ | **الزامی - اول** | [مشاهده](./Methodology.md) |
-| **SOP_Intellectual_Content_Analysis_v3.4.md** | **Standard Operating Procedure (SOP)** — دستورالعمل عملیاتی استاندارد و ارتقایافته (نسخه اصلی و فعال) | **۳.۴** | **الزامی - دوم** | [مشاهده](./SOP_Intellectual_Content_Analysis_v3.4.md) \| [RAW](https://raw.githubusercontent.com/ibstrade11-source/behmanesh-index-prompt/main/SOP_Intellectual_Content_Analysis_v3.4.md) |
+| **SOP_Intellectual_Content_Analysis_v3.4.1.md** | **Standard Operating Procedure (SOP)** — دستورالعمل عملیاتی استاندارد و ارتقایافته (نسخه اصلی و فعال) | **۳.۴** | **الزامی - دوم** | [مشاهده](./SOP_Intellectual_Content_Analysis_v3.4.md) \| [RAW](https://raw.githubusercontent.com/ibstrade11-source/behmanesh-index-prompt/main/SOP_Intellectual_Content_Analysis_v3.4.1.md) |
 | **BEHMANESH_INDEX_PROMPT_v3.4.md** | پرامپت اجرایی استاندارد (System Prompt) | **۳.۴** | **الزامی - سوم** | [مشاهده](./BEHMANESH_INDEX_PROMPT_v3.4.md) \| [RAW](https://raw.githubusercontent.com/ibstrade11-source/behmanesh-index-prompt/main/BEHMANESH_INDEX_PROMPT_v3.4.md) |
 | **BEHMANESH_INDEX.md** | توضیحات مفهومی و فلسفی شاخص | — | توصیه‌شده | [مشاهده](./BEHMANESH_INDEX.md) |
 | **Case-Studies/** | مطالعات موردی کاربردی | — | توصیه‌شده | [پوشه](./Case-Studies) |
@@ -60,7 +60,7 @@
 ## نحوه استفاده
 
 1. **Methodology.md** را کامل مطالعه کنید (مبانی فلسفی).
-2. **SOP_Intellectual_Content_Analysis_v3.4.md** را به دقت بخوانید و گام‌به‌گام اجرا کنید (این فایل اکنون **SOP اصلی و فعال** پروژه است).
+2. **SOP_Intellectual_Content_Analysis_v3.4.1.md** را به دقت بخوانید و گام‌به‌گام اجرا کنید (این فایل اکنون **SOP اصلی و فعال** پروژه است).
 3. **BEHMANESH_INDEX_PROMPT_v3.4.md** را به‌عنوان System Prompt استفاده کنید.
 4. محتوای مورد نظر (با اولویت محتوای بلندمدت) را ارائه دهید.
 
