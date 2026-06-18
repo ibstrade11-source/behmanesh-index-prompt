@@ -53,7 +53,7 @@
 | فایل | توضیح | نسخه | اولویت خواندن |
 |------|------|------|---------------|
 | **Methodology.md** | روش‌شناسی رسمی، فلسفی و ساختاری شاخص بهمنش | ۱.۱ | **الزامی - اول** |
-| **SOP_Intellectual_Content_Analysis_v3.4.1.md** | **Standard Operating Procedure (SOP)** — دستورالعمل عملیاتی استاندارد (نسخه اصلی و فعال) | **۳.۴.۱** | **الزامی - دوم** |
+| **SOP_Intellectual_Content_Analysis_v3.4.2.md** | **Standard Operating Procedure (SOP)** — دستورالعمل عملیاتی استاندارد (نسخه اصلی و فعال) | **۳.۴.۱** | **الزامی - دوم** |
 | **BEHMANESH_INDEX_PROMPT_v3.4.md** | پرامپت اجرایی استاندارد (System Prompt) | **۳.۴** | **الزامی - سوم** |
 | **SOP_Output_Format_v1.1.md** | فرمت استاندارد خروجی تحلیل | **۱.۱** | **الزامی - چهارم** |
 | **CORE-BEHMANESH/LLM-Execution-Guardrails-v1.2.md** | راهنمای اجرای ایمن — جلوگیری از drift مدل‌های زبانی | **۱.۲** | **الزامی - پنجم** |
@@ -71,7 +71,7 @@
 ## نحوه استفاده
 
 1. **Methodology.md** را کامل مطالعه کنید (مبانی فلسفی).
-2. **SOP_Intellectual_Content_Analysis_v3.4.1.md** را به دقت بخوانید و گام‌به‌گام اجرا کنید (این فایل اکنون **SOP اصلی و فعال** پروژه است).
+2. **SOP_Intellectual_Content_Analysis_v3.4.2.md** را به دقت بخوانید و گام‌به‌گام اجرا کنید (این فایل اکنون **SOP اصلی و فعال** پروژه است).
 3. **BEHMANESH_INDEX_PROMPT_v3.4.md** را به‌عنوان System Prompt استفاده کنید.
 4. **LLM-Execution-Guardrails-v1.2.md** را برای جلوگیری از drift مدل مطالعه کنید.
 5. محتوای مورد نظر (با اولویت محتوای بلندمدت) را ارائه دهید.
