@@ -4,9 +4,9 @@
 **نسخه / Version:** ۱.۱
 **تاریخ / Date:** ۴ ژوئن ۲۰۲۶
 **وضعیت / Status:** الزامی — همه سطوح | Mandatory — All Levels
-**مرجع / Reference:** Methodology v1.1 + SOP v3.4.1 + Guardrails v1.2
+**مرجع / Reference:** Methodology v1.1 + SOP v3.4.2 + Guardrails v1.2
 **تغییرات نسبت به v1.0:**
-- به‌روزرسانی ارجاع از SOP v3.2 به SOP v3.4.1
+- به‌روزرسانی ارجاع از SOP v3.2 به SOP v3.4.2
 - اضافه شدن Core Claim به ابتدای ساختار خروجی
 - هماهنگی وزن‌ها با BIO v1.0
 - اضافه شدن EIG Score به ساختار خروجی
@@ -26,7 +26,7 @@ presentation standard for all Behmanesh Index analyses.**
 ## پیش‌نیازهای الزامی قبل از هر تحلیل
 
 1. مطالعه کامل **Methodology.md** (نسخه ۱.۱)
-2. مطالعه دقیق **SOP_Intellectual_Content_Analysis_v3.4.1.md**
+2. مطالعه دقیق **SOP_Intellectual_Content_Analysis_v3.4.2.md**
 3. مطالعه **LLM-Execution-Guardrails_v1.2.md**
 4. استفاده از **BEHMANESH_INDEX_PROMPT_v3.4.md** به‌عنوان System Prompt
 5. راستی‌آزمایی محتوا با شواهد خارجی
