@@ -49,7 +49,7 @@ Core Claim: [یک جمله — بدون بند]
 مدل باید قبل از هر تحلیل، تمام فایل‌های کلیدی را خوانده باشد:
 - README.md
 - Methodology.md
-- SOP_Intellectual_Content_Analysis_v3.4.md
+- SOP_Intellectual_Content_Analysis_v3.4.2.md
 - CORE_BEHMANESH v1.0
 - BIO v1.0
 - این سند (Guardrails)
@@ -113,14 +113,14 @@ Core Claim: [یک جمله — بدون بند]
 ## ۳. پرامپت‌های ضد انحراف
 
 **Initialization Prompt (اجباری):**
-> «شاخص بهمنش را دقیقاً طبق SOP v3.4 + CORE_BEHMANESH v1.0 +
+> «شاخص بهمنش را دقیقاً طبق SOP v3.4.2 + CORE_BEHMANESH v1.0 +
 > BIO v1.0 + Guardrails v1.2 اجرا کن.
 > Rule #0: ابتدا Core Claim را استخراج کن.
 > سپس تمام الزامات را لیست کن و گام‌به‌گام پیش برو.»
 
 **Correction Prompt — Methodological Drift:**
 > «در اجرای قبلی دچار Methodological Drift شدی.
-> دوباره به SOP v3.4، CORE_BEHMANESH v1.0 و Guardrails v1.2
+> دوباره به SOP v3.4.2، CORE_BEHMANESH v1.0 و Guardrails v1.2
 > مراجعه کن و خروجی را اصلاح کن.»
 
 **Correction Prompt — Manifest Bias:**
