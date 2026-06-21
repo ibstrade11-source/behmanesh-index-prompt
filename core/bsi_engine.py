@@ -489,3 +489,20 @@ class BSIEngine:
             "results": results,
             "meta": {"bsi_version": "3.4.1"}
         }
+
+
+def compute_bsi(text: str) -> dict:
+    engine = BSIEngine()
+    doc = {"id": "auto", "title": "auto", "text": text}
+    result = engine.analyze_document(doc)
+    bsi = result["metrics"]["BSI_score"] / 100
+    eig = result["metrics"]["EIG_score"] / 100
+    if bsi >= 0.75:
+        label = "HIGH_INTEGRITY"
+    elif bsi >= 0.55:
+        label = "MODERATE_INTEGRITY"
+    elif bsi >= 0.35:
+        label = "LOW_INTEGRITY"
+    else:
+        label = "CRITICAL_GAPS"
+    return {"bsi": round(bsi, 4), "eig": round(eig, 4), "label": label, "details": result}
