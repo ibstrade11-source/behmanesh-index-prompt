@@ -1,5 +1,6 @@
 from fastapi import APIRouter
 from core.bsi_engine import compute_bsi
+from core.bsi_pipeline import run_pipeline
 from datetime import datetime
 
 router = APIRouter()
@@ -8,25 +9,29 @@ router = APIRouter()
 def score(payload: dict):
     text = payload.get("text", "")
     detail = payload.get("detail", False)
+    full_pipeline = payload.get("pipeline", False)
 
     if len(text) < 10:
         return {"error": {"code": "TEXT_TOO_SHORT", "message": "Minimum length is 10"}}
 
     result = compute_bsi(text)
     details = result.get("details", {})
+
+    # حالت pipeline کامل
+    if full_pipeline:
+        return run_pipeline(text, details)
+
     metrics = details.get("metrics", {})
     layers = details.get("bsi_layers", {})
 
-    # خروجی پایه — همیشه
     response = {
-        "version": "3.4.1",
+        "version": "3.4.2",
         "timestamp": datetime.utcnow().isoformat(),
         "bsi_score": result["bsi"],
         "eig_score": result["eig"],
         "interpretation": result["label"]
     }
 
-    # خروجی کامل — فقط با detail=true
     if detail:
         response["components"] = metrics.get("BSI_criteria", {})
         response["eig_gaps"] = layers.get("meta", {}).get("EIG", {}).get("gaps", {})
