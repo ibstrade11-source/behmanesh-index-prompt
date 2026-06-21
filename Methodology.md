@@ -2,7 +2,7 @@
 # Bahmanesh Index — Official Methodology
 
 **نسخه / Version:** ۱.۱  
-**تاریخ / Date:** ۱۹ مه ۲۰۲۶  
+**تاریخ / Date:** ۱۹ مه ۲۰۲۶ (به‌روزرسانی معیارها: ۲۱ ژوئن ۲۰۲۶)  
 **توسعه‌دهنده / Developer:** محمدعلی بهمنش (@behmanesham)
 
 **توضیح نسخه ۱.۱:**  
@@ -21,8 +21,8 @@ The Bahmanesh Index is a systematic, multi-layered, and verification-driven anal
 ---
 
 > **نکته مهم / Important Note:**  
-> برای اجرای عملی تحلیل، حتماً سند **SOP_Intellectual_Content_Analysis_v3.4.1.md** را به عنوان راهنمای گام‌به‌گام مطالعه و اجرا کنید.  
-> For practical implementation, please study and follow the **SOP_Intellectual_Content_Analysis_v3.4.1.md** as the step-by-step operational guide.
+> برای اجرای عملی تحلیل، حتماً سند **SOP_Intellectual_Content_Analysis_v3.4.2.md** را به عنوان راهنمای گام‌به‌گام مطالعه و اجرا کنید.  
+> For practical implementation, please study and follow the **SOP_Intellectual_Content_Analysis_v3.4.2.md** as the step-by-step operational guide.
 
 ---
 
@@ -81,22 +81,22 @@ The Bahmanesh Index is a systematic, multi-layered, and verification-driven anal
 
 ---
 
-## معیارهای ارزیابی اصلی / Main Evaluation Criteria (۷ معیار)
+## معیارهای ارزیابی اصلی / Main Evaluation Criteria (هماهنگ با BIO v1.0)
 
-- **عمق فکری / Intellectual Depth**
-- **تداوم و انسجام / Continuity and Coherence**
-- **کیفیت و نوع تولید محتوا / Quality & Type of Content Production**
-- **گستردگی حوزه‌ای / Domain Breadth**
-- **قدرت راستی‌آزمایی / Verification Strength**
-- **تکامل و پیشرفت فکری / Intellectual Evolution**
-- **تأثیرگذاری ساختاری / Structural Impact**
+- **ConditionalDepth** → عمق شرطی و پیش‌بینی‌کننده واقعی (۲۲٪)
+- **LongitudinalCoherence** → تداوم ارجاعی و انسجام بلندمدت (۱۸٪)
+- **AuthenticEthicalLayer** → لایه اخلاقی انسانی اصیل + قدرت راستی‌آزمایی (۱۸٪)
+- **CreativeValueAdd** → ارزش‌افزوده فکری و نوآوری ساختاری (۱۷٪)
+- **StrategicDepth** → استراتژی «کمتر اما عمیق‌تر» + کیفیت تولید محتوا (۱۲٪)
+- **InterdisciplinaryBreadth** → گستردگی چندحوزه‌ای بدون سطحی‌گری (۸٪)
+- **AntiPerformativeDrift** → اجتناب از پوپولیسم و performative drift (۵٪)
 
 ---
 
 **این سند پایه نظری و روش‌شناختی شاخص بهمنش است.**  
 **This document serves as the theoretical and methodological foundation of the Bahmanesh Index.**
 
-فایل **SOP_Intellectual_Content_Analysis_v3.4.1.md** نسخه عملیاتی و گام‌به‌گام این روش‌شناسی محسوب می‌شود.
+فایل **SOP_Intellectual_Content_Analysis_v3.4.2.md** نسخه عملیاتی و گام‌به‌گام این روش‌شناسی محسوب می‌شود.
 
-**نسخه ۱.۱ — به‌روزرسانی شده در ۱۹ مه ۲۰۲۶**  
+**نسخه ۱.۱ — به‌روزرسانی شده در ۲۱ ژوئن ۲۰۲۶**  
 **مالک معنوی / Copyright:** محمدعلی بهمنش (@behmanesham)
