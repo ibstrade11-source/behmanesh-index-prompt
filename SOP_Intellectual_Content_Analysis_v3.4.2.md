@@ -22,7 +22,12 @@ DRAFT ANALYSIS (Fusion Layer)
 REIG (Recursive Epistemic Integrity Audit)
       ↓
 FINAL SYNTHESIS
+## مستر پرامپت برای LLMها
 
+برای اجرای تحلیل توسط مدل‌های زبانی، از فایل زیر به عنوان System Prompt یا ابتدای چت استفاده کنید:  
+**`MASTER_PROMPT_BSI_v3.4.2.md`**
+
+این فایل تضمین می‌کند خروجی تمام تحلیل‌ها عمیق، ساختاریافته و کاملاً هماهنگ با Ontology BIO v1.0 و BEHMANESH_INDEX_PROMPT_v3.4 باشد.
 ------------------------------------------------------------
 1️⃣ BSI — STRUCTURAL ANALYSIS
 ------------------------------------------------------------
