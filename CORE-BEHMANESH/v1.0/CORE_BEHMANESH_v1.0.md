@@ -127,7 +127,10 @@ CORE_BEHMANESH v1.0 یک **پروتکل تحلیلی ساخت‌یافته**، *
 - سطح اطمینان
 
 ---
+CORE Principle:
 
+Evaluate robustness of knowledge architecture,
+not correctness of conclusions.
 ## ۱۰. محدودیت‌ها
 
 - این چارچوب جایگزین expertise حوزه‌ای نیست.
