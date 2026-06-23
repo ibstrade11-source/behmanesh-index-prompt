@@ -1,34 +1,44 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "BSI Request Schema",
-  "description": "درخواست برای تحلیل و امتیازدهی شاخص بهمنش",
+  "title": "BSI Analysis Request",
+  "description": "درخواست ارسال شده به API شاخص بهمنش",
   "type": "object",
   "properties": {
     "text": {
       "type": "string",
-      "minLength": 10,
-      "description": "متن اصلی برای تحلیل"
+      "minLength": 15,
+      "description": "متن اصلی مورد نظر برای تحلیل"
     },
     "pipeline": {
       "type": "boolean",
       "default": true,
-      "description": "اجرای Pipeline کامل"
+      "description": "اجرای کامل Pipeline (توصیه می‌شود)"
     },
     "detail": {
       "type": "boolean",
       "default": true,
-      "description": "بازگشت جزئیات کامل"
+      "description": "بازگشت جزئیات کامل لایه‌ها و تحلیل‌ها"
     },
     "compare_with": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": { "type": "string" },
+      "description": "آرایه‌ای از متن‌ها برای مقایسه (اختیاری)"
     },
     "options": {
       "type": "object",
       "properties": {
-        "max_depth": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "max_depth": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "default": 3
+        },
         "include_eig": { "type": "boolean", "default": true },
-        "include_meta": { "type": "boolean", "default": true }
+        "include_meta": { "type": "boolean", "default": true },
+        "focus_areas": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
       }
     }
   },
