@@ -9,7 +9,15 @@
 به‌روزرسانی عمده شامل ادغام راستی‌آزمایی به عنوان اصل بنیادین، تعمیم بیشتر مفاهیم کلیدی برای جامعیت میان‌رشته‌ای، تقویت جنبه علمی روش‌شناسی و هماهنگی کامل با SOP عملیاتی.
 
 ---
+Target Construct:
 
+The target construct of BSI is Epistemic Robustness.
+
+All dimensions (D1–D7) are operationalizations of
+this construct.
+
+The final BSI score represents an estimation of
+overall epistemic robustness.
 ## چکیده / Abstract
 
 **فارسی:**  
