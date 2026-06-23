@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "BSI Response Schema",
+  "title": "BSI Analysis Response",
   "description": "پاسخ تحلیل شاخص بهمنش",
   "type": "object",
   "properties": {
@@ -42,14 +42,9 @@
       }
     },
     "eig_score": { "type": "number" },
-    "recommendations": {
-      "type": "array",
-      "items": { "type": "string" }
-    },
-    "warnings": {
-      "type": "array",
-      "items": { "type": "string" }
-    }
+    "recommendations": { "type": "array", "items": { "type": "string" } },
+    "warnings": { "type": "array", "items": { "type": "string" } },
+    "metadata": { "type": "object" }
   },
   "required": ["success", "overall_score", "integrity_level"]
 }
