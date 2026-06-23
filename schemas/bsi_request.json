@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BSI Request",
+  "description": "درخواست تحلیل شاخص بهمنش",
+  "type": "object",
+  "properties": {
+    "text": {
+      "type": "string",
+      "minLength": 10,
+      "description": "متن اصلی برای تحلیل"
+    },
+    "pipeline": {
+      "type": "boolean",
+      "default": true,
+      "description": "اجرای Pipeline کامل"
+    },
+    "detail": {
+      "type": "boolean",
+      "default": true,
+      "description": "بازگشت جزئیات کامل لایه‌ها"
+    },
+    "compare_with": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "متن‌های اضافی برای مقایسه"
+    },
+    "options": {
+      "type": "object",
+      "properties": {
+        "max_depth": { "type": "integer", "minimum": 1, "maximum": 5, "default": 3 },
+        "include_eig": { "type": "boolean", "default": true },
+        "include_meta": { "type": "boolean", "default": true }
+      }
+    }
+  },
+  "required": ["text"],
+  "additionalProperties": false
+}
