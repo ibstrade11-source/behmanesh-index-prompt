@@ -1,0 +1,129 @@
+openapi: 3.1.0
+info:
+  title: Behmanesh Index API (BSI)
+  description: |
+    API رسمی شاخص بهمنش (BSI v3.4.2) — چارچوب ارزیابی معرفت‌شناختی و ساختاری محتوای فکری.
+    
+    این API قابلیت تحلیل لایه‌ای، امتیازدهی، مقایسه و اجرای Pipeline کامل را فراهم می‌کند.
+  version: "3.4.2"
+  contact:
+    name: Mohammad Ali Behmanesh
+    url: https://github.com/ibstrade11-source/behmanesh-index-prompt
+    email: behmanesham@gmail.com
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+
+servers:
+  - url: https://behmanesh-index-prompt-production.up.railway.app
+    description: Production Server
+
+paths:
+  /health:
+    get:
+      summary: وضعیت سلامت API
+      tags: [System]
+      responses:
+        '200':
+          description: API سالم است
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status: { type: string, example: "healthy" }
+                  version: { type: string, example: "3.4.2" }
+
+  /bsi/version:
+    get:
+      summary: دریافت نسخه فعلی BSI
+      tags: [System]
+      responses:
+        '200':
+          description: نسخه فعلی
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  version: { type: string }
+                  pipeline: { type: string, example: "BSI → EIG → ECC → DRAFT → REIG → FINAL" }
+
+  /bsi/analyze:
+    post:
+      summary: تحلیل کامل محتوا با Pipeline
+      tags: [Analysis]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '../schemas/bsi_request.json'
+      responses:
+        '200':
+          description: تحلیل موفق
+          content:
+            application/json:
+              schema:
+                $ref: '../schemas/bsi_response.json'
+        '400':
+          description: درخواست نامعتبر
+
+  /bsi/score:
+    post:
+      summary: امتیازدهی سریع محتوا
+      tags: [Analysis]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '../schemas/bsi_request.json'
+      responses:
+        '200':
+          description: امتیازدهی انجام شد
+          content:
+            application/json:
+              schema:
+                $ref: '../schemas/bsi_response.json'
+
+  /bsi/compare:
+    post:
+      summary: مقایسه چندین محتوا
+      tags: [Analysis]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                texts:
+                  type: array
+                  items: { type: string }
+                options:
+                  type: object
+      responses:
+        '200':
+          description: نتیجه مقایسه
+
+  /mcp:
+    get:
+      summary: دریافت Manifest MCP
+      tags: [System]
+      responses:
+        '200':
+          description: Manifest دریافت شد
+
+components:
+  schemas:
+    BSIRequest:
+      $ref: '../schemas/bsi_request.json'
+    BSIResponse:
+      $ref: '../schemas/bsi_response.json'
+
+tags:
+  - name: System
+    description: عملیات سیستمی و سلامت
+  - name: Analysis
+    description: تحلیل، امتیازدهی و مقایسه محتوا
