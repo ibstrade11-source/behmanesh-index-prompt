@@ -45,4 +45,24 @@ curl -X POST "https://behmanesh-index-prompt-production.up.railway.app/bsi/analy
     "text": "متن یا مقاله شما...",
     "pipeline": true,
     "detail": true
-  }'
+ استفاده در مدل‌های زبانی (توصیه‌شده)مستر پرامپت رسمی:
+برای تحلیل عمیق، استاندارد و یکنواخت از فایل زیر استفاده کنید:**`MASTER_PROMPT_BSI_v3.4.2.md`** (MASTER_PROMPT_BSI_v3.4.2.md)این پرامپت تضمین می‌کند تمام تحلیل‌ها کاملاً مطابق Ontology BIO v1.0 و SOP v3.4.2 انجام شود.فایل‌های مهم مخزنفایل
+توضیح
+MASTER_PROMPT_BSI_v3.4.2.md
+مستر پرامپت رسمی برای LLMها
+BEHMANESH_INDEX_PROMPT_v3.4.md
+پرامپت اصلی هسته
+Methodology.md
+روش‌شناسی نظری
+SOP_Intellectual_Content_Analysis_v3.4.2.md
+دستورالعمل عملیاتی
+Ontology/BIO_v1.0.md
+هستی‌شناسی رسمی
+CORE-BEHMANESH/
+لایه تقویت‌کننده معماری
+
+مشارکت (Contributing)از مشارکت در بهبود مستندات، افزودن Case Study، گسترش Ontology و بهینه‌سازی API استقبال می‌شود. لطفاً ابتدا Methodology.md و SOP_Intellectual_Content_Analysis_v3.4.2.md را مطالعه کنید.لایسنس: MIT
+مالک معنوی: محمدعلی بهمنش (@behmanesham
+)
+
+ }'
