@@ -12,7 +12,25 @@
 BIO v1.0 چارچوب مفهومی استاندارد برای تمام تحلیل‌های شاخص بهمنش است. این ontology تکرارپذیری، شفافیت، ماشین‌خوانی و گسترش آینده را تضمین می‌کند.
 
 ---
+## Core Construct
 
+BSI does not measure truth, popularity, authority,
+scientific impact, persuasion power, or social acceptance.
+
+BSI measures:
+
+Epistemic Robustness
+
+Definition:
+
+The degree to which a knowledge artifact maintains
+structural coherence, evidential grounding,
+mechanistic depth, explanatory integrity,
+causal consistency, and longitudinal stability
+under multi-layer epistemic analysis.
+
+BSI is therefore a measure of epistemic robustness,
+not a predictor of external outcomes.
 ## ۲. کلاس ریشه
 **BehmaneshEntity** — هر موجود تحلیلی (Account, Person, Thread, ScientificPaper, Idea و غیره)
 
