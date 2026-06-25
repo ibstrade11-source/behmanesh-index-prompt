@@ -18,6 +18,8 @@ class RetrievedEvidence:
 
     source_type: str
 
+    source_trust_score: float
+
     summary: str
 
     support_score: float
@@ -48,6 +50,8 @@ def retrieve_external_evidence(
         title="Mock Evidence",
 
         source_type="scientific_database",
+
+        source_trust_score=0.90,
 
         summary="Placeholder evidence.",
 
