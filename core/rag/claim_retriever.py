@@ -1,68 +1,118 @@
 """
 RAG-EIG Claim Retriever
 
-Experimental v0.1
+Experimental v0.2
 
-Phase 1:
-Mock Retrieval Layer
+Phase 1.5:
+Heuristic Retrieval Layer
 """
 
 from dataclasses import dataclass
 from typing import List
 
-
 @dataclass
 class RetrievedEvidence:
 
-    title: str
+title: str
 
-    source_type: str
+source_type: str
 
-    source_trust_score: float
+source_trust_score: float
 
-    summary: str
+summary: str
 
-    support_score: float
+support_score: float
 
-    conflict_score: float
-
+conflict_score: float
 
 @dataclass
 class RetrievalResult:
 
-    claim: str
+claim: str
 
-    evidence: List[RetrievedEvidence]
-
+evidence: List[RetrievedEvidence]
 
 def retrieve_external_evidence(
-    claim: str
+claim: str
 ) -> RetrievalResult:
 
-    """
-    Mock implementation.
+text = claim.lower()
 
-    Real retrieval will be added later.
-    """
+if "vaccine" in text or "vaccines" in text:
 
-    sample = RetrievedEvidence(
+    evidence = [
+        RetrievedEvidence(
+            title="Scientific Evidence",
+            source_type="scientific_database",
+            source_trust_score=0.90,
+            summary="Evidence supports effectiveness.",
+            support_score=0.85,
+            conflict_score=0.05
+        )
+    ]
 
-        title="Mock Evidence",
+elif (
+    "moon" in text
+    and "cheese" in text
+):
 
-        source_type="scientific_database",
+    evidence = [
+        RetrievedEvidence(
+            title="Astronomy Evidence",
+            source_type="academic_publisher",
+            source_trust_score=0.85,
+            summary="Claim conflicts with established astronomy.",
+            support_score=0.05,
+            conflict_score=0.95
+        )
+    ]
 
-        source_trust_score=0.90,
+elif (
+    "earth" in text
+    and "two suns" in text
+):
 
-        summary="Placeholder evidence.",
+    evidence = [
+        RetrievedEvidence(
+            title="Astronomy Evidence",
+            source_type="scientific_database",
+            source_trust_score=0.90,
+            summary="Earth has one sun.",
+            support_score=0.05,
+            conflict_score=0.95
+        )
+    ]
 
-        support_score=0.50,
+elif (
+    "water boils"
+    in text
+):
 
-        conflict_score=0.00
-    )
+    evidence = [
+        RetrievedEvidence(
+            title="Physics Reference",
+            source_type="academic_publisher",
+            source_trust_score=0.85,
+            summary="Consistent with standard conditions.",
+            support_score=0.95,
+            conflict_score=0.00
+        )
+    ]
 
-    return RetrievalResult(
+else:
 
-        claim=claim,
+    evidence = [
+        RetrievedEvidence(
+            title="Unknown Evidence",
+            source_type="unknown",
+            source_trust_score=0.10,
+            summary="Insufficient external evidence.",
+            support_score=0.50,
+            conflict_score=0.00
+        )
+    ]
 
-        evidence=[sample]
-    )
+return RetrievalResult(
+    claim=claim,
+    evidence=evidence
+)
