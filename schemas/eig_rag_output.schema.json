@@ -1,0 +1,58 @@
+{
+"$schema": "http://json-schema.org/draft-07/schema#",
+
+"title": "EIG RAG Output",
+
+"description": "Experimental RAG extension output for EIG",
+
+"type": "object",
+
+"required": [
+"external_support",
+"external_conflict",
+"external_coverage",
+"external_status",
+"retrieved_sources"
+],
+
+"properties": {
+
+"external_support": {
+  "type": "number",
+  "minimum": 0.0,
+  "maximum": 1.0
+},
+
+"external_conflict": {
+  "type": "number",
+  "minimum": 0.0,
+  "maximum": 1.0
+},
+
+"external_coverage": {
+  "type": "number",
+  "minimum": 0.0,
+  "maximum": 1.0
+},
+
+"retrieved_sources": {
+  "type": "integer",
+  "minimum": 0
+},
+
+"external_status": {
+  "type": "string",
+  "enum": [
+    "supported",
+    "contradicted",
+    "underdetermined",
+    "contested"
+  ]
+},
+
+"notes": {
+  "type": "string"
+}
+
+}
+}
