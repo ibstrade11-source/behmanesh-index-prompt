@@ -14,12 +14,9 @@ from core.rag.rag_config import (
     ENABLE_RAG
 )
 
-# 🔴 IMPORTANT FIX:
-# Switched from old mock retriever to new backend
 from core.rag.retrieval_backend import (
     retrieve_external_evidence
 )
-
 
 def evaluate_claim_with_rag(
     claim: str
