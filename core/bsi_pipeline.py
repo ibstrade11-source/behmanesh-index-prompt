@@ -280,7 +280,8 @@ def run_reig(draft_output: Dict, eig_output: Dict, ecc_output: Dict) -> Dict:
 # ─── STAGE 6: FINAL SYNTHESIS ────────────────────────────────────────────────
 
 def run_final_synthesis(bsi_output: Dict, eig_output: Dict, ecc_output: Dict,
-                        draft_output: Dict, reig_output: Dict) -> Dict:
+                        draft_output: Dict, reig_output: Dict,
+                        rag_signals: list = []) -> Dict:
     bsi = bsi_output["BSI"]
     eig = eig_output["EIG"]
     ecc = ecc_output["ECC"]
@@ -301,6 +302,22 @@ def run_final_synthesis(bsi_output: Dict, eig_output: Dict, ecc_output: Dict,
     limitations = draft_output["uncertainty_acknowledgement"][:3]
     if reig_output["violations"]:
         limitations += [v["detail"] for v in reig_output["violations"][:2]]
+
+    # RAG-based limitations
+    if rag_signals:
+        for s in rag_signals:
+            if (
+                s.get("importance", 0) >= 2.0
+                and s.get("external_status") == "underdetermined"
+                and s.get("external_coverage", 0) < 0.5
+            ):
+                limitations.append(
+                    f"ادعای '{s['claim'][:60]}' پشتیبانی خارجی کافی ندارد"
+                )
+            elif s.get("external_status") == "contested":
+                limitations.append(
+                    f"ادعای '{s['claim'][:60]}' در منابع خارجی مورد اختلاف است"
+                )
 
     # Recommendations
     recommendations = []
@@ -356,7 +373,7 @@ def run_pipeline(text: str, engine_result: Dict) -> Dict:
     ecc_out = run_ecc(bsi_out, eig_out)
     draft_out = run_draft(bsi_out, eig_out, ecc_out, engine_result)
     reig_out = run_reig(draft_out, eig_out, ecc_out)
-    final_out = run_final_synthesis(bsi_out, eig_out, ecc_out, draft_out, reig_out)
+    final_out = run_final_synthesis(bsi_out, eig_out, ecc_out, draft_out, reig_out, eig_out.get("rag_signals", []))
 
     return {
         "pipeline_version": "3.4.2",
