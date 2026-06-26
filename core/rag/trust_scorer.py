@@ -29,7 +29,7 @@ TRUST_TIERS = {
     "professional_organization": 0.80,
 
     "book": 0.75,
-
+    "textbook": 0.80,
     "news_media": 0.60,
 
     "blog": 0.40,

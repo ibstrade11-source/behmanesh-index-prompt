@@ -13,7 +13,7 @@ from dataclasses import dataclass
 from typing import List
 
 from core.rag.claim_retriever import RetrievedEvidence
-
+from core.rag.trust_scorer import get_trust_score
 
 # -----------------------------
 # Simple Knowledge Heuristics
@@ -96,7 +96,7 @@ def retrieve_external_evidence(
             RetrievedEvidence(
                 title="General Knowledge Base",
                 source_type="unknown",
-                source_trust_score=0.50,
+                source_trust_score=get_trust_score("unknown"),
                 summary="No strong match found in heuristic index.",
                 support_score=0.50,
                 conflict_score=0.20
@@ -117,7 +117,7 @@ def retrieve_external_evidence(
             RetrievedEvidence(
                 title=f"Heuristic Evidence: {k}",
                 source_type=meta["source_type"],
-                source_trust_score=0.90,
+                source_trust_score=get_trust_score(meta["source_type"]),
                 summary=f"Rule-based match for concept: {k}",
                 support_score=meta["support"],
                 conflict_score=meta["conflict"]

@@ -85,9 +85,11 @@ def summarize_evidence(
         support = weighted_support / trust_sum
 
         conflict = weighted_conflict / trust_sum
-
+    # NOTE: با heuristic backend حداکثر coverage ≈ 0.67
+    # coverage واقعی نیازمند vector retrieval در فازهای بعدی است
+    # وضعیت "supported" تا آن زمان دست‌نیافتنی است — این محدودیت عمدی است
     coverage = min(
-        len(retrieved_items) / 10.0,
+        len(retrieved_items) / 3.0,
         1.0
     )
 
