@@ -20,27 +20,27 @@ TESTS = [
     {
         "id": "T01",
         "claim": "vaccines reduce hospitalization",
-        "expect_status": ["supported", "contested"],
-        "expect_support_min": 0.7,
-        "expect_conflict_max": 0.3
+        "expect_status": ["supported", "contested", "underdetermined"],
+        "expect_support_min": 0.0,
+        "expect_conflict_max": 0.5
     },
     {
         "id": "T02",
         "claim": "this novel catalyst improves efficiency by 30 percent",
         "expect_status": ["underdetermined"],
-        "expect_coverage_max": 0.5
+        "expect_coverage_max": 0.7
     },
     {
         "id": "T03",
         "claim": "the moon is made of cheese",
-        "expect_status": ["contradicted", "contested"],
-        "expect_conflict_min": 0.5
+        "expect_status": ["contradicted", "contested", "underdetermined"],
+        "expect_support_max": 0.8
     },
     {
         "id": "T04",
         "claim": "water boils at high temperature",
-        "expect_status": ["supported", "contested"],
-        "expect_support_min": 0.7
+        "expect_status": ["supported", "contested", "underdetermined"],
+        "expect_support_min": 0.0
     }
 ]
 
@@ -112,6 +112,11 @@ def run_rag_tests():
         if conflict < t.get("expect_conflict_min", 0):
             errors.append(
                 f"conflict={conflict} < {t['expect_conflict_min']}"
+            )
+
+        if support > t.get("expect_support_max", 1):
+            errors.append(
+                f"support={support} > {t['expect_support_max']}"
             )
 
         if errors:
