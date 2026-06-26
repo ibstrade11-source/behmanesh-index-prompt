@@ -10,6 +10,7 @@ before RAG retrieval.
 
 from dataclasses import dataclass
 from typing import List
+from core.rag.rag_budget import MAX_CLAIMS
 
 
 @dataclass
@@ -21,7 +22,6 @@ class ClaimCandidate:
 
     reason: str
 
-
 def score_claim(
     sentence: str
 ) -> ClaimCandidate:
@@ -30,52 +30,51 @@ def score_claim(
 
     lowered = sentence.lower()
 
-    indicators = [
-
+    causal_indicators = [
         "therefore",
         "thus",
         "because",
+        "causes",
+        "results in",
+        "proves"
+    ]
+
+    evidence_indicators = [
         "evidence",
         "research",
         "study",
         "shows",
         "demonstrates",
-        "causes",
-        "results in",
-        "proves",
+        "demonstrate",
         "indicates",
         "suggests",
         "according to"
-
     ]
 
     matched = []
 
-    for indicator in indicators:
-
+    for indicator in causal_indicators:
         if indicator in lowered:
+            score += 2.0
+            matched.append(indicator)
 
+    for indicator in evidence_indicators:
+        if indicator in lowered:
             score += 1.0
             matched.append(indicator)
 
-    score += min(
-        len(sentence) / 200,
-        1.0
-    )
+    if any(char.isdigit() for char in sentence):
+        score += 0.5
 
     return ClaimCandidate(
-
         text=sentence,
-
         importance_score=round(score, 2),
-
         reason=", ".join(matched)
     )
 
-
 def select_claims(
     sentences: List[str],
-    max_claims: int = 10
+    max_claims: int = MAX_CLAIMS
 ) -> List[ClaimCandidate]:
 
     scored = [
