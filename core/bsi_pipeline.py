@@ -5,6 +5,12 @@ SOP: BSI → EIG → ECC → DRAFT → REIG → FINAL SYNTHESIS
 
 from typing import Dict, List
 from datetime import datetime
+from core.rag.rag_config import ENABLE_RAG
+from core.rag.rag_budget import MAX_CLAIMS
+from core.rag.text_splitter import split_into_sentences
+from core.rag.claim_selector import select_claims
+from core.rag.rag_engine import evaluate_claim_with_rag
+from core.rag.eig_bridge import build_eig_signal
 
 
 # ─── STAGE 1: BSI (از bsi_engine موجود) ─────────────────────────────────────
@@ -69,6 +75,22 @@ def run_eig(text: str, bsi_output: Dict, engine_result: Dict) -> Dict:
     weighted_gap = eig_data.get("weighted_gap", 5)
     eig_score = round((10 - weighted_gap) * 10, 1)
 
+    # ─── RAG Enhancement Layer ───────────────────────────────────────────────
+    rag_signals = []
+    if ENABLE_RAG:
+        try:
+            sentences = split_into_sentences(text)
+            top_claims = select_claims(sentences, max_claims=MAX_CLAIMS)
+            for c in top_claims:
+                if c.importance_score > 0:
+                    raw = evaluate_claim_with_rag(c.text)
+                    signal = build_eig_signal(raw)
+                    signal["claim"] = c.text
+                    signal["importance"] = c.importance_score
+                    rag_signals.append(signal)
+        except Exception:
+            rag_signals = []
+
     return {
         "EIG": eig_score,
         "gaps": {
@@ -76,7 +98,9 @@ def run_eig(text: str, bsi_output: Dict, engine_result: Dict) -> Dict:
             "methodological_gaps": methodological_gaps,
             "measurement_gaps": framing_gaps,
             "generalization_gaps": generalization_gaps
-        }
+        },
+        "rag_signals": rag_signals,
+        "rag_enabled": ENABLE_RAG
     }
 
 
