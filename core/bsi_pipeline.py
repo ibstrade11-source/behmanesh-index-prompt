@@ -77,7 +77,8 @@ def run_eig(text: str, bsi_output: Dict, engine_result: Dict) -> Dict:
 
     # ─── RAG Enhancement Layer ───────────────────────────────────────────────
     rag_signals = []
-    if ENABLE_RAG:
+    from core.rag.rag_config import ENABLE_RAG as _RAG_ENABLED
+    if _RAG_ENABLED:
         try:
             sentences = split_into_sentences(text)
             top_claims = select_claims(sentences, max_claims=MAX_CLAIMS)
@@ -100,7 +101,7 @@ def run_eig(text: str, bsi_output: Dict, engine_result: Dict) -> Dict:
             "generalization_gaps": generalization_gaps
         },
         "rag_signals": rag_signals,
-        "rag_enabled": ENABLE_RAG
+        "rag_enabled": _RAG_ENABLED
     }
 
 
