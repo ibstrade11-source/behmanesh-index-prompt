@@ -1,16 +1,8 @@
 # Interpretation Drift
 
-Validation Case Study
+This directory contains the validation assets supporting the Interpretation Drift case study.
 
-Behmanesh Structural Index (BSI)
+The complete monograph is located under:
 
----
-
-This case study documents the architectural validation of one of the core hypotheses behind the Behmanesh Structural Index (BSI).
-
-The objective is not to introduce BSI itself.
-
-Instead, this monograph investigates whether Large Language Models (LLMs) consistently execute a formal specification as written, or whether they reinterpret that specification before execution.
-
-The study serves as an architectural validation case rather than a discovery study.
+docs/publications/monographs/interpretation-drift
 

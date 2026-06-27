@@ -1,35 +1,34 @@
-# Documentation Index
+# BSI Documentation
 
-## Theory
+## Knowledge Base
 
-- Framework Fidelity
-- Interpretation Drift
-- Pattern-driven AI Architecture
-
-## Architecture
-
-- CORE
-- BIO
-- EIG
-- REIG
-- Execution Engine
+- Concepts
+- Methodology
+- Metrics
+- Modules
+- Architecture
 
 ## Specifications
 
-- BSI
-- BIO
-- EIG
-- Execution Engine
+- Formal Specifications
 
 ## Validation
 
-- Interpretation Drift Case Study
 - Benchmarks
-- Cross-LLM Comparison
+- Comparisons
+- Case Studies
 
 ## Design History
 
-- DHR-0001
-- DHR-0002
-- DHR-0003
+- Design History Records
+
+## RFCs
+
+- Documentation RFCs
+
+## Publications
+
+- Monographs
+- Papers
+- Slides
 
