@@ -127,3 +127,18 @@ established knowledge by explicit citation,
 empirical observation,
 or clearly identified novel contribution.
 
+
+---
+
+## Architectural Perspective
+
+This volume investigates how formally specified analytical procedures
+can be executed faithfully within probabilistic language-model systems.
+
+The primary engineering problem addressed throughout this monograph is
+not interpretation drift itself, but architectural preservation of
+framework fidelity.
+
+Execution Architecture therefore becomes the central design concern,
+while interpretation drift is treated as one observable execution
+failure mode among several classes of architectural deviations.
