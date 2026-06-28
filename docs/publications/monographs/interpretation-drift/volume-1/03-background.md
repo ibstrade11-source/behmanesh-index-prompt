@@ -7,7 +7,7 @@ Large Language Models.
 Its development originated from the practical need to preserve formally
 specified analytical procedures during execution.
 
-Rather than attempting to improve or modify language models themselves,
+Rather than relying upon changes to language models themselves,
 BSI introduces architectural mechanisms external to the model in order
 to govern execution according to user-defined specifications.
 
