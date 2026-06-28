@@ -1,101 +1,87 @@
 # Introduction
 
-## Problem Context
+## Background
 
-Large Language Models (LLMs) have demonstrated strong capabilities in structured reasoning, analytical decomposition, and framework-based execution. However, empirical observations across multiple implementations reveal a recurring issue: deviation from formally specified analytical frameworks during execution.
+The increasing adoption of Large Language Models (LLMs) has significantly expanded the range of applications capable of performing analytical and decision-support tasks. Beyond natural language generation, modern LLMs are increasingly expected to execute structured analytical methodologies, follow predefined evaluation frameworks, and operate within explicitly specified procedural constraints.
 
-This phenomenon does not necessarily manifest as logical error or computational failure. Instead, it appears as a gradual and often implicit transformation of the original specification during interpretation and execution. This class of behavior is referred to in this monograph as *interpretation drift*.
+This shift introduces a new engineering challenge.
 
-Interpretation drift introduces a structural challenge in any system that relies on strict adherence to predefined analytical frameworks. Even when the framework is correctly defined, the execution layer may subtly reinterpret, simplify, or modify its constraints, leading to divergence between intended and actual execution behavior.
+Producing a correct answer is no longer sufficient when the objective is to execute a formal methodology. In framework-oriented analytical systems, the correctness of the final answer depends not only on the result itself but also on the integrity of the execution process that produced it.
+
+Consequently, evaluating LLM performance requires moving beyond output quality toward execution quality.
+
+---
+
+## The Engineering Problem
+
+Throughout the development of the Behmanesh Structural Index (BSI), repeated analytical interactions revealed an important pattern.
+
+Even when analytical frameworks were explicitly specified, LLMs frequently preserved the apparent intent of the framework while implicitly modifying aspects of its execution.
+
+These modifications included:
+
+- omission of procedural steps;
+- merging independent analytical stages;
+- implicit reinterpretation of constraints;
+- replacement of formal rules with generalized reasoning;
+- alteration of execution order.
+
+Although many resulting analyses appeared reasonable, they no longer represented faithful execution of the original framework.
+
+From an engineering perspective, this represents a different category of failure than hallucination or logical error.
+
+The issue is not whether the model produced a plausible answer.
+
+The issue is whether it executed the requested methodology.
 
 ---
 
 ## Motivation
 
-The motivation behind this study is not theoretical speculation, but direct architectural necessity.
+The primary motivation of this work is therefore architectural rather than philosophical.
 
-The Behmanesh Structural Index (BSI) was designed to evaluate and enforce structured analytical reasoning. During its development, a consistent pattern emerged: execution outputs from LLMs would diverge from the formal specification of the framework, even when the specification was explicitly provided.
+BSI seeks to improve the reliability of framework execution rather than the creativity of generated responses.
 
-This divergence was not random. It exhibited structural regularity across different models, tasks, and prompt formulations.
+This objective requires understanding why formally defined methodologies gradually change during execution and how such deviations can be reduced through architectural design.
 
-As a result, a need emerged for:
-
-- identifying the nature of this divergence,
-- understanding its structural causes,
-- and designing architectural mechanisms to mitigate its impact.
+Interpretation drift emerged as the engineering concept used to describe this recurring execution behavior.
 
 ---
 
-## Scope of This Monograph
+## Research Questions
 
-This monograph does not attempt to redefine epistemology, artificial intelligence theory, or cognitive science frameworks.
+This monograph addresses several engineering questions:
 
-Its scope is strictly architectural and empirical:
+- Can interpretation drift be observed consistently?
+- Is the phenomenon reproducible?
+- Does it appear across multiple LLM implementations?
+- Can it be analyzed without assuming knowledge of internal model mechanisms?
+- Can architectural design reduce its practical impact?
 
-- It focuses on execution behavior of LLMs under formal constraints.
-- It examines divergence between specification and execution.
-- It evaluates architectural responses within the BSI framework.
-
-The goal is not to propose a new philosophical model, but to document an engineering-level phenomenon and its mitigation strategy.
-
----
-
-## Key Assumptions
-
-This work is based on the following assumptions:
-
-1. LLMs are capable of following structured analytical frameworks when properly constrained.
-2. Execution fidelity is not guaranteed solely by specification clarity.
-3. Interpretation processes within LLMs can introduce systematic deviation from original constraints.
-4. Such deviations are observable, analyzable, and architecturally addressable.
-
-These assumptions are treated as empirical observations within the context of system design, not as universal claims about intelligence or cognition.
-
----
-
-## Position Within BSI
-
-Within the BSI architecture, this monograph serves a specific function:
-
-It documents the validation and architectural implications of a failure mode that directly influenced the design of the execution engine.
-
-In particular, it provides the empirical and conceptual foundation for:
-
-- Framework Fidelity mechanisms,
-- Interpretation Drift mitigation strategies,
-- and the structural constraints implemented in the execution layer.
+These questions guide the structure of the chapters that follow.
 
 ---
 
 ## Contribution
 
-The contribution of this monograph is threefold:
+The principal contribution of this work is not the introduction of a new philosophical theory.
 
-1. **Descriptive Contribution**  
-   It formalizes the notion of interpretation drift as a recurring execution-level phenomenon.
+Instead, it provides:
 
-2. **Analytical Contribution**  
-   It examines the structural conditions under which interpretation drift emerges.
-
-3. **Architectural Contribution**  
-   It links observed behavior to concrete design decisions in BSI’s execution engine.
-
----
-
-## Reader Guidance
-
-Readers should approach this document as an engineering monograph rather than a philosophical treatise.
-
-The emphasis is placed on:
-
-- reproducibility of observations,
-- clarity of architectural reasoning,
-- and traceability of design decisions.
-
-Wherever possible, conceptual abstraction is grounded in system-level implications rather than speculative theory.
+- a structured description of interpretation drift;
+- an observational methodology for validating the phenomenon;
+- an architectural analysis of plausible causes;
+- engineering mechanisms for improving framework fidelity; and
+- design principles applicable to future execution engines.
 
 ---
 
-## Transition to Next Section
+## Structure of This Monograph
 
-The following chapter provides historical and contextual background for the emergence of interpretation drift within the development lifecycle of BSI.
+The remainder of this volume follows the progression of an engineering lifecycle.
+
+Background observations are followed by theoretical framing, validation methodology, empirical observations, architectural analysis, implementation-oriented design principles, and future engineering directions.
+
+Each chapter builds upon validated observations rather than speculative assumptions.
+
+Together, they document the evolution of interpretation drift from an observed execution behavior into a formally addressed architectural concern within the Behmanesh Structural Index.

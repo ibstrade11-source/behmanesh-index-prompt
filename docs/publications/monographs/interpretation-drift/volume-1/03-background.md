@@ -1,67 +1,80 @@
 # Background
 
-## Initial Observations
+## Evolution of the Problem
 
-The identification of interpretation drift did not originate as a predefined research objective. Instead, it emerged gradually during iterative development and testing of the Behmanesh Structural Index (BSI).
+The architectural motivation behind this monograph emerged during the iterative development of the Behmanesh Structural Index.
 
-Early implementations of structured analytical prompts within LLM environments exhibited inconsistent adherence to formal specifications. While the models were capable of understanding the framework at a surface level, their execution often deviated in subtle but systematic ways.
+BSI was originally designed as a framework-oriented analytical methodology in which execution fidelity is considered as important as analytical correctness.
 
-These deviations were initially interpreted as isolated performance inconsistencies. However, repeated experiments across different tasks and model configurations revealed that these deviations were neither random nor purely noise-driven.
+Early development revealed that preserving formal specifications during interaction with LLMs was substantially more difficult than preserving semantic meaning.
 
----
+Repeated analytical sessions demonstrated that models often produced coherent analyses while gradually modifying the framework being executed.
 
-## Emergence of a Pattern
-
-Over time, a consistent behavioral pattern became observable:
-
-- The framework specification would be correctly interpreted at the beginning of execution.
-- During intermediate reasoning steps, elements of the specification would be implicitly reinterpreted.
-- The final output would preserve structural similarity but diverge semantically or procedurally from the original constraints.
-
-This pattern was reproducible across multiple LLMs and multiple analytical tasks, suggesting a structural rather than model-specific origin.
+This recurring observation motivated systematic investigation.
 
 ---
 
-## Transition from Observation to Hypothesis
+## Early Architectural Observations
 
-At this stage, the phenomenon was no longer treated as an implementation artifact. Instead, it was reframed as a hypothesis:
+Before formal validation studies were initiated, several recurring characteristics had already been identified.
 
-> LLM-based analytical systems exhibit a systematic tendency toward interpretation drift when executing formal frameworks under unconstrained or weakly constrained execution environments.
+Among the most prominent were:
 
-This hypothesis shifted the focus from debugging individual outputs to analyzing the architectural properties of the execution process itself.
+- structural simplification of complex analytical frameworks;
+- implicit reinterpretation of mandatory constraints;
+- procedural reordering;
+- selective omission of analytical stages;
+- replacement of explicit methodology with inferred reasoning.
 
----
-
-## Role in BSI Development
-
-The recognition of this pattern had direct implications for the design of the Behmanesh Structural Index.
-
-In particular, it motivated the introduction of:
-
-- stricter framework enforcement mechanisms,
-- structured execution pipelines,
-- and explicit separation between specification interpretation and execution phases.
-
-These design decisions were not theoretical additions, but responses to empirically observed behavior during system development.
+These observations suggested that execution fidelity represented an independent engineering problem.
 
 ---
 
-## Validation Context
+## From Observation to Architectural Hypothesis
 
-Subsequent validation efforts were conducted to confirm whether interpretation drift was reproducible under controlled conditions.
+Rather than immediately attempting to explain the observed behavior, BSI adopted an engineering-first approach.
 
-These efforts included:
+The initial objective was to determine whether the observed execution deviations represented isolated incidents or recurring structural patterns.
 
-- comparative testing across different LLMs,
-- repeated execution of identical analytical frameworks,
-- and controlled variation of prompt constraints.
+This led to the formulation of an architectural hypothesis:
 
-The results consistently supported the existence of a stable and observable pattern of divergence, reinforcing the architectural significance of the phenomenon.
+> Formal analytical frameworks are vulnerable to structural transformation during probabilistic execution.
+
+Importantly, this hypothesis preceded the comparative studies described later in this monograph.
+
+---
+
+## Validation-Oriented Development
+
+Once the architectural concern had been identified, controlled validation studies were designed.
+
+The purpose of these studies was not to discover interpretation drift, but to evaluate whether the previously observed pattern could be reproduced across multiple execution environments.
+
+Comparative interactions with different LLMs therefore served as validation instruments rather than sources of the original architectural concept.
+
+---
+
+## Position Within BSI Development
+
+Interpretation drift should therefore be understood as one milestone within the broader evolution of BSI.
+
+The development sequence can be summarized as:
+
+1. Architectural observations;
+2. Recognition of recurring execution patterns;
+3. Initial execution-engine concepts;
+4. Cross-LLM validation;
+5. Architectural refinement;
+6. Integration into the BSI execution engine.
+
+This sequence illustrates that engineering design preceded empirical confirmation.
 
 ---
 
 ## Summary
 
-The Background phase establishes interpretation drift as an empirically observed behavior pattern that emerged during system development, rather than a pre-theorized concept.
+The background presented here establishes the historical context necessary for interpreting the remaining chapters.
 
-It marks the transition point where isolated inconsistencies were reinterpreted as a systemic architectural issue requiring formal analysis and mitigation.
+Interpretation drift did not emerge as an abstract theoretical concept.
+
+It emerged as an engineering problem encountered during the practical development of a framework-oriented analytical architecture.
