@@ -168,3 +168,17 @@ While prior research has explored robustness and reliability in neural systems, 
 
 This work therefore extends existing reliability concepts into the domain of framework-oriented LLM execution.
 
+
+---
+
+## Relationship to Formal Verification
+
+The concept of Framework Fidelity extends established ideas from formal verification,
+where system correctness is evaluated relative to an explicit specification.
+Unlike deterministic software systems, large language models exhibit probabilistic
+execution behavior, motivating architectural mechanisms that evaluate adherence to
+external analytical specifications rather than internal execution semantics.
+
+This perspective aligns with existing research in formal methods while addressing
+the unique characteristics of generative AI systems.
+
