@@ -158,3 +158,40 @@ Accordingly, they should be interpreted as design evidence supporting architectu
 
 Future studies involving broader model populations and independent research groups are expected to strengthen external validation.
 
+
+---
+
+## Epistemic Status of Observations
+
+All observations documented in this chapter should be interpreted as **system-level behavioral observations**, not as claims about internal model mechanisms.
+
+They represent externally measurable execution outcomes derived from repeated interaction sequences.
+
+## Strengthening of Observational Validity
+
+To improve interpretability, observed behaviors are categorized into two levels:
+
+### Level 1: Directly Observable Behaviors
+- omission of steps in a defined procedure
+- reordering of analytical sequences
+- compression of multi-step reasoning into single-step responses
+
+### Level 2: Inferred Structural Behaviors
+- implicit framework substitution
+- restructuring of analytical pipelines
+- simplification of formal procedures under generative pressure
+
+Level 2 categories represent interpretive constructs and should not be confused with directly measurable artifacts.
+
+## Cross-Session Consistency
+
+A key empirical pattern observed is the recurrence of similar structural deviations across independent execution sessions.
+
+This recurrence supports—but does not prove—the hypothesis that interpretation drift exhibits systemic properties rather than purely random variation.
+
+## Scientific Caution Statement
+
+No causal claims are made regarding internal model architecture.
+
+All interpretations are constrained to the level of behavioral output analysis.
+
