@@ -239,3 +239,23 @@ The proposed architecture is intended to improve
 
 without requiring modifications to the underlying language model.
 
+
+---
+
+## Principal Architectural Components
+
+The Behmanesh Structural Index addresses execution reliability through
+multiple coordinated architectural mechanisms.
+
+These include:
+
+- Execution Pipeline
+- Execution Constraints
+- Framework Fidelity assessment
+- Decision Traceability
+- Epistemic Integrity Gap analysis
+- Guardrail-driven execution
+
+Interpretation Drift is addressed as one execution failure mode within
+this broader architectural ecosystem.
+
