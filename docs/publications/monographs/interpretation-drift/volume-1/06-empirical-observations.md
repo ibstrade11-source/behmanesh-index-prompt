@@ -221,3 +221,14 @@ Consequently,
 architectural conclusions are derived from repeated patterns
 rather than individual outputs.
 
+
+---
+
+## Interpretation of Repeated Observations
+
+Repeated occurrence of similar execution deviations does not establish
+causality.
+Instead,
+it provides engineering evidence that motivates architectural intervention
+and systematic empirical investigation.
+
