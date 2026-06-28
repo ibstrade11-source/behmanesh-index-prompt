@@ -232,3 +232,17 @@ Instead,
 it provides engineering evidence that motivates architectural intervention
 and systematic empirical investigation.
 
+
+---
+
+## Observable Execution Failure Modes
+
+The observations documented throughout this chapter should be interpreted
+as externally observable execution behaviors.
+
+They do not constitute evidence regarding internal model mechanisms.
+
+Instead, they provide engineering evidence regarding whether execution
+architectures preserve formally specified analytical procedures under
+repeated execution conditions.
+
