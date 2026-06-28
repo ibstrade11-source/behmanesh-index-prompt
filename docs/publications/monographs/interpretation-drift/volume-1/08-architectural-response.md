@@ -1,99 +1,129 @@
 # Architectural Response
 
-## Objective
+## Introduction
 
-This section describes the architectural measures introduced within the Behmanesh Structural Index (BSI) in response to the observed phenomenon of interpretation drift.
+The empirical observations and engineering analysis presented in the preceding chapters establish that interpretation drift should be addressed as an architectural concern rather than solely as a prompting problem.
 
-The goal is not to eliminate model variability, but to constrain execution behavior such that deviations from formal specifications are detectable, bounded, and systematically reduced.
+Consequently, BSI adopts an execution-engine approach in which framework preservation becomes an explicit system responsibility.
 
----
-
-## Design Principle: Separation of Specification and Execution
-
-A foundational architectural response is the strict separation between:
-
-- **Specification Layer**: immutable representation of the analytical framework
-- **Execution Layer**: operational environment where reasoning is performed
-
-This separation ensures that interpretation of the framework does not implicitly modify the framework itself during execution.
+The objective is not to eliminate probabilistic reasoning, but to bound its effects through structural control mechanisms.
 
 ---
 
-## Mechanism 1: Framework Fidelity Enforcement
+## Architectural Philosophy
 
-To reduce interpretation drift, BSI introduces structural enforcement mechanisms that ensure:
+The execution engine is designed according to a simple principle:
 
-- explicit step preservation,
-- ordered execution of analytical components,
-- and constraint adherence verification.
+> Specifications remain authoritative.
+> Execution remains observable.
+> Validation remains independent.
 
-These mechanisms aim to prevent implicit restructuring of the analytical framework during execution.
-
----
-
-## Mechanism 2: Structural Validation Layer
-
-A validation layer is introduced to evaluate outputs not only for semantic correctness but also for:
-
-- adherence to specified structure,
-- preservation of required analytical steps,
-- and consistency with original constraints.
-
-This layer operates independently of the generative process, ensuring post-hoc verification of structural fidelity.
+This separation prevents execution behavior from implicitly redefining the analytical methodology itself.
 
 ---
 
-## Mechanism 3: Constraint Decomposition
+## Separation of Responsibilities
 
-Complex frameworks are decomposed into atomic constraints to reduce ambiguity during execution.
+The architecture distinguishes four logical layers.
 
-Each constraint is defined such that it can be independently:
+Specification Layer
 
-- verified,
-- enforced,
-- and validated.
+↓
 
-This reduces the likelihood of implicit reinterpretation during execution.
+Execution Layer
 
----
+↓
 
-## Mechanism 4: Execution Trace Awareness
+Validation Layer
 
-Where possible, execution processes are designed to maintain awareness of prior steps in a structured form.
+↓
 
-This allows detection of:
+Assessment Layer
 
-- deviation from expected sequence,
-- omission of required steps,
-- and unauthorized structural modifications.
+Each layer has a single responsibility and communicates through explicitly defined interfaces.
+
+This separation minimizes unintended propagation of interpretation drift.
 
 ---
 
-## Mechanism 5: Controlled Flexibility Boundaries
+## Immutable Specification
 
-BSI does not attempt to eliminate flexibility entirely. Instead, it defines explicit boundaries within which adaptation is permitted.
+The analytical framework is treated as an immutable specification.
 
-This ensures that:
+Execution may consume the specification but never redefine it.
 
-- semantic variation is allowed within structural constraints,
-- but structural modification itself is restricted.
+Architectural decisions therefore originate from the specification rather than from intermediate reasoning generated during execution.
 
 ---
 
-## System-Level Outcome
+## Framework Fidelity
 
-The combination of these mechanisms results in:
+Framework fidelity becomes an explicit architectural objective.
 
-- reduced structural drift,
-- increased reproducibility of analytical outputs,
-- and improved alignment between specification and execution.
+Rather than evaluating only the final analytical conclusion, BSI evaluates whether execution remained structurally faithful to the original methodology.
 
-However, these mechanisms do not eliminate interpretation drift entirely; they aim to make it observable and controllable rather than implicit and undetectable.
+Framework fidelity therefore becomes an observable engineering property.
+
+---
+
+## Structural Validation
+
+Validation operates independently of execution.
+
+Its responsibilities include:
+
+- verifying procedural order;
+- detecting omitted stages;
+- identifying modified constraints;
+- measuring structural divergence;
+- reporting execution quality.
+
+Validation never attempts to reinterpret the specification.
+
+---
+
+## Execution Monitoring
+
+Execution is treated as a sequence of observable transformations.
+
+Intermediate reasoning stages may therefore be inspected for structural consistency before final assessment.
+
+This significantly improves transparency.
+
+---
+
+## Constraint Preservation
+
+Mandatory constraints receive architectural protection.
+
+The execution engine distinguishes between:
+
+- mandatory requirements;
+- recommended guidance;
+- contextual flexibility.
+
+This distinction reduces implicit relaxation of formal specifications.
+
+---
+
+## Integration Within BSI
+
+Interpretation drift is therefore not addressed through isolated prompt engineering.
+
+Instead, it is integrated into the broader architecture of BSI through:
+
+- CORE;
+- BIO;
+- Execution Engine;
+- Framework Fidelity mechanisms;
+- Epistemic Integrity metrics.
+
+Together these components establish a coordinated execution architecture.
 
 ---
 
 ## Summary
 
-The architectural response transforms interpretation drift from an uncontrolled execution phenomenon into a bounded and managed system behavior.
+The architectural response presented here transforms interpretation drift from an unavoidable execution characteristic into a measurable engineering property.
 
-This marks the transition of BSI from observational framework to execution-aware architectural system.
+Rather than attempting to prevent every deviation, BSI provides architectural mechanisms for detecting, evaluating, and reducing structural divergence throughout framework execution.
