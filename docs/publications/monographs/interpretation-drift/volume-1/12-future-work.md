@@ -72,3 +72,19 @@ The architectural concepts introduced in this monograph provide a foundation rat
 
 Future engineering work should therefore emphasize implementation, measurement, reproducibility, and comparative evaluation rather than introducing additional conceptual terminology.
 
+
+---
+
+## Toward Executable Architectural Constraints
+
+Future research should investigate machine-verifiable execution
+constraints capable of automatically validating framework preservation.
+
+Potential research directions include:
+
+- executable guardrails;
+- formal execution verification;
+- constraint-aware inference engines;
+- specification-aware orchestration;
+- automated framework fidelity assessment.
+
