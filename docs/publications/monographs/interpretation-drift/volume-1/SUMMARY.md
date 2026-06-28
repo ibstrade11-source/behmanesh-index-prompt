@@ -1,32 +1,14 @@
-# Volume I
+# Volume I Summary
 
-Discovering and Mitigating Interpretation Drift in Large Language Models
+Volume I establishes the engineering motivation for the Behmanesh
+Structural Index.
 
-## Contents
+Its contribution is the definition of an execution-governance
+architecture intended to improve adherence to formally specified
+analytical procedures.
 
-01. Preface
+Interpretation Drift is treated as recurring execution evidence that
+supports the architectural need for execution governance.
 
-02. Introduction
-
-03. Background
-
-04. Theoretical Foundations
-
-05. Validation Study Design
-
-06. Empirical Observations
-
-07. Root Cause Analysis
-
-08. Interpretation Drift
-
-09. Architectural Validation
-
-10. Design Principles
-
-11. Threats to Validity
-
-12. Future Work
-
-13. Conclusion
-
+The primary contribution of BSI therefore lies in governing execution,
+not altering language models.
