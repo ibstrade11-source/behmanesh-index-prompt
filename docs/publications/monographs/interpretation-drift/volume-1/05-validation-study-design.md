@@ -214,3 +214,18 @@ Therefore, all conclusions are derived from observable outputs and inferred exec
 
 This constraint is explicitly acknowledged as part of the methodological transparency requirement.
 
+
+---
+
+## Reproducibility Considerations
+
+Following accepted empirical software engineering practice,
+all experimental configurations should be version controlled,
+fully documented,
+and independently repeatable.
+
+Framework versions,
+prompt versions,
+model versions,
+and evaluation protocols constitute part of the experimental specification.
+
