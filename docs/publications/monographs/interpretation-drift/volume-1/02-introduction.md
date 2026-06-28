@@ -111,3 +111,15 @@ Recent studies on chain-of-thought reasoning demonstrate that intermediate reaso
 
 This distinction is critical: interpretation drift is not merely an error in output quality, but a deviation in execution structure relative to a formal specification.
 
+
+---
+
+## Research Scope
+
+This work addresses a systems engineering problem rather than proposing a new
+language model architecture.
+
+Its objective is to improve the reliability of framework-driven analytical
+execution through explicit architectural mechanisms that preserve externally
+specified analytical procedures.
+
