@@ -36,3 +36,16 @@ The long-term value of the Behmanesh Structural Index will ultimately depend not
 
 In that sense, this monograph should be viewed as the beginning of an empirical research program rather than its conclusion.
 
+
+---
+
+## Final Engineering Perspective
+
+The principal contribution of this work is the formulation and
+validation of an execution architecture intended to preserve framework
+fidelity under probabilistic LLM execution.
+
+Interpretation Drift should therefore be understood as one important
+execution failure mode addressed by this architecture rather than its
+exclusive motivation.
+
