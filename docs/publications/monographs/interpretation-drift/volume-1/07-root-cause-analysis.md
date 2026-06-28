@@ -1,91 +1,103 @@
 # Root Cause Analysis
 
-## Purpose of Analysis
+## Introduction
 
-This section aims to identify plausible structural causes of interpretation drift based on observed behavioral patterns. The analysis remains strictly within the boundaries of architectural inference and does not claim access to internal model mechanisms.
+Having established that interpretation drift represents a recurring execution phenomenon, the next engineering question concerns its underlying causes.
 
-All conclusions are derived from external behavior rather than internal states.
+This chapter does not attempt to infer internal neural mechanisms.
 
----
-
-## Causal Hypothesis 1: Specification Compression
-
-One plausible contributing factor is **specification compression**, where detailed formal frameworks are implicitly reduced into simplified internal representations during processing.
-
-This compression may lead to:
-
-- loss of fine-grained constraints,
-- merging of distinct procedural steps,
-- and prioritization of semantic over structural fidelity.
-
-This mechanism is hypothesized based on observed output simplification patterns.
+Instead, it analyzes observable execution behavior to identify architectural factors capable of producing the empirical patterns documented previously.
 
 ---
 
-## Causal Hypothesis 2: Hierarchical Priority Reweighting
+## Engineering Philosophy
 
-During execution, different components of a specification may not be treated with equal importance.
+BSI distinguishes between observable causes and speculative causes.
 
-This leads to a form of implicit reweighting where:
+Only explanations consistent with externally reproducible execution behavior are considered.
 
-- semantic coherence is prioritized over structural adherence,
-- fluent output generation is favored over strict procedural compliance,
-- and explicit constraints may be partially deprioritized.
-
-This behavior can result in selective fidelity, as observed in empirical data.
+Consequently, the discussion remains focused on engineering abstractions rather than implementation-specific details of individual LLMs.
 
 ---
 
-## Causal Hypothesis 3: Execution-Time Reinterpretation
+## Hypothesis 1 — Probabilistic Optimization
 
-Even when a specification is correctly parsed, its interpretation may evolve during execution.
+LLMs continuously optimize probable continuation rather than deterministic procedural execution.
 
-This may occur due to:
+When executing highly structured methodologies, probabilistic optimization may favor coherent reasoning over strict procedural preservation.
 
-- intermediate abstraction processes,
-- local optimization of response coherence,
-- or dynamic adaptation of internal reasoning pathways.
-
-The result is a gradual divergence between initial specification and final output.
+This naturally increases the likelihood of interpretation drift.
 
 ---
 
-## Causal Hypothesis 4: Constraint Underspecification Sensitivity
+## Hypothesis 2 — Structural Compression
 
-Some observed drift may arise from insufficiently rigid constraint encoding.
+Execution appears to favor internally compressed representations of lengthy specifications.
 
-In such cases, even small ambiguities in specification may be expanded or reinterpreted during execution, leading to:
+Compression reduces execution complexity but simultaneously increases the probability that structural relationships defined within the original methodology become simplified or merged.
 
-- implicit assumption insertion,
-- generalized rule substitution,
-- or structural relaxation of constraints.
+This hypothesis explains many instances of procedural reduction.
 
 ---
 
-## Integration of Hypotheses
+## Hypothesis 3 — Implicit Generalization
 
-The observed phenomenon is likely not attributable to a single cause, but rather to the interaction of multiple factors:
+LLMs frequently generalize explicit instructions into broader conceptual objectives.
 
-- compression of specifications,
-- dynamic prioritization of output qualities,
-- and sensitivity to constraint formulation.
+Although such generalization often improves linguistic coherence, it may replace precise procedural requirements with inferred reasoning strategies.
 
-Together, these factors create conditions under which interpretation drift becomes structurally likely.
+The result is partial preservation of analytical intent accompanied by structural deviation.
 
 ---
 
-## Architectural Implication
+## Hypothesis 4 — Constraint Prioritization
 
-From a system design perspective, these hypotheses justify the need for:
+Not all constraints appear to receive equal execution priority.
 
-- explicit structural enforcement mechanisms,
-- decomposition of complex frameworks into atomic constraints,
-- and validation layers that operate independently of generative processes.
+Mandatory structural requirements may compete with conversational fluency, contextual adaptation, and inferred user expectations.
 
-These implications are carried forward into the architectural response section.
+This competition can lead to selective relaxation of formally specified constraints.
+
+---
+
+## Hypothesis 5 — Sequential Drift Accumulation
+
+Interpretation drift rarely occurs as a single catastrophic event.
+
+Instead, small deviations accumulate gradually throughout execution.
+
+Minor procedural modifications introduced early in the reasoning process may propagate into increasingly significant structural divergence.
+
+This cumulative behavior explains why many outputs appear correct despite reduced framework fidelity.
+
+---
+
+## Architectural Interpretation
+
+Collectively these hypotheses suggest that interpretation drift should be treated as an emergent execution property.
+
+Rather than attributing failure to isolated reasoning mistakes, BSI models structural deviation as the predictable consequence of probabilistic execution operating on formal specifications.
+
+This interpretation supports architectural intervention rather than prompt refinement alone.
+
+---
+
+## Design Consequences
+
+If the hypotheses presented here are substantially correct, execution engines should:
+
+- preserve immutable specifications;
+- monitor intermediate execution;
+- verify procedural ordering;
+- detect cumulative deviation;
+- evaluate framework fidelity independently of semantic correctness.
+
+These requirements directly motivate the architectural response presented in the following chapter.
 
 ---
 
 ## Summary
 
-Root cause analysis does not identify a single definitive mechanism behind interpretation drift. Instead, it proposes a set of interacting structural factors that collectively explain the observed behavior patterns within LLM-based execution systems.
+Root cause analysis indicates that interpretation drift is best understood as an emergent property of probabilistic execution interacting with formal analytical specifications.
+
+Accordingly, mitigation requires architectural support rather than reliance on increasingly detailed prompts alone.
