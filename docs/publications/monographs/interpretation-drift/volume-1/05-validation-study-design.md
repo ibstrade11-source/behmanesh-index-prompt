@@ -229,3 +229,17 @@ prompt versions,
 model versions,
 and evaluation protocols constitute part of the experimental specification.
 
+
+---
+
+## Evaluation Objectives
+
+The evaluation investigates:
+
+- preservation of analytical specifications;
+- reproducibility of execution;
+- structural consistency;
+- architectural robustness.
+
+Accuracy alone is not considered sufficient for evaluating framework-oriented execution.
+
