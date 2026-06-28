@@ -116,3 +116,14 @@ Similarly, research in large language models highlights the stochastic nature of
 
 This monograph positions itself at the intersection of these domains, focusing specifically on the preservation of externally defined analytical frameworks during LLM-assisted execution.
 
+
+---
+
+## Evidence Policy
+
+Throughout this monograph,
+engineering claims are intended to be distinguished from
+established knowledge by explicit citation,
+empirical observation,
+or clearly identified novel contribution.
+
