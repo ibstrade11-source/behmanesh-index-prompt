@@ -259,3 +259,18 @@ These include:
 Interpretation Drift is addressed as one execution failure mode within
 this broader architectural ecosystem.
 
+
+---
+
+## Relationship Between Observation and Architecture
+
+Observed execution failure modes motivated the introduction of
+architectural quality mechanisms.
+
+These mechanisms include execution pipelines, specification
+control, guardrails, structural validation, execution
+evidence, and standardized operating procedures.
+
+The objective is to improve execution quality through
+architectural governance rather than modification of language
+models themselves.
