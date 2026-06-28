@@ -265,3 +265,18 @@ The validation methodology described in this work is intended to align with
 established principles of empirical software engineering, emphasizing
 repeatability, transparent protocols, and independent verification.
 
+
+---
+
+## Validation of an Execution Architecture
+
+The objective of this study is the validation of an execution
+architecture rather than the evaluation of raw model capability.
+
+Accordingly, architectural components—including execution constraints,
+framework fidelity mechanisms, and structural validation—constitute the
+primary objects of investigation.
+
+Language models serve as execution environments through which the
+behavior of the architecture can be observed.
+
