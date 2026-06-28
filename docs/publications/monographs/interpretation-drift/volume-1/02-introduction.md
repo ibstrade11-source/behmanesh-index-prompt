@@ -154,3 +154,18 @@ engineering observations that inform architectural design.
 
 The resulting architecture addresses multiple classes of
 execution failure through standardized execution control.
+
+---
+
+## Scope of the Execution Architecture
+
+The Behmanesh Structural Index does not modify the internal
+architecture of Large Language Models.
+
+Instead, it provides an execution architecture intended to
+increase adherence to user-defined analytical specifications,
+improve execution consistency, and reduce specification drift
+during framework-oriented analytical tasks.
+
+The architectural objective is therefore execution quality
+rather than model modification.
