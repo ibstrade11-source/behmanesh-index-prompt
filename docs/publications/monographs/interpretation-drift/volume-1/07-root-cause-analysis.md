@@ -189,3 +189,17 @@ Accordingly,
 all architectural conclusions remain constrained to externally observable
 execution characteristics.
 
+
+---
+
+## Architectural Interpretation
+
+Root cause analysis in this work is intentionally architecture-oriented.
+
+Rather than attempting to infer undocumented internal mechanisms of
+language models, the analysis identifies classes of execution conditions
+under which framework fidelity may degrade.
+
+Architectural countermeasures are therefore derived from observable
+execution behavior rather than assumptions regarding model internals.
+
