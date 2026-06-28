@@ -160,3 +160,52 @@ The architectural mechanisms presented throughout this volume should therefore b
 
 Their primary contribution lies in providing an engineering framework for improving the reproducibility, transparency, and structural consistency of framework-driven analytical systems.
 
+
+---
+
+## Architectural Abstraction Layer
+
+The architectural response is defined as a set of external mechanisms designed to regulate execution fidelity of analytical frameworks.
+
+These mechanisms operate outside the language model and function as a structural control layer.
+
+## Decomposition of System Responsibilities
+
+The proposed architecture separates execution into three logically distinct layers:
+
+1. **Specification Layer**
+   - formal definition of analytical procedures
+   - explicit step-wise structure definition
+
+2. **Execution Layer**
+   - LLM-based generation of intermediate and final outputs
+   - probabilistic transformation of input specifications
+
+3. **Validation Layer**
+   - post-execution structural comparison
+   - detection of deviations from specification
+
+This decomposition ensures that no single layer is responsible for both generation and verification.
+
+## Framework Fidelity as a System Property
+
+Framework Fidelity is treated as an emergent system-level property resulting from interaction between:
+
+- specification precision
+- execution stability
+- validation strictness
+
+It is not assumed to be an inherent property of the language model itself.
+
+## Design Rationale
+
+The architectural design is motivated by the observation that:
+
+> increasing model capability does not necessarily guarantee preservation of procedural structure.
+
+Therefore, reliability must be enforced at the system architecture level rather than assumed at the model level.
+
+## Engineering Interpretation Boundary
+
+All architectural claims in this chapter refer to system-level design constraints and should not be interpreted as assumptions about internal model mechanisms.
+
