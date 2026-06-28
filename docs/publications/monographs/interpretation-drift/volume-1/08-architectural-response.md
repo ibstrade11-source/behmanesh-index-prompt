@@ -225,3 +225,17 @@ This separation improves transparency,
 traceability,
 and independent verification.
 
+
+---
+
+## Expected Engineering Impact
+
+The proposed architecture is intended to improve
+
+- reproducibility,
+- transparency,
+- procedural consistency,
+- and framework fidelity
+
+without requiring modifications to the underlying language model.
+
