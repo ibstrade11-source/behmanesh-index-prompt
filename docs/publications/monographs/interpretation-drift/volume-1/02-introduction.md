@@ -136,3 +136,21 @@ execution.
 Accordingly, the Behmanesh Structural Index should be interpreted as an
 execution architecture designed to reduce architectural uncertainty
 during framework-oriented analytical workflows.
+
+---
+
+## Scope of Contribution
+
+The Behmanesh Structural Index should be understood as an
+execution architecture for specification-driven analytical
+frameworks.
+
+Its objective is to improve execution quality through explicit
+architectural mechanisms rather than to alter the internal
+reasoning processes of language models.
+
+Accordingly, recurring execution deviations are interpreted as
+engineering observations that inform architectural design.
+
+The resulting architecture addresses multiple classes of
+execution failure through standardized execution control.
