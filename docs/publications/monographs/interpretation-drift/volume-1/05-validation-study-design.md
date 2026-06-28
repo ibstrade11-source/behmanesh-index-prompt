@@ -1,87 +1,129 @@
 # Validation Study Design
 
-## Objective
+## Purpose
 
-The objective of this study design is to evaluate whether interpretation drift can be consistently observed under controlled and reproducible conditions across multiple Large Language Models (LLMs).
+Following the identification of interpretation drift as a recurring architectural concern, a structured validation methodology was developed to determine whether the observed execution behavior could be reproduced under controlled conditions.
 
-Rather than treating interpretation drift as a theoretical assumption, the validation process is designed to test its behavioral manifestation under structured analytical constraints.
-
----
-
-## Experimental Hypothesis
-
-The central hypothesis of the validation study is:
-
-> When LLMs are required to execute a formally specified analytical framework, systematic deviations from the original specification will occur, even under explicit instruction adherence conditions.
-
-This hypothesis is evaluated through repeated execution of identical frameworks across different models and contexts.
+The objective was validation rather than discovery.
 
 ---
 
-## Study Design Principles
+## Design Philosophy
 
-The validation methodology is based on the following principles:
+The study follows an engineering validation methodology.
 
-### 1. Controlled Specification
-Each test uses a fully defined analytical framework with explicit structural constraints.
+Instead of attempting to explain why LLMs behave as they do internally, the experiments focus on observable execution characteristics.
 
-### 2. Reproducibility
-The same framework is executed multiple times across different sessions and models to assess consistency of behavior.
-
-### 3. Cross-Model Evaluation
-Multiple LLMs are included to determine whether observed patterns are model-specific or structural.
-
-### 4. Structural Comparison
-Outputs are evaluated not only for semantic correctness, but also for adherence to the original framework structure.
+Consequently, every experiment evaluates externally measurable behavior.
 
 ---
 
-## Evaluation Dimensions
+## Validation Objectives
 
-The study evaluates outputs along the following dimensions:
+The validation process addresses five principal objectives:
 
-- **Structural Fidelity**: degree to which the output preserves the original framework structure
-- **Procedural Consistency**: adherence to the defined sequence of analytical steps
-- **Constraint Preservation**: maintenance of explicit and implicit constraints
-- **Interpretation Stability**: resistance to modification of framework meaning during execution
+- reproducibility;
+- consistency;
+- structural fidelity;
+- cross-model generality;
+- engineering relevance.
 
----
-
-## Data Collection Method
-
-Data is collected through repeated application of identical analytical prompts to multiple LLMs under consistent conditions.
-
-Each output is analyzed for:
-
-- deviations from prescribed structure
-- implicit modifications of constraints
-- omission or substitution of required analytical steps
-- preservation of framework semantics
+Collectively these objectives determine whether interpretation drift represents an isolated anomaly or a recurring execution property.
 
 ---
 
-## Comparative Setup
+## Experimental Methodology
 
-The validation process includes comparative evaluation across different model behaviors.
+Each validation session follows the same workflow.
 
-While individual model architectures are not the focus of this study, their outputs serve as observational samples for detecting structural consistency or divergence.
+Framework Definition
+
+↓
+
+Specification Review
+
+↓
+
+Execution
+
+↓
+
+Structural Analysis
+
+↓
+
+Deviation Identification
+
+↓
+
+Comparative Evaluation
+
+↓
+
+Architectural Interpretation
+
+Maintaining an identical evaluation pipeline minimizes methodological variability.
 
 ---
 
-## Limitations of the Design
+## Evaluation Criteria
 
-This validation design does not claim:
+Outputs are evaluated according to:
 
-- access to internal model states
-- causal explanation of model cognition
-- or universal generalization beyond tested conditions
+- procedural fidelity;
+- preservation of mandatory constraints;
+- structural completeness;
+- execution consistency;
+- semantic alignment;
+- interpretation stability.
 
-It is strictly an observational framework for analyzing input-output behavior under controlled constraints.
+Importantly, semantic correctness alone is insufficient for successful evaluation.
+
+---
+
+## Comparative Validation
+
+To reduce implementation bias, identical analytical frameworks were executed across multiple LLM systems.
+
+The purpose was not to compare model quality but to determine whether similar structural execution patterns emerged independently of implementation.
+
+Observed similarities increased confidence that the phenomenon reflected a broader execution characteristic rather than an isolated model artifact.
+
+---
+
+## Methodological Boundaries
+
+This validation deliberately excludes:
+
+- internal model inspection;
+- parameter analysis;
+- training data assumptions;
+- architectural reverse engineering.
+
+Only externally observable execution behavior is considered.
+
+---
+
+## Reproducibility
+
+Every experiment emphasizes repeatability.
+
+Repeated execution under equivalent specifications enables identification of recurring structural behaviors while reducing dependence on isolated observations.
+
+---
+
+## Engineering Interpretation
+
+The validation methodology supports engineering decision-making rather than theoretical speculation.
+
+Architectural modifications within BSI are introduced only after recurring behavioral evidence has been observed.
+
+This engineering discipline maintains separation between empirical evidence and architectural inference.
 
 ---
 
 ## Summary
 
-The validation study design establishes a structured methodology for evaluating interpretation drift as a reproducible behavioral phenomenon.
+The validation methodology establishes a reproducible engineering process for studying interpretation drift through observable execution behavior.
 
-It provides the empirical foundation for subsequent sections that analyze observed results and derive architectural responses within the BSI framework.
+The following chapters present the empirical observations obtained using this methodology and analyze their architectural implications.

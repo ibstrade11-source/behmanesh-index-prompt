@@ -1,76 +1,140 @@
 # Theoretical Foundation
 
-## Conceptual Positioning
+## Introduction
 
-Interpretation drift is treated in this monograph as an **execution-level phenomenon** rather than a cognitive or epistemological theory.
+Interpretation drift is defined in this monograph as an execution-level phenomenon observed during the application of formal analytical frameworks by Large Language Models (LLMs). It does not attempt to explain internal cognitive mechanisms, nor does it propose a theory of intelligence. Instead, it provides an engineering abstraction that allows observable execution behavior to be analyzed systematically.
 
-It refers to systematic deviations that occur during the translation of formal analytical specifications into executable reasoning steps within Large Language Models (LLMs).
-
-This section establishes a minimal theoretical framework necessary to describe and reason about this phenomenon without extending into broader philosophical claims.
+The objective of this chapter is to establish a conceptual model capable of describing how formally specified methodologies may gradually diverge during probabilistic execution.
 
 ---
 
-## Specification-Execution Duality
+## Engineering Perspective
 
-At the core of the observed behavior lies a structural separation between:
+Traditional evaluations of LLM performance emphasize output quality.
 
-- **Specification Layer**: the formally defined analytical framework provided to the model
-- **Execution Layer**: the internal reasoning and output generation process of the model
+BSI introduces an additional engineering dimension:
 
-Interpretation drift emerges in the transition between these two layers.
+**Framework Fidelity.**
 
-Even when the specification is correctly parsed, the execution process may introduce transformations that are not explicitly defined or intended in the original framework.
+Framework fidelity measures how faithfully an execution process preserves the procedural structure, explicit constraints, and analytical intent defined by a formal methodology.
 
----
-
-## Nature of Interpretation Drift
-
-Interpretation drift is characterized by:
-
-- implicit modification of constraints during execution
-- selective omission of specified steps
-- substitution of formal rules with semantically similar approximations
-- preservation of structural appearance without preserving strict procedural fidelity
-
-Importantly, these behaviors do not necessarily result in incorrect outputs in a general sense, but they violate the integrity of the original specification.
+Under this perspective, two outputs with similar conclusions may exhibit substantially different execution quality if one preserves the specified framework while the other implicitly modifies it.
 
 ---
 
-## Distinction from General Model Error
+## Specification Layer
 
-Interpretation drift must be distinguished from general LLM failure modes such as hallucination or factual inconsistency.
+Every formal analytical framework begins as a specification.
 
-- **Hallucination**: generation of unsupported or incorrect content
-- **Logical error**: invalid reasoning within a given structure
-- **Interpretation drift**: alteration of the structure itself during execution
+The specification layer contains:
 
-This distinction is critical, as mitigation strategies differ fundamentally.
+- analytical objectives;
+- procedural sequence;
+- mandatory constraints;
+- evaluation criteria;
+- structural relationships.
 
----
-
-## Structural Hypothesis
-
-Within the context of BSI, interpretation drift is modeled as:
-
-> A structural transformation process applied to formal specifications during execution, resulting in a divergence between intended and actual procedural behavior.
-
-This hypothesis does not claim internal access to model cognition, but instead describes observable input-output behavior under controlled conditions.
+Within BSI, this layer is considered immutable throughout execution.
 
 ---
 
-## Implications for System Design
+## Execution Layer
 
-Recognizing interpretation drift as a structural phenomenon leads to several design implications:
+Execution transforms the specification into analytical reasoning.
 
-1. Execution systems must enforce explicit step fidelity.
-2. Frameworks must be decomposed into verifiable sub-constraints.
-3. Intermediate reasoning stages should be constrained or auditable.
-4. Output validation must include structural consistency checks, not only semantic correctness.
+Because LLMs operate probabilistically, execution may introduce modifications not explicitly defined within the original framework.
 
-These implications directly inform the design of the BSI execution engine.
+These modifications constitute the primary observation motivating this monograph.
+
+---
+
+## Validation Layer
+
+Execution quality cannot be evaluated solely through semantic correctness.
+
+An independent validation layer is therefore required to determine whether:
+
+- procedural order has been preserved;
+- constraints remain intact;
+- analytical stages remain distinguishable;
+- execution remains structurally faithful.
+
+This separation between execution and validation forms one of the architectural foundations of BSI.
+
+---
+
+## Interpretation Drift
+
+Interpretation drift occurs whenever execution no longer represents a faithful implementation of the original specification.
+
+The phenomenon may include:
+
+- structural simplification;
+- implicit reinterpretation;
+- procedural substitution;
+- omission of mandatory steps;
+- introduction of unstated assumptions.
+
+Interpretation drift therefore represents structural divergence rather than factual error.
+
+---
+
+## Conceptual Model
+
+The engineering model adopted throughout this monograph is summarized below.
+
+Specification
+
+↓
+
+Execution
+
+↓
+
+Potential Interpretation Drift
+
+↓
+
+Structural Validation
+
+↓
+
+Framework Fidelity Assessment
+
+Rather than attempting to prevent every possible deviation, BSI seeks to detect, quantify, and reduce structural divergence.
+
+---
+
+## Relationship to Framework Fidelity
+
+Framework fidelity and interpretation drift are complementary concepts.
+
+Framework fidelity measures successful preservation.
+
+Interpretation drift measures structural divergence.
+
+Together they define the primary execution-quality dimension within the BSI architecture.
+
+---
+
+## Architectural Implications
+
+Viewing interpretation drift as an execution-level property leads directly to several architectural requirements.
+
+Execution engines should:
+
+- preserve immutable specifications;
+- isolate execution from specification;
+- verify intermediate reasoning;
+- evaluate structural consistency independently of semantic quality;
+- expose measurable execution properties.
+
+These requirements motivate the execution engine introduced later in this monograph.
 
 ---
 
 ## Summary
 
-The theoretical foundation of interpretation drift is intentionally minimal. Its purpose is not to provide a full theory of intelligence, but to define a precise and operationally useful description of a recurring execution-level phenomenon observed in LLM-based systems.
+The conceptual framework presented here establishes interpretation drift as an observable engineering phenomenon arising during framework execution.
+
+It provides the theoretical vocabulary required for subsequent validation studies while intentionally avoiding unsupported claims regarding internal model cognition.
