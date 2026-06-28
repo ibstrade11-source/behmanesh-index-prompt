@@ -72,3 +72,34 @@ The focus remains exclusively on observable execution behavior.
 These limitations do not invalidate the engineering conclusions presented throughout this monograph.
 
 Instead, they define the boundaries within which the current findings should be interpreted and extended.
+
+---
+
+## Epistemic Limitations
+
+The conclusions presented in this monograph are intentionally bounded by the scope of the observational methodology employed.
+
+The study does not claim to establish universal properties of large language models. Instead, it documents reproducible behavioral patterns observed under a defined class of framework-oriented analytical interactions.
+
+Accordingly, the validity of the proposed architectural mechanisms should be interpreted relative to the investigated execution context.
+
+## Threats to Construct Validity
+
+Framework Fidelity and Interpretation Drift are engineering constructs introduced in this work.
+
+Although operational definitions are provided, alternative formalizations may exist and should be explored in future independent studies.
+
+## Threats to External Validity
+
+The observational dataset was generated during the development and validation of the Behmanesh Structural Index.
+
+Additional investigations involving independent researchers, alternative analytical frameworks, and future generations of language models are necessary before broader generalization can be justified.
+
+## Threats to Technological Evolution
+
+Large language models continue to evolve rapidly.
+
+Future architectural improvements may reduce or alter the behavioral patterns documented in this volume.
+
+Consequently, the findings presented here should be interpreted as engineering observations associated with the current generation of framework-oriented LLM execution systems rather than immutable characteristics of future models.
+
