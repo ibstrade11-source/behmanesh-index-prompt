@@ -177,3 +177,15 @@ These are not mutually exclusive and may interact dynamically during execution.
 
 If a behavior is stable across repeated observations, it is treated as a candidate engineering requirement for system-level mitigation.
 
+
+---
+
+## Limits of Causal Interpretation
+
+Observed execution behavior does not by itself establish internal causal
+mechanisms.
+
+Accordingly,
+all architectural conclusions remain constrained to externally observable
+execution characteristics.
+
