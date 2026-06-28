@@ -274,3 +274,17 @@ evidence, and standardized operating procedures.
 The objective is to improve execution quality through
 architectural governance rather than modification of language
 models themselves.
+
+---
+
+## Intended Effect of the Architecture
+
+The architectural mechanisms introduced by BSI are intended to
+reduce the probability of deviations from formally specified
+analytical procedures.
+
+They operate by structuring the execution process rather than
+by altering the internal behavior of language models.
+
+Consequently, architectural quality is evaluated according to
+the degree of adherence to the user's formal specification.
