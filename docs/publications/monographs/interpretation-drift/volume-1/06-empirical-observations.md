@@ -195,3 +195,17 @@ No causal claims are made regarding internal model architecture.
 
 All interpretations are constrained to the level of behavioral output analysis.
 
+
+---
+
+## Future Empirical Validation
+
+The observational findings reported in this volume provide
+engineering evidence motivating the proposed architecture.
+
+Future work will extend these observations through
+larger datasets,
+independent evaluators,
+cross-model comparisons,
+and statistical hypothesis testing.
+
