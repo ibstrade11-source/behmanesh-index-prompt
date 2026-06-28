@@ -138,3 +138,16 @@ These requirements motivate the execution engine introduced later in this monogr
 The conceptual framework presented here establishes interpretation drift as an observable engineering phenomenon arising during framework execution.
 
 It provides the theoretical vocabulary required for subsequent validation studies while intentionally avoiding unsupported claims regarding internal model cognition.
+
+---
+
+## Relationship Between Framework Fidelity and Existing Engineering Principles
+
+Framework Fidelity is introduced in this work as an engineering objective concerned with preserving externally specified analytical procedures.
+
+Its motivation is consistent with long-established engineering principles including reproducibility, traceability, verification, validation, and architectural consistency.
+
+Rather than replacing these principles, Framework Fidelity may be understood as an architectural mechanism intended to operationalize them within LLM-assisted analytical systems.
+
+Consequently, the proposed architecture emphasizes specification preservation, execution transparency, structural validation, and decision traceability as complementary engineering objectives.
+
