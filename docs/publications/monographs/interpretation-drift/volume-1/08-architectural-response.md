@@ -209,3 +209,19 @@ Therefore, reliability must be enforced at the system architecture level rather 
 
 All architectural claims in this chapter refer to system-level design constraints and should not be interpreted as assumptions about internal model mechanisms.
 
+
+---
+
+## Separation of Responsibilities
+
+The proposed architecture separates
+
+- specification,
+- execution,
+- validation,
+- and interpretation.
+
+This separation improves transparency,
+traceability,
+and independent verification.
+
