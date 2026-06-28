@@ -109,3 +109,52 @@ They therefore provide practical guidance for designing execution engines capabl
 The empirical observations presented in this chapter establish interpretation drift as a recurring structural execution phenomenon characterized by simplification, constraint relaxation, procedural modification, and specification compression.
 
 The next chapter investigates the architectural mechanisms capable of producing these observable behaviors.
+
+---
+
+## Empirical Observation Strategy
+
+Empirical observations were accumulated throughout the iterative development of the Behmanesh Structural Index.
+
+Rather than relying upon a single benchmark, observations originated from repeated execution of formal analytical frameworks under varying interaction conditions.
+
+This longitudinal approach allowed recurring behavioral characteristics to emerge independently across multiple analytical sessions.
+
+## Categories of Observed Behaviors
+
+Observed behaviors were classified into several recurring categories:
+
+- Partial specification preservation
+- Structural reinterpretation
+- Implicit framework substitution
+- Omission of mandatory analytical components
+- Simplification of formal procedures
+- Inconsistent reasoning paths
+- Variable execution ordering
+
+These categories serve as engineering observations rather than psychological interpretations of model behavior.
+
+## Pattern Stability
+
+One of the principal empirical findings was the recurrence of structurally similar execution deviations across independent analytical sessions.
+
+Although individual outputs differed, many deviations exhibited comparable architectural characteristics.
+
+This repeatability motivated the hypothesis that interpretation drift represents an engineering property of framework execution rather than isolated prompt failures.
+
+## Architectural Interpretation
+
+Empirical observations do not by themselves prescribe architectural solutions.
+
+Instead, they provide evidence from which architectural requirements can be inferred.
+
+Within the Behmanesh Structural Index, recurring observations were translated into engineering requirements such as Framework Fidelity, structural validation, execution constraints, and decision traceability.
+
+## Limitations of the Observational Dataset
+
+The observations documented in this volume originate primarily from controlled engineering investigations conducted during the development of the Behmanesh Structural Index.
+
+Accordingly, they should be interpreted as design evidence supporting architectural decisions rather than statistically representative measurements of all large language models.
+
+Future studies involving broader model populations and independent research groups are expected to strengthen external validation.
+
