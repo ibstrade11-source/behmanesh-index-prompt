@@ -103,3 +103,16 @@ Accordingly, the architectural principles presented throughout this volume shoul
 
 Relevant foundational literature includes modern software architecture methodologies, Transformer-based language models, reasoning evaluation, and recent technical reports describing the capabilities and limitations of frontier LLMs.
 
+
+---
+
+## Related Scientific Context
+
+The concept of execution fidelity in computational systems aligns with established principles in software engineering, including reproducibility, traceability, and specification adherence.
+
+In particular, prior work in software architecture emphasizes the importance of maintaining consistency between system specification and system behavior across execution contexts (Bass, Clements, Kazman, 2012).
+
+Similarly, research in large language models highlights the stochastic nature of generation and its implications for reliability in structured tasks (Brown et al., 2020; OpenAI, 2023).
+
+This monograph positions itself at the intersection of these domains, focusing specifically on the preservation of externally defined analytical frameworks during LLM-assisted execution.
+
