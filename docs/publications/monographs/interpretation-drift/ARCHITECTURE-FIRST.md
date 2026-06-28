@@ -1,12 +1,20 @@
 # Architecture First
 
-This monograph adopts an Architecture-First engineering philosophy.
+BSI is an execution architecture.
 
-The primary research object is the execution architecture.
+Its purpose is to standardize execution of formally specified
+analytical frameworks.
 
-Framework Fidelity is the principal engineering objective.
+The architecture introduces execution pipelines,
+guardrails,
+validation procedures,
+execution constraints,
+and structural verification mechanisms.
 
-Execution Failure Modes are architectural observations.
+These mechanisms do not modify language models.
 
-Interpretation Drift is one important execution failure mode,
-not the theoretical center of the architecture.
+They constrain execution through explicit architectural control.
+
+Framework Fidelity is therefore an architectural property of
+the execution environment rather than an intrinsic property of
+the language model.
