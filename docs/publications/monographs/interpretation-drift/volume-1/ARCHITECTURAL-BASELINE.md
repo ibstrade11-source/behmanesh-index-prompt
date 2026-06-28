@@ -8,7 +8,7 @@ Throughout Volume I the following assumptions remain invariant.
 
 3. LLM cognition is outside the scope of BSI.
 
-4. Architectural mechanisms improve execution quality.
+4. Architectural mechanisms strengthen execution quality.
 
 5. Framework Fidelity is evaluated at execution level.
 
