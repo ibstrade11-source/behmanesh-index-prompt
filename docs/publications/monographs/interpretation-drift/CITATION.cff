@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+
+title: "Interpretation Drift"
+
+type: book
+
+authors:
+  - family-names: Behmanesh
+    given-names: Mohammadali
+
+version: 1.0.0
+
+license: All Rights Reserved
+
+abstract: >
+  Engineering monograph documenting the architectural identification,
+  empirical validation, and mitigation of interpretation drift within
+  the Behmanesh Structural Index (BSI).
+
+keywords:
+  - LLM
+  - Interpretation Drift
+  - Framework Fidelity
+  - Execution Engine
+  - Structural Analysis
+  - BSI
+
+repository-code: https://github.com/<your-account>/behmanesh-index-prompt
