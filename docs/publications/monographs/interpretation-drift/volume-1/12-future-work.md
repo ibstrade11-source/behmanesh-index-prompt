@@ -51,3 +51,24 @@ Dedicated software tools capable of visualizing execution structure, procedural 
 ## Summary
 
 Future work should continue transforming interpretation drift from a qualitative observation into a quantitatively measurable engineering property.
+
+---
+
+## Research Priorities
+
+Future research should prioritize empirical validation over conceptual expansion.
+
+The following directions are considered particularly important:
+
+- independent replication studies conducted by external research groups;
+- quantitative operationalization of Framework Fidelity;
+- development of automated execution-trace analysis;
+- statistical evaluation across broader model populations;
+- longitudinal analysis of interpretation drift across successive model generations.
+
+## Engineering Roadmap
+
+The architectural concepts introduced in this monograph provide a foundation rather than a completed framework.
+
+Future engineering work should therefore emphasize implementation, measurement, reproducibility, and comparative evaluation rather than introducing additional conceptual terminology.
+
