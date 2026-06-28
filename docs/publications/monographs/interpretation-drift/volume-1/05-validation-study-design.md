@@ -186,3 +186,31 @@ Architectural mechanisms should be justified by reproducible observations rather
 
 Consequently, architectural decisions throughout the Behmanesh Structural Index are derived from accumulated behavioral evidence rather than individual execution outcomes.
 
+
+---
+
+## Position Within Empirical Research Methods
+
+The validation methodology aligns with principles of empirical software engineering, particularly observational study design and iterative system evaluation.
+
+Unlike controlled benchmark studies that focus on output accuracy, this work adopts a **process-oriented evaluation model**, where the primary object of analysis is the execution trace of analytical frameworks.
+
+## Operationalization of Evaluation Criteria
+
+To increase methodological clarity, the following operational definitions are introduced:
+
+- **Specification Preservation**: degree to which formal analytical steps are retained during execution
+- **Execution Consistency**: stability of procedural structure across repeated runs
+- **Framework Fidelity**: alignment between defined framework structure and executed workflow
+- **Interpretation Stability**: resistance to implicit restructuring during execution
+
+These constructs are treated as measurable engineering properties, even when quantified qualitatively.
+
+## Methodological Constraint Acknowledgement
+
+A key limitation of this study is the absence of fully instrumented execution tracing at the model internals level.
+
+Therefore, all conclusions are derived from observable outputs and inferred execution structure rather than internal state access.
+
+This constraint is explicitly acknowledged as part of the methodological transparency requirement.
+
