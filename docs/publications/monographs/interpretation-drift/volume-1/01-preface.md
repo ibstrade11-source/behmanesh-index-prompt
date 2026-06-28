@@ -90,3 +90,16 @@ This work is intended for researchers, AI architects, framework designers, and e
 Rather than attempting to eliminate probabilistic reasoning, BSI constrains execution such that structural deviations become observable, measurable, and architecturally manageable.
 
 This engineering philosophy underlies every design decision documented throughout this monograph.
+
+---
+
+## Relationship to Existing Literature
+
+This monograph builds upon established work in software architecture, empirical software engineering, and the evaluation of large language models.
+
+Rather than proposing an alternative theory of language modeling, this work investigates a practical engineering problem: preserving the fidelity of formally specified analytical frameworks during LLM-assisted execution.
+
+Accordingly, the architectural principles presented throughout this volume should be interpreted as engineering mechanisms intended to improve execution reliability, reproducibility, and methodological consistency.
+
+Relevant foundational literature includes modern software architecture methodologies, Transformer-based language models, reasoning evaluation, and recent technical reports describing the capabilities and limitations of frontier LLMs.
+

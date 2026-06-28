@@ -85,3 +85,16 @@ Background observations are followed by theoretical framing, validation methodol
 Each chapter builds upon validated observations rather than speculative assumptions.
 
 Together, they document the evolution of interpretation drift from an observed execution behavior into a formally addressed architectural concern within the Behmanesh Structural Index.
+
+---
+
+## Position Within Current Research
+
+Recent advances in Transformer-based large language models have substantially expanded the range of tasks that can be performed through natural language interaction.
+
+However, increased capability does not necessarily imply strict adherence to externally defined analytical procedures.
+
+The central hypothesis investigated throughout this monograph is that preserving framework fidelity represents an engineering problem distinct from improving raw reasoning capability.
+
+This distinction motivates the architectural mechanisms proposed in the Behmanesh Structural Index.
+
