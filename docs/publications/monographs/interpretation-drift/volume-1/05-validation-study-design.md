@@ -280,3 +280,19 @@ primary objects of investigation.
 Language models serve as execution environments through which the
 behavior of the architecture can be observed.
 
+
+---
+
+## Validation Scope
+
+The objective of this validation study is not to demonstrate
+that the Behmanesh Structural Index eliminates execution
+deviations.
+
+Rather, the study evaluates whether the architectural
+mechanisms implemented within BSI improve specification-driven
+execution quality compared with unconstrained execution.
+
+Accordingly, the unit of validation is the execution
+architecture itself rather than the internal reasoning
+capabilities of language models.
