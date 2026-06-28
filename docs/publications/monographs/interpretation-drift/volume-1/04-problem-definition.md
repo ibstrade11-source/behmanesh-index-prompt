@@ -1,12 +1,15 @@
+# Problem Definition
 
----
+Professional analytical workflows frequently depend upon formally
+defined procedures.
 
-## Engineering Problem Definition
+The principal engineering problem addressed in this monograph is how to
+preserve those procedures during execution by probabilistic language
+models.
 
-Interpretation Drift is treated as an observable execution phenomenon rather
-than a theoretical property of language models.
+The problem is therefore defined as one of execution governance rather
+than model cognition.
 
-The engineering objective is therefore to detect,
-measure,
-and reduce execution deviations relative to an explicit analytical specification.
-
+Interpretation Drift is examined only insofar as it provides observable
+evidence that uncontrolled execution may reduce adherence to formally
+specified analytical frameworks.
