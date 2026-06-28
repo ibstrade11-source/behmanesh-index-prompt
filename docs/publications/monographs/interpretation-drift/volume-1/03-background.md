@@ -91,3 +91,25 @@ This work therefore positions Interpretation Drift as an execution-oriented engi
 
 Accordingly, the objective is not to evaluate the intelligence of a model, but to evaluate the stability with which a predefined analytical specification is preserved during execution.
 
+
+---
+
+## Foundational Literature Context
+
+The observed phenomena are situated within three intersecting research domains:
+
+1. Transformer-based sequence modeling (Vaswani et al., 2017)
+2. Empirical evaluation of language model behavior (Brown et al., 2020)
+3. Software engineering principles of specification and execution consistency (Bass et al., 2012)
+
+These domains collectively inform the interpretation of LLM behavior as a system-level execution process rather than purely a linguistic phenomenon.
+
+## Conceptual Positioning
+
+Interpretation Drift is defined in this monograph as a divergence between:
+
+- a formally specified analytical procedure
+- and its executed instantiation in an LLM-driven environment
+
+This definition aligns with broader concepts in software verification, where divergence between specification and implementation is treated as a structural correctness issue.
+
