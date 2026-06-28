@@ -243,3 +243,16 @@ The evaluation investigates:
 
 Accuracy alone is not considered sufficient for evaluating framework-oriented execution.
 
+
+---
+
+## Replication Strategy
+
+To strengthen confidence in the proposed engineering framework,
+future evaluations should include independent researchers,
+multiple language models,
+and standardized analytical specifications.
+
+Independent replication represents a key requirement for evaluating
+framework-oriented execution reliability.
+
