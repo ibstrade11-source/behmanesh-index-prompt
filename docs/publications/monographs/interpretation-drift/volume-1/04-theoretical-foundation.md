@@ -222,3 +222,15 @@ empirical software engineering, and contemporary LLM evaluation research.
 Subsequent revisions will replace placeholder references with complete
 bibliographic citations.
 
+
+---
+
+## Execution Constraints
+
+Execution constraints constitute architectural mechanisms that preserve
+procedural integrity independently of the reasoning capability of an
+individual language model.
+
+Within this framework, framework fidelity emerges as an architectural
+property produced by constrained execution rather than by prompt
+instructions alone.
