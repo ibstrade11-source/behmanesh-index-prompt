@@ -151,3 +151,20 @@ Rather than replacing these principles, Framework Fidelity may be understood as 
 
 Consequently, the proposed architecture emphasizes specification preservation, execution transparency, structural validation, and decision traceability as complementary engineering objectives.
 
+
+---
+
+## Theoretical Alignment with Existing Models
+
+Framework Fidelity as defined in this work is closely related to established concepts in system verification and formal methods, particularly specification compliance and execution traceability.
+
+In formal systems theory, correctness is defined as the alignment between specification and execution semantics. This monograph extends this idea to probabilistic generative systems such as large language models.
+
+Unlike deterministic systems, LLMs introduce stochasticity in execution paths, which necessitates architectural rather than purely formal verification approaches.
+
+## Position Relative to Prior Work
+
+While prior research has explored robustness and reliability in neural systems, fewer studies have addressed the preservation of external procedural structure during execution.
+
+This work therefore extends existing reliability concepts into the domain of framework-oriented LLM execution.
+
