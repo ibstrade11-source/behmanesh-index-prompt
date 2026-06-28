@@ -182,3 +182,16 @@ external analytical specifications rather than internal execution semantics.
 This perspective aligns with existing research in formal methods while addressing
 the unique characteristics of generative AI systems.
 
+
+---
+
+## Engineering Assumptions
+
+The proposed architecture assumes that
+execution reliability can be improved without modifying
+the internal implementation of the language model.
+
+Architectural supervision,
+validation,
+and traceability are therefore treated as external engineering responsibilities.
+
