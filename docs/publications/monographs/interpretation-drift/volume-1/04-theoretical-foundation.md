@@ -211,3 +211,14 @@ The architectural focus of this monograph is therefore complementary to
 capability-oriented research:
 it investigates mechanisms that improve procedural fidelity during execution.
 
+
+---
+
+## Literature Integration Note
+
+The theoretical foundations presented in this chapter should ultimately be
+supported by literature from formal verification, software architecture,
+empirical software engineering, and contemporary LLM evaluation research.
+Subsequent revisions will replace placeholder references with complete
+bibliographic citations.
+
