@@ -195,3 +195,19 @@ Architectural supervision,
 validation,
 and traceability are therefore treated as external engineering responsibilities.
 
+
+---
+
+## Relationship to Contemporary LLM Research
+
+Recent research has demonstrated remarkable improvements in reasoning,
+instruction following,
+and planning capabilities of large language models.
+However,
+these advances do not necessarily guarantee strict preservation of externally
+defined analytical procedures.
+
+The architectural focus of this monograph is therefore complementary to
+capability-oriented research:
+it investigates mechanisms that improve procedural fidelity during execution.
+
