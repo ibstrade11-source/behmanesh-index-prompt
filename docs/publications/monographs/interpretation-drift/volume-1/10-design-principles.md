@@ -83,3 +83,28 @@ Architectural improvement depends upon observable metrics rather than subjective
 Together these principles define the engineering philosophy underlying the Behmanesh Structural Index.
 
 Future execution-engine components should remain consistent with these principles regardless of implementation technology.
+
+---
+
+## Engineering Design Philosophy
+
+The design principles proposed throughout this monograph are derived from recurring engineering observations documented during the development of the Behmanesh Structural Index.
+
+Each principle attempts to reduce reliance on implicit execution behavior by introducing explicit architectural control mechanisms.
+
+Examples include:
+
+- explicit analytical specifications;
+- structural validation;
+- execution traceability;
+- framework fidelity assessment;
+- iterative engineering validation.
+
+## Generalizability
+
+The principles presented in this volume should be interpreted as reusable engineering guidance rather than implementation-specific requirements.
+
+Although developed within the context of the Behmanesh Structural Index, the underlying concepts may also be applicable to other framework-oriented analytical systems that require reproducible execution of formal methodologies.
+
+Future empirical studies are expected to evaluate the applicability of these principles across broader classes of AI-assisted analytical environments.
+

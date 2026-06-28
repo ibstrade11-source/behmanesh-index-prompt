@@ -87,3 +87,36 @@ Third, interpretation drift represents a sufficiently recurring phenomenon to ju
 Cross-LLM validation strengthens confidence that interpretation drift is not merely an isolated implementation artifact.
 
 Rather, it represents a recurring engineering challenge that benefits from architecture-centered solutions.
+
+---
+
+## Scope of Cross-LLM Validation
+
+The comparative analyses presented in this volume are intended to evaluate the reproducibility of observed execution patterns across multiple large language models.
+
+The objective is not to establish absolute rankings among models or to claim superior performance of one implementation over another.
+
+Instead, cross-LLM validation serves as an engineering strategy for determining whether interpretation drift can be observed under different implementations of contemporary language models.
+
+## Comparative Evaluation Criteria
+
+Comparisons focus on execution-oriented properties rather than general capability.
+
+Representative evaluation dimensions include:
+
+- preservation of analytical specifications;
+- consistency of execution structure;
+- stability under repeated execution;
+- transparency of reasoning organization;
+- reproducibility of analytical workflows.
+
+These dimensions are evaluated qualitatively within the scope of this engineering investigation.
+
+## Interpretation of Comparative Results
+
+Observed similarities across different language models strengthen the hypothesis that interpretation drift is not necessarily confined to a single implementation.
+
+However, such observations should not be interpreted as evidence that all language models exhibit identical behaviors or identical failure mechanisms.
+
+The purpose of comparative evaluation is to guide architectural design rather than to characterize the internal properties of any individual model.
+
