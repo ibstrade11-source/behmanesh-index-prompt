@@ -234,3 +234,20 @@ individual language model.
 Within this framework, framework fidelity emerges as an architectural
 property produced by constrained execution rather than by prompt
 instructions alone.
+
+---
+
+## Execution Architecture as the Primary Research Object
+
+The principal object of investigation throughout this monograph
+is the execution architecture implemented by the Behmanesh
+Structural Index.
+
+Large Language Models are treated as external execution engines
+whose observable behavior provides engineering evidence for
+architectural design decisions.
+
+Accordingly, theoretical discussion focuses on specification
+execution, architectural governance, quality assurance,
+Framework Fidelity, and reproducible execution rather than
+internal model mechanisms.
