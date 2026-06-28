@@ -98,3 +98,16 @@ The central hypothesis investigated throughout this monograph is that preserving
 
 This distinction motivates the architectural mechanisms proposed in the Behmanesh Structural Index.
 
+
+---
+
+## Related Work
+
+Instruction following in large language models has been extensively studied in recent literature, particularly in the context of alignment and controllability (Ouyang et al., 2022).
+
+However, most prior work focuses on output correctness rather than **process-level adherence to structured analytical frameworks**.
+
+Recent studies on chain-of-thought reasoning demonstrate that intermediate reasoning structure can improve performance but do not guarantee strict procedural fidelity (Wei et al., 2022).
+
+This distinction is critical: interpretation drift is not merely an error in output quality, but a deviation in execution structure relative to a formal specification.
+
