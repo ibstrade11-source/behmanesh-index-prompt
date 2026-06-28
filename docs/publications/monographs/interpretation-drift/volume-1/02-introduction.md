@@ -18,7 +18,7 @@ but also upon preserving the structure, constraints, and semantics of
 the user-defined specification.
 
 Accordingly, the central engineering problem addressed in this
-monograph is not how to improve the internal reasoning capability of
+The purpose of this monograph is not to study the internal reasoning mechanisms of
 Large Language Models.
 
 Instead, the problem is how to increase the reliability of executing
@@ -29,7 +29,7 @@ user-defined analytical specifications.
 The Behmanesh Structural Index (BSI) approaches this problem through an
 execution-governance architecture.
 
-Rather than modifying the internal architecture of language models,
+Rather than operating on the internal architecture of language models,
 BSI structures the execution environment in which analytical
 specifications are interpreted, executed, validated, and reviewed.
 
