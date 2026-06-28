@@ -154,3 +154,17 @@ All principles are conditional on:
 - structured analytical input
 - externally defined procedural constraints
 
+
+---
+
+## Framework Fidelity as the Primary Architectural Objective
+
+The principal objective of the Behmanesh Structural Index is not merely
+to improve analytical quality.
+
+Its architectural objective is the preservation of formally specified
+analytical procedures throughout execution.
+
+Framework Fidelity therefore represents the principal engineering metric
+against which execution architectures should be evaluated.
+
