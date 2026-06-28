@@ -140,3 +140,40 @@ The Behmanesh Structural Index therefore introduces explicit mechanisms for:
 
 Collectively, these mechanisms reduce dependence on implicit model behavior and increase the reproducibility of framework-oriented execution.
 
+
+---
+
+## Epistemic Status of Causal Interpretation
+
+The analysis presented in this chapter does not claim to identify internal causal mechanisms of large language models.
+
+Instead, it presents a structured interpretation of recurring behavioral patterns observed at the system output level.
+
+All causal language used herein should be interpreted as **engineering-level abstraction**, not mechanistic explanation.
+
+## Constraint-Based Interpretation Model
+
+Given the absence of access to internal model states, root cause analysis is conducted under the following constraints:
+
+- only external outputs are observable
+- internal computation paths are not directly measurable
+- causal claims are therefore necessarily indirect
+
+This implies that all root cause statements must be understood as **inference from stable behavioral patterns**, not as direct mechanistic validation.
+
+## Consolidated Behavioral Drivers (Engineering Hypothesis Set)
+
+Based on repeated observations, the following categories are proposed as contributing factors to interpretation drift:
+
+- Specification ambiguity under natural language representation
+- Loss of intermediate structural constraints during generation
+- Optimization pressure toward fluent completion
+- Implicit restructuring of multi-step procedures
+- Compression of formal analytical steps into semantic summaries
+
+These are not mutually exclusive and may interact dynamically during execution.
+
+## Architectural Implication Principle
+
+If a behavior is stable across repeated observations, it is treated as a candidate engineering requirement for system-level mitigation.
+
