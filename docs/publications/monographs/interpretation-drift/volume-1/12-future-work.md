@@ -1,35 +1,53 @@
 # Future Work
 
-## Overview
+## Introduction
 
-This chapter outlines potential directions for extending the analysis and architectural response to interpretation drift.
+Interpretation drift represents an active engineering research area.
 
----
-
-## Direction 1: Formal Metrics
-
-Development of quantitative metrics for measuring structural fidelity and drift intensity.
+The architectural principles presented throughout this volume establish a foundation rather than a completed solution.
 
 ---
 
-## Direction 2: Automated Detection
+## Execution Engine Evolution
 
-Design of systems capable of automatically detecting interpretation drift during execution.
-
----
-
-## Direction 3: Broader Model Evaluation
-
-Extension of validation studies to a wider range of LLM architectures and configurations.
+Future versions of the BSI execution engine may introduce increasingly automated mechanisms for monitoring framework fidelity during execution.
 
 ---
 
-## Direction 4: Integration with Execution Engines
+## Quantitative Metrics
 
-Tighter integration of validation mechanisms into real-time execution pipelines.
+Future research should define measurable indicators capable of quantifying structural deviation objectively.
+
+Examples include execution-fidelity metrics, procedural completeness, and cumulative drift measurements.
+
+---
+
+## Automated Validation
+
+Execution validation may gradually evolve toward partially automated assessment pipelines capable of evaluating framework preservation independently of human reviewers.
+
+---
+
+## Cross-Framework Studies
+
+Interpretation drift should be investigated across multiple analytical methodologies rather than a single framework.
+
+Comparative studies may reveal framework-specific characteristics.
+
+---
+
+## Cross-Model Benchmarking
+
+Future evaluations should incorporate additional LLM implementations to improve confidence in architectural generality.
+
+---
+
+## Engineering Tooling
+
+Dedicated software tools capable of visualizing execution structure, procedural transitions, and framework fidelity represent promising directions for future development.
 
 ---
 
 ## Summary
 
-Future work focuses on transitioning from observational analysis to automated and scalable mitigation systems.
+Future work should continue transforming interpretation drift from a qualitative observation into a quantitatively measurable engineering property.

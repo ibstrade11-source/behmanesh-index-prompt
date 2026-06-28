@@ -1,35 +1,74 @@
 # Threats to Validity
 
-## Overview
+## Introduction
 
-This chapter outlines limitations and potential threats to the validity of the observations and interpretations presented in this monograph.
+Every engineering validation study possesses limitations.
 
----
-
-## Threat 1: Model-Specific Bias
-
-Although cross-model evaluation was performed, the set of tested models may not represent the full diversity of LLM architectures.
+Recognizing these limitations improves scientific transparency and identifies opportunities for future refinement.
 
 ---
 
-## Threat 2: Prompt Sensitivity
+## Internal Validity
 
-Results may be influenced by specific prompt formulations used during evaluation.
+Observed behaviors may be influenced by prompt formulation, interaction history, and execution context.
 
----
-
-## Threat 3: Interpretation Bias
-
-Structural interpretation of outputs may introduce subjective bias in identifying drift patterns.
+Repeated validation reduces but does not eliminate these effects.
 
 ---
 
-## Threat 4: Limited Observability
+## Construct Validity
 
-Internal model processes are not directly observable, limiting causal certainty.
+Interpretation drift is defined as a structural execution phenomenon.
+
+Alternative conceptualizations may emphasize different execution characteristics.
+
+Future research may refine these definitions.
+
+---
+
+## External Validity
+
+The observations documented in this monograph primarily concern contemporary LLM-based systems.
+
+Future architectures may demonstrate substantially different execution behavior.
+
+Accordingly, continuous validation remains necessary.
+
+---
+
+## Reproducibility
+
+Although validation methodology emphasizes repeatability, probabilistic execution inevitably introduces variation.
+
+Engineering conclusions therefore rely upon recurring behavioral patterns rather than identical outputs.
+
+---
+
+## Observer Bias
+
+Architectural interpretation follows empirical observation.
+
+Nevertheless, engineering judgment remains necessary when translating recurring observations into design decisions.
+
+Maintaining explicit separation between observation and inference reduces interpretive bias.
+
+---
+
+## Scope Limitations
+
+This work intentionally excludes:
+
+- internal model mechanisms;
+- training procedures;
+- optimization algorithms;
+- parameter analysis.
+
+The focus remains exclusively on observable execution behavior.
 
 ---
 
 ## Summary
 
-While evidence supports the existence of interpretation drift, conclusions remain bounded by observational constraints.
+These limitations do not invalidate the engineering conclusions presented throughout this monograph.
+
+Instead, they define the boundaries within which the current findings should be interpreted and extended.
