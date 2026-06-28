@@ -120,3 +120,40 @@ However, such observations should not be interpreted as evidence that all langua
 
 The purpose of comparative evaluation is to guide architectural design rather than to characterize the internal properties of any individual model.
 
+
+---
+
+## Epistemic Scope of Cross-Model Analysis
+
+Cross-LLM validation in this monograph is not intended as a comparative performance benchmark across models.
+
+Instead, it functions as an observational method for assessing whether structurally similar execution deviations appear under different generative systems.
+
+All conclusions are therefore limited to **pattern-level similarity**, not model equivalence.
+
+## Constraint on Generalization
+
+Observed similarities across different models do not imply:
+
+- identical internal mechanisms
+- shared architectural causes
+- uniform failure modes
+
+They only indicate that similar *output-level structural deviations* can emerge under comparable execution conditions.
+
+## Comparative Observation Dimensions
+
+The analysis is restricted to the following dimensions:
+
+- consistency of procedural structure
+- preservation of analytical frameworks
+- stability of multi-step execution patterns
+- susceptibility to structural compression
+- variability in interpretation of formal instructions
+
+These dimensions are intentionally defined at the output level to avoid unsupported internal claims.
+
+## Interpretation Boundary
+
+Any inference beyond observable behavior is explicitly classified as hypothesis rather than conclusion.
+
