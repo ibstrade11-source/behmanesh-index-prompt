@@ -2,53 +2,91 @@
 
 ## Purpose
 
-This monograph documents the architectural rationale, empirical validation, and engineering implications of one of the central design objectives of the Behmanesh Structural Index (BSI): reducing interpretation drift during the execution of formal analytical frameworks by Large Language Models (LLMs).
+This monograph documents the engineering rationale, empirical observations, validation methodology, and architectural decisions that led to one of the central design objectives of the Behmanesh Structural Index (BSI): improving framework fidelity during the execution of formal analytical methodologies by Large Language Models (LLMs).
 
-The objective of this work is not to introduce a new philosophical foundation for BSI. Rather, it documents how an already identified architectural concern was systematically examined, validated through controlled observations, and translated into engineering decisions within the BSI execution engine.
+The Behmanesh Structural Index is a framework-oriented analytical architecture whose primary objective is not merely to produce correct analytical outputs, but to ensure that formally specified analytical procedures are executed with structural integrity. Within this context, interpretation drift emerged as a significant engineering concern requiring explicit architectural treatment.
 
-## Scope
+This document records that engineering process.
 
-The document focuses on a specific class of execution failures in LLM-based analytical systems: deviations from formally specified methodologies caused by reinterpretation, omission, substitution, or unauthorized modification of framework definitions during execution.
+Unlike conventional research papers that begin with a theoretical hypothesis and proceed toward experimental validation, the work presented here follows an engineering lifecycle. Practical observations made during the development of BSI motivated architectural hypotheses, which were subsequently examined through structured validation studies and ultimately incorporated into the design of the BSI execution engine.
 
-The study follows the evolution of this problem from architectural observation to validation and finally to implementation-oriented design principles.
+Accordingly, this monograph should be understood as a record of architectural evolution rather than the introduction of a new philosophical doctrine.
+
+---
 
 ## Historical Context
 
-During the development of BSI, recurring execution inconsistencies were observed across multiple analytical interactions with LLMs. These inconsistencies did not necessarily originate from logical errors, but from systematic reinterpretation of formal specifications during execution.
+The architectural direction documented in this volume did not originate from the comparative experiments described later in this document.
 
-This recurring behavioral pattern motivated the design of architectural mechanisms intended to improve framework fidelity and reduce interpretation drift.
+During the iterative development of BSI, recurring execution inconsistencies were repeatedly observed while applying formal analytical frameworks to LLM-based systems. These observations suggested that execution behavior could diverge from formally specified methodologies even when the analytical framework itself was explicitly defined.
 
-Subsequent validation studies—including comparative analyses involving multiple LLMs—were conducted not to originate this architectural direction, but to evaluate whether the previously identified pattern could be independently reproduced and analyzed.
+Long before the comparative validation presented in later chapters, this recurring pattern had already motivated the initial design of architectural mechanisms intended to preserve framework fidelity and reduce structural deviations during execution.
 
-The results consistently supported the existence of interpretation drift as an engineering challenge deserving explicit architectural treatment.
+Consequently, the comparative studies involving multiple LLMs—including ChatGPT and Claude—should be interpreted as validation studies rather than discovery studies.
 
-## Position of This Monograph
+Their purpose was to determine whether the previously identified behavioral pattern represented an isolated implementation artifact or a broader characteristic of contemporary LLM-based analytical systems.
 
-This monograph should be understood as an engineering and validation document.
+The observed consistency across models strengthened confidence in the architectural assumptions already guiding the evolution of BSI.
 
-It does not attempt to redefine epistemology, replace existing analytical methodologies, or claim the discovery of a previously unknown phenomenon.
+---
 
-Instead, it documents:
+## Scope
 
-- the identification of an architectural risk;
-- the methodology used to validate that risk;
-- the reasoning behind the resulting architectural decisions; and
-- the implications for the design of framework-oriented execution engines.
+This monograph focuses on one specific engineering problem:
+
+> How can formally specified analytical frameworks be executed with higher structural fidelity in systems based on probabilistic language models?
+
+The work deliberately avoids broader philosophical claims regarding intelligence, cognition, or epistemology unless they directly influence engineering decisions.
+
+Instead, attention is restricted to observable execution behavior, measurable structural properties, architectural constraints, and reproducible validation procedures.
+
+---
+
+## Position Within the BSI Documentation
+
+This volume constitutes the first engineering monograph within the official BSI publication series.
+
+Its role is to document:
+
+- identification of interpretation drift;
+- development of the corresponding architectural hypothesis;
+- empirical validation methodology;
+- architectural response; and
+- resulting engineering principles.
+
+Subsequent volumes will extend these discussions toward execution-engine architecture, framework fidelity mechanisms, epistemic integrity, and broader validation studies.
+
+---
+
+## Methodological Philosophy
+
+A strict separation is maintained between:
+
+- empirical observation;
+- architectural inference;
+- engineering design; and
+- theoretical interpretation.
+
+Observed behavior precedes architectural inference.
+
+Architectural inference precedes implementation.
+
+Implementation precedes general engineering principles.
+
+Maintaining this discipline minimizes interpretation bias and improves reproducibility.
+
+---
 
 ## Intended Audience
 
-This work is intended for:
+This work is intended for researchers, AI architects, framework designers, and engineers interested in reliable execution of formal analytical methodologies using LLM-based systems.
 
-- researchers studying LLM reasoning and execution reliability;
-- architects designing framework-driven AI systems;
-- developers implementing structured analytical pipelines; and
-- reviewers interested in methodological fidelity and epistemic integrity.
+---
 
-## Guiding Principle
+## Guiding Engineering Principle
 
-Throughout this monograph, one principle remains constant:
+> Formal analytical frameworks should be executed as specified, not reinterpreted during execution.
 
-> Engineering decisions should follow validated observations, and execution engines should faithfully implement formal specifications rather than reinterpret them.
+Rather than attempting to eliminate probabilistic reasoning, BSI constrains execution such that structural deviations become observable, measurable, and architecturally manageable.
 
-This principle serves as one of the foundational engineering assumptions underlying the current architecture of BSI.
-
+This engineering philosophy underlies every design decision documented throughout this monograph.
