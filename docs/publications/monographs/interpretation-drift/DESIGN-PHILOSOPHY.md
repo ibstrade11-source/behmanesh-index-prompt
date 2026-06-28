@@ -1,11 +1,15 @@
 # Design Philosophy
 
-Architecture should address recurring behavioral patterns rather than
-isolated execution errors.
+Recurring execution patterns motivate architectural evolution.
 
-Accordingly, architectural evolution within the Behmanesh Structural
-Index follows a Pattern-Driven Engineering methodology.
+Observed execution deviations are analyzed to determine
+whether they indicate persistent execution failure modes.
 
-Observed execution patterns motivate architectural mechanisms.
+Architectural mechanisms are introduced to improve execution
+quality, increase structural consistency, and standardize
+framework execution.
 
-Individual examples alone do not.
+Interpretation Drift represents one important failure mode
+addressed by the execution architecture, but the architecture
+is designed to improve overall execution quality rather than
+to solve a single behavioral phenomenon.
