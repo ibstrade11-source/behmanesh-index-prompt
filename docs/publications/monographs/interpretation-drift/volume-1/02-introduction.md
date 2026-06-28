@@ -123,3 +123,16 @@ Its objective is to improve the reliability of framework-driven analytical
 execution through explicit architectural mechanisms that preserve externally
 specified analytical procedures.
 
+
+---
+
+## Execution Architecture as the Primary Research Question
+
+Rather than asking whether language models occasionally reinterpret
+formal analytical specifications, this work investigates how execution
+architectures can preserve specification integrity throughout model
+execution.
+
+Accordingly, the Behmanesh Structural Index should be interpreted as an
+execution architecture designed to reduce architectural uncertainty
+during framework-oriented analytical workflows.
