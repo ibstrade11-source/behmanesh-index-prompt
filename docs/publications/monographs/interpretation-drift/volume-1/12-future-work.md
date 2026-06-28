@@ -88,3 +88,16 @@ Potential research directions include:
 - specification-aware orchestration;
 - automated framework fidelity assessment.
 
+
+---
+
+## Future Evolution of the Execution Architecture
+
+Future work will extend the execution architecture through
+additional specification languages, automated execution
+verification, richer structural constraints, standardized
+validation protocols, execution evidence aggregation, and
+cross-LLM quality assurance.
+
+These directions focus on strengthening architectural control
+rather than modifying the internal behavior of language models.
