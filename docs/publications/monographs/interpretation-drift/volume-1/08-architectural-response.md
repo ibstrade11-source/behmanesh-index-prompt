@@ -127,3 +127,36 @@ Together these components establish a coordinated execution architecture.
 The architectural response presented here transforms interpretation drift from an unavoidable execution characteristic into a measurable engineering property.
 
 Rather than attempting to prevent every deviation, BSI provides architectural mechanisms for detecting, evaluating, and reducing structural divergence throughout framework execution.
+
+---
+
+## Architectural Design Principles
+
+The architectural response proposed in this monograph follows a systems engineering philosophy in which observed execution behaviors are translated into explicit architectural requirements.
+
+Rather than modifying the underlying language model, the proposed architecture surrounds model execution with engineering mechanisms intended to preserve analytical integrity.
+
+The resulting architecture separates three complementary responsibilities:
+
+- definition of analytical specifications;
+- controlled execution of those specifications;
+- independent validation of execution fidelity.
+
+This separation reduces the likelihood that implicit reinterpretation will silently alter formally defined analytical procedures.
+
+## Engineering Rationale
+
+The proposed architecture is based on a simple engineering assumption:
+
+Execution reliability should emerge from architectural control rather than implicit model behavior.
+
+Consequently, Framework Fidelity becomes an observable engineering objective that can be evaluated independently of model capability.
+
+This distinction enables architectural improvement without requiring changes to the internal implementation of the language model.
+
+## Position Within Engineering Research
+
+The architectural mechanisms presented throughout this volume should therefore be interpreted as implementation-oriented design patterns rather than theoretical claims regarding artificial intelligence.
+
+Their primary contribution lies in providing an engineering framework for improving the reproducibility, transparency, and structural consistency of framework-driven analytical systems.
+

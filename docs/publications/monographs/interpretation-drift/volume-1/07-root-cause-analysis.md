@@ -101,3 +101,42 @@ These requirements directly motivate the architectural response presented in the
 Root cause analysis indicates that interpretation drift is best understood as an emergent property of probabilistic execution interacting with formal analytical specifications.
 
 Accordingly, mitigation requires architectural support rather than reliance on increasingly detailed prompts alone.
+
+---
+
+## Engineering Perspective on Root Cause Analysis
+
+The objective of this chapter is not to attribute observed execution deviations to a single internal mechanism of large language models. Such causal claims would require direct access to model internals and controlled experimental evidence beyond the scope of this work.
+
+Instead, root cause analysis is conducted from an engineering perspective, treating the LLM as a system whose externally observable behavior can be analyzed through repeated execution.
+
+Accordingly, the analysis focuses on recurring execution patterns that consistently influence framework preservation.
+
+## Candidate Sources of Interpretation Drift
+
+Based on repeated observations, several engineering-level factors appear to contribute to interpretation drift.
+
+These include:
+
+- ambiguity in natural-language specifications;
+- prioritization of fluent response generation over procedural preservation;
+- implicit restructuring of analytical workflows;
+- omission of intermediate reasoning constraints;
+- adaptive reformulation of formally defined procedures.
+
+These factors are presented as engineering hypotheses derived from observed execution behavior rather than verified descriptions of model internals.
+
+## Architectural Requirements Derived from Root Cause Analysis
+
+The observed behavioral patterns suggest that improving execution reliability requires architectural mechanisms external to the language model itself.
+
+The Behmanesh Structural Index therefore introduces explicit mechanisms for:
+
+- specification preservation;
+- execution constraint management;
+- structural validation;
+- decision traceability;
+- framework fidelity assessment.
+
+Collectively, these mechanisms reduce dependence on implicit model behavior and increase the reproducibility of framework-oriented execution.
+
