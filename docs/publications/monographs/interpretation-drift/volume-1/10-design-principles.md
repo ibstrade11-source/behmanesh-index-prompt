@@ -108,3 +108,49 @@ Although developed within the context of the Behmanesh Structural Index, the und
 
 Future empirical studies are expected to evaluate the applicability of these principles across broader classes of AI-assisted analytical environments.
 
+
+---
+
+## Status of Design Principles
+
+The principles defined in this monograph are not prescriptive theories of general AI behavior.
+
+They are **engineering constraints derived from observed system behavior within a bounded experimental context**.
+
+## Principle Formalization Level
+
+Each principle is classified into one of three categories:
+
+### 1. Structural Constraint Principles
+Rules that enforce separation of specification, execution, and validation.
+
+### 2. Fidelity Preservation Principles
+Rules that aim to reduce divergence between formal specification and executed output.
+
+### 3. Traceability Principles
+Rules that ensure each step of execution can be mapped back to a defined specification element.
+
+## Reframing of "Best Practices"
+
+What may appear as general best practices are in fact:
+
+> context-specific engineering responses to observed failure modes.
+
+They should not be generalized beyond framework-oriented execution systems without further validation.
+
+## Generalizability Constraint
+
+The applicability of these principles outside the BSI context is intentionally left open.
+
+Any external application requires independent validation under equivalent observational conditions.
+
+## Engineering Principle Boundary Statement
+
+No principle in this chapter should be interpreted as a universal property of large language models.
+
+All principles are conditional on:
+
+- framework-based execution
+- structured analytical input
+- externally defined procedural constraints
+
