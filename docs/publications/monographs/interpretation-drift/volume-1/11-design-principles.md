@@ -8,4 +8,4 @@ relationship between formal specifications and language-model execution.
 
 These principles should therefore be interpreted as architectural design
 guidelines for framework-oriented analytical systems rather than
-recommendations for modifying language models.
+recommendations for operating independently of language models.

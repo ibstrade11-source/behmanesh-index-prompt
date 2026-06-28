@@ -9,4 +9,4 @@ Framework Fidelity, specification preservation, execution traceability,
 and reproducibility.
 
 The objective of future research is to strengthen execution governance
-rather than alter language-model architectures.
+rather than extend execution-governance architectures.
