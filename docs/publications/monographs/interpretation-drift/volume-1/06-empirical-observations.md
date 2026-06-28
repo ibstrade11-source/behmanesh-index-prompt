@@ -209,3 +209,15 @@ independent evaluators,
 cross-model comparisons,
 and statistical hypothesis testing.
 
+
+---
+
+## Observation Reliability
+
+Recurring observations obtained across independent analytical sessions
+provide stronger engineering evidence than isolated execution examples.
+
+Consequently,
+architectural conclusions are derived from repeated patterns
+rather than individual outputs.
+
