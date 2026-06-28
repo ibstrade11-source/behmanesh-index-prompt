@@ -157,3 +157,17 @@ These dimensions are intentionally defined at the output level to avoid unsuppor
 
 Any inference beyond observable behavior is explicitly classified as hypothesis rather than conclusion.
 
+
+---
+
+## Cross-LLM Validation as Architectural Evaluation
+
+The purpose of cross-model validation is not to rank language models.
+
+Instead, independent models constitute distinct execution environments
+through which architectural robustness can be evaluated.
+
+Recurring execution behaviors observed across multiple models provide
+engineering evidence supporting the need for architecture-level
+execution constraints.
+
