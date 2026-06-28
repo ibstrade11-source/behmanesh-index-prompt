@@ -21,7 +21,7 @@ execution.
 
 ## Intended Outcome
 
-The architecture seeks to improve:
+The architecture provides governance for:
 
 - specification preservation;
 - framework fidelity;
