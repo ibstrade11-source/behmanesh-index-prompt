@@ -103,3 +103,17 @@ Future architectural improvements may reduce or alter the behavioral patterns do
 
 Consequently, the findings presented here should be interpreted as engineering observations associated with the current generation of framework-oriented LLM execution systems rather than immutable characteristics of future models.
 
+
+---
+
+## Architectural Scope
+
+This monograph evaluates an execution architecture rather than proposing
+a universal theory describing all large language models.
+
+Consequently, architectural conclusions should be interpreted within the
+scope of framework-oriented execution systems.
+
+Further empirical validation involving additional models and independent
+research groups remains an important direction for future work.
+
