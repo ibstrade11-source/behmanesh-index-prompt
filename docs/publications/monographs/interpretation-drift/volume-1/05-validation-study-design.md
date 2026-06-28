@@ -256,3 +256,12 @@ and standardized analytical specifications.
 Independent replication represents a key requirement for evaluating
 framework-oriented execution reliability.
 
+
+---
+
+## Methodological Context
+
+The validation methodology described in this work is intended to align with
+established principles of empirical software engineering, emphasizing
+repeatability, transparent protocols, and independent verification.
+
