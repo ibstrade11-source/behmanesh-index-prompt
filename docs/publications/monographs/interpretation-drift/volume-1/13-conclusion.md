@@ -49,3 +49,21 @@ Interpretation Drift should therefore be understood as one important
 execution failure mode addressed by this architecture rather than its
 exclusive motivation.
 
+
+---
+
+## Final Engineering Perspective
+
+This work should not be interpreted as proposing changes to
+Large Language Models themselves.
+
+Its contribution is the design and validation of an external
+execution architecture capable of improving framework-oriented
+execution through explicit engineering control.
+
+The Behmanesh Structural Index therefore represents an
+architectural approach to execution quality, reproducibility,
+and Framework Fidelity.
+
+Observed execution failure modes provide empirical motivation
+for this architecture but do not define its overall scope.
