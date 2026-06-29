@@ -51,3 +51,13 @@ Before publication verify additionally:
 - appendix material introduces no conflicting architectural assumptions;
 - roadmap remains compatible with the declared scope;
 - audit documentation is complete.
+
+---
+
+Additional publication checks:
+
+- chapter ordering remains coherent;
+- appendix references remain valid;
+- terminology definitions remain unchanged;
+- roadmap remains consistent with declared scope;
+- future work introduces no present-tense claims.
