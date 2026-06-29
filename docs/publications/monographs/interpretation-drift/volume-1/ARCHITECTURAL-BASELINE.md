@@ -175,3 +175,13 @@ Every future architectural modification should document:
 - expected architectural consequences
 
 This policy preserves architectural continuity across the publication series.
+
+---
+
+## Architectural Consistency
+
+All architectural components presented throughout Volume I should be interpreted
+as elements of a single integrated specification.
+
+Individual chapters therefore describe different architectural perspectives
+rather than independent subsystems.
