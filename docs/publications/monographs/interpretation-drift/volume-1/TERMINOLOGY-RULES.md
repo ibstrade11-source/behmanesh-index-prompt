@@ -138,3 +138,14 @@ existing conceptual vocabulary.
 Renaming established concepts without explicit architectural justification is
 discouraged because it weakens longitudinal consistency across the research
 program.
+
+---
+
+## Terminology Stability Policy
+
+Terminology defined in Volume I should remain stable throughout subsequent
+volumes unless an explicit architectural revision is documented.
+
+When revisions become necessary, previous terminology should remain traceable
+through documented change history rather than silent replacement.
+
