@@ -118,3 +118,31 @@ confirmation.
 
 The separation between conceptual specification and empirical validation is
 maintained intentionally throughout the publication series.
+
+---
+
+## Additional Threats
+
+### Author Bias
+
+The architectural framework and the conceptual analysis originate from the
+same research program.
+
+Independent replication is therefore required before broader conclusions may
+be drawn.
+
+### Framework Generalizability
+
+The present volume primarily discusses execution governance within the context
+of the Behmanesh Structural Index.
+
+Future studies should investigate whether identical governance principles
+extend to additional analytical methodologies.
+
+### Observer Effects
+
+Execution behavior may change when models receive explicit governance
+instructions.
+
+Future empirical studies should therefore compare governed and unguided
+execution under controlled conditions.
