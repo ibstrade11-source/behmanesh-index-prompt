@@ -91,3 +91,26 @@ structural inconsistencies between specification and execution.
 The four concepts therefore occupy distinct architectural roles and shall not
 be interpreted interchangeably.
 
+
+---
+
+## Architectural Assumptions
+
+The proposed architecture assumes that execution quality emerges from
+structured interaction between specification, governance mechanisms, and
+execution processes.
+
+Framework Fidelity therefore represents an architectural consequence of
+correct governance rather than an intrinsic property of a language model.
+
+Execution Governance operates by preserving specification consistency
+throughout analytical execution.
+
+---
+
+## Architectural Scope
+
+The present theoretical formulation intentionally remains independent of
+particular prompting strategies, model architectures, benchmark datasets,
+or implementation technologies.
+
