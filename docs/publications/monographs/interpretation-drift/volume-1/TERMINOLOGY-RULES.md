@@ -99,3 +99,14 @@ definition.
 
 Terminological consistency is considered an architectural requirement rather
 than an editorial preference.
+
+---
+
+## Terminology Stability Policy
+
+Terminology defined within Volume I constitutes the architectural vocabulary
+of the research program.
+
+Future terminology may extend this vocabulary but should avoid redefining
+previously established concepts without explicit architectural justification.
+
