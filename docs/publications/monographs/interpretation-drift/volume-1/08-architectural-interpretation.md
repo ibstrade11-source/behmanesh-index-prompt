@@ -55,3 +55,32 @@ Consequently, isolated execution anomalies should be interpreted as
 observations requiring further investigation rather than immediate evidence
 for architectural modification.
 
+
+---
+
+## Interpretation Framework
+
+Architectural interpretation transforms recurring execution observations
+into engineering knowledge.
+
+The objective is not merely to describe execution phenomena but to
+identify stable structural relationships capable of supporting
+architectural design decisions.
+
+Accordingly, Interpretation Drift acquires architectural significance
+only after repeated observation across independent analytical
+executions.
+
+Single isolated observations are therefore insufficient to justify
+architectural modification.
+
+---
+
+## Architectural Generalization
+
+Generalization proceeds from recurring execution structure rather than
+individual conversational outcomes.
+
+The resulting architectural principles remain independent of particular
+language models, prompts, or analytical domains.
+
