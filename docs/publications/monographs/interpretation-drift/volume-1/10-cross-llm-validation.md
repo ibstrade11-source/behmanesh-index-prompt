@@ -217,3 +217,17 @@ models while holding analytical specifications constant.
 
 Observed differences should therefore be interpreted as execution
 characteristics rather than indicators of intrinsic model superiority.
+
+---
+
+## Reproducibility Philosophy
+
+Architectural reproducibility extends beyond obtaining identical analytical
+outputs.
+
+Instead, reproducibility is evaluated according to preservation of the
+execution specification, governance structure, procedural consistency,
+decision traceability, and framework fidelity across independent executions.
+
+This perspective intentionally distinguishes architectural reproducibility
+from output similarity alone.
