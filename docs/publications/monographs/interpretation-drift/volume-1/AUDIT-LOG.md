@@ -129,3 +129,14 @@ entry documenting:
 
 Historical audit entries should remain immutable to preserve architectural
 traceability.
+
+---
+
+## Audit Continuity Policy
+
+Each completed editorial cycle should append a new audit entry.
+
+Historical audit records shall remain immutable to preserve execution
+traceability and specification history.
+
+Audit continuity constitutes part of the architectural governance process.
