@@ -245,3 +245,14 @@ Although this investigation was conducted within the context of the Behmanesh
 Structural Index, the methodology may also inform the engineering of other
 execution-governance systems whose objective is faithful specification
 execution rather than specification reinterpretation.
+
+---
+
+## Historical Perspective
+
+This appendix documents one stage in the evolution of an architectural
+research program.
+
+Its principal value lies in preserving the reasoning process that connected
+empirical observations with architectural evaluation, thereby improving future
+traceability of design decisions.
