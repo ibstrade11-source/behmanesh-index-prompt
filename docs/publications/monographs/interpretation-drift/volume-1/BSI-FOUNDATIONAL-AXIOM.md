@@ -10,3 +10,16 @@ possible to the user's specification.
 Accordingly, architectural quality is evaluated by execution fidelity,
 specification preservation, traceability, and reproducibility rather
 than by changes to the language model itself.
+
+---
+
+## Engineering Interpretation
+
+The foundational axiom should be interpreted as a design constraint rather
+than a theoretical hypothesis.
+
+Every subsequent architectural component should therefore demonstrate
+consistency with this axiom before introducing additional complexity.
+
+This principle supports long-term architectural coherence across the complete
+research program.
