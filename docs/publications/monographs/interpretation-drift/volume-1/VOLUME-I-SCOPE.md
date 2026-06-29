@@ -40,3 +40,19 @@ The present volume intentionally excludes:
 
 Their absence should be interpreted as deliberate scope control rather than
 research omission.
+
+---
+
+## Scope Boundary
+
+Volume I intentionally excludes:
+
+- quantitative benchmarking;
+- software implementation;
+- mathematical proofs;
+- production deployment;
+- optimization studies;
+- performance comparisons.
+
+These exclusions preserve conceptual focus while providing a stable foundation
+for subsequent engineering work.
