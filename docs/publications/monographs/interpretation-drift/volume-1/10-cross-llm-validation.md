@@ -205,3 +205,15 @@ opportunities.
 
 The unit of analysis therefore remains execution behavior rather than model
 capability.
+
+---
+
+## Architectural Evaluation Strategy
+
+Cross-LLM evaluation focuses on preservation of architectural behavior.
+
+Future studies should compare execution traces across multiple language
+models while holding analytical specifications constant.
+
+Observed differences should therefore be interpreted as execution
+characteristics rather than indicators of intrinsic model superiority.
