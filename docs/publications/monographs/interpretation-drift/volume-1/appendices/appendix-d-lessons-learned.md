@@ -101,3 +101,17 @@ simultaneously as:
 
 Future investigations may extend this methodology to additional language
 models and analytical frameworks.
+
+---
+
+## Case Study Limitations
+
+The observations presented throughout this appendix originate from one
+extended validation case.
+
+Although multiple recurring behavioral patterns were identified, broader
+generalization requires replication across additional language models,
+interaction settings, analytical frameworks, and independent investigators.
+
+Accordingly, the present case should be interpreted as evidence supporting
+future investigation rather than as definitive proof.
