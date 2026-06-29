@@ -124,3 +124,16 @@ governance deficiencies rather than as an isolated execution defect.
 
 This distinction separates architectural diagnosis from individual model
 evaluation.
+
+---
+
+## Interpretation Policy
+
+Architectural interpretation proceeds from observed execution patterns toward
+stable governance principles.
+
+Interpretation Drift therefore functions as observational evidence supporting
+architectural refinement rather than serving as the architectural objective
+itself.
+
+This distinction remains invariant throughout the monograph.
