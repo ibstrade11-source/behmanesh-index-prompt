@@ -166,3 +166,17 @@ consistency.
 
 Execution governance therefore functions as a structural response to recurring
 execution variability.
+
+---
+
+## Architectural Perspective
+
+Interpretation Drift should be interpreted as an observable execution
+behavior revealing limitations in specification preservation.
+
+Within this architecture, observed execution behavior functions as
+engineering evidence used to motivate governance mechanisms rather than
+as an independent theoretical endpoint.
+
+This distinction separates diagnostic observation from architectural
+design.
