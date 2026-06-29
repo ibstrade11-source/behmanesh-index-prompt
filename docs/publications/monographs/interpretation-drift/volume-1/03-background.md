@@ -28,3 +28,17 @@ architectural evaluation.
 Volume I represents the first comprehensive consolidation of these concepts
 into a unified architectural specification intended to support future
 mathematical, empirical, and engineering development.
+
+---
+
+## Relationship to Existing Work
+
+The Behmanesh Structural Index is not presented as an orchestration framework,
+a prompting methodology, or an alignment technique.
+
+Instead, it is proposed as an execution-governance architecture whose primary
+objective is preserving faithful execution of formally specified analytical
+frameworks.
+
+Accordingly, its intended scope is complementary to existing language-model
+engineering approaches rather than a replacement for them.
