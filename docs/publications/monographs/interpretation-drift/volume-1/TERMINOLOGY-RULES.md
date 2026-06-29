@@ -30,3 +30,13 @@ Whenever a new architectural concept is introduced it shall explicitly define:
 - specification dependency.
 
 Backward compatibility of terminology is considered mandatory.
+
+---
+
+## Terminology Stability
+
+Architectural terminology defined in Volume I forms the normative vocabulary
+for the remainder of the monograph series.
+
+New terminology may be introduced only when accompanied by explicit
+definitions and documented relationships to existing concepts.
