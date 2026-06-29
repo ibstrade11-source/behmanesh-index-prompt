@@ -49,3 +49,37 @@ Behmanesh Structural Index.
 Future research should evaluate the architecture using multiple independent
 analytical frameworks to determine broader applicability.
 
+
+---
+
+## Additional Threats
+
+### Author Bias
+
+The architectural framework and the accompanying monograph originate
+from the same research program.
+
+Independent replication is therefore necessary to evaluate architectural
+generality.
+
+### Framework Dependence
+
+Current observations originate primarily from the Behmanesh Structural
+Index.
+
+Future investigations should evaluate additional analytical frameworks.
+
+### Observer Effects
+
+Execution behavior may vary when evaluation procedures are explicitly
+known by the executing language model.
+
+Future controlled studies should investigate this effect.
+
+### External Validity
+
+The present volume establishes conceptual architecture rather than
+general empirical conclusions.
+
+Generalization therefore depends upon subsequent validation studies.
+
