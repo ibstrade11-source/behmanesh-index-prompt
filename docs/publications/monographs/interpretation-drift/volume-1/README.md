@@ -169,3 +169,14 @@ execution-governance architecture rather than as an independent discussion.
 
 Supporting specification documents, terminology rules, audit procedures, and
 roadmap appendices collectively define the complete conceptual baseline.
+
+---
+
+## Recommended Reading Order
+
+Readers seeking conceptual understanding are encouraged to study the
+architectural chapters before reviewing appendices.
+
+The appendices provide governance policies, specification constraints,
+terminology, audit mechanisms, and long-term planning that complement the
+main architectural narrative.
