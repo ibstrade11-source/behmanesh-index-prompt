@@ -144,3 +144,19 @@ rather than defects of any individual language model.
 
 Consequently, the engineering objective is the governance of execution rather
 than modification of model internals.
+
+---
+
+## Engineering Constraints
+
+Execution governance is motivated by practical engineering constraints rather
+than theoretical assumptions regarding model cognition.
+
+The architecture assumes that analytical quality depends upon reliable
+execution of formally specified procedures.
+
+Accordingly, governance mechanisms operate at the execution layer while
+remaining independent of model internals.
+
+This separation preserves architectural portability across future language
+models and execution environments.
