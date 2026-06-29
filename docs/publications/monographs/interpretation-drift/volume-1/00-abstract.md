@@ -20,3 +20,12 @@ analytical procedures.
 Observed execution failure modes, including Interpretation Drift,
 serve as empirical evidence motivating these architectural
 mechanisms rather than defining the scope of the architecture.
+
+---
+
+The contribution of this volume is therefore architectural rather than
+experimental.
+
+Its primary deliverable is a coherent execution-governance specification that
+provides a stable foundation for future mathematical formalization,
+experimental validation, software implementation, and operational deployment.
