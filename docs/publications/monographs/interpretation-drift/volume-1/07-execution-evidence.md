@@ -48,3 +48,18 @@ Examples include:
 These observations motivate architectural governance without making claims
 regarding the internal reasoning mechanisms of language models.
 
+
+---
+
+## Engineering Interpretation
+
+Execution evidence should not be interpreted as isolated model failures.
+
+Instead, repeated structural observations are treated collectively as indicators
+that architectural governance mechanisms are required.
+
+Individual observations remain insufficient for architectural conclusions.
+
+Only recurring structural patterns justify modifications to execution
+governance.
+
