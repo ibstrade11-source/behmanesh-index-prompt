@@ -124,3 +124,34 @@ operates independently of model identity.
 Architectural validity therefore depends on specification preservation
 rather than comparative model capability.
 
+
+---
+
+## Architectural Validation Strategy
+
+Cross-LLM validation evaluates whether architectural behavior remains
+stable across heterogeneous execution environments.
+
+The objective is not comparative model ranking.
+
+Instead, identical specifications are executed under identical analytical
+conditions while preserving equivalent governance procedures.
+
+Architectural consistency is assessed through:
+
+- specification preservation;
+- execution ordering;
+- procedural consistency;
+- traceability completeness;
+- framework fidelity.
+
+Observed differences between language models therefore become
+architectural observations rather than competitive performance metrics.
+
+---
+
+## Generalization Philosophy
+
+Architectural validity increases when identical governance principles
+remain effective despite variation in underlying implementation.
+
