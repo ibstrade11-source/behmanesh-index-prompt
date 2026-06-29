@@ -36,3 +36,16 @@ specification over exhaustive technical elaboration.
 Subsequent volumes progressively expand empirical evidence, mathematical
 formalization, implementation details, and validation studies while preserving
 the architectural specification established here.
+
+---
+
+## Reader Expectations
+
+Readers should interpret every chapter as one component of a progressively
+constructed architectural specification.
+
+Individual chapters intentionally avoid exhaustive treatment in order to
+preserve architectural clarity and minimize premature engineering detail.
+
+The cumulative interpretation of the complete volume therefore carries greater
+architectural significance than isolated chapter reading.
