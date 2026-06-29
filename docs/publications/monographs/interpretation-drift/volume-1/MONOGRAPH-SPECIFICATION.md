@@ -95,3 +95,14 @@ architectural objective.
 
 Architectural evolution is therefore expected to occur through additive
 clarification rather than conceptual replacement.
+
+---
+
+## Specification Evolution
+
+Architectural specifications are expected to evolve through controlled
+extensions rather than conceptual replacement.
+
+Backward compatibility of architectural concepts should therefore be preserved
+throughout future monograph volumes whenever possible.
+
