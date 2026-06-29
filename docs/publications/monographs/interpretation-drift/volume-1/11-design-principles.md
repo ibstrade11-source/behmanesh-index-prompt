@@ -156,3 +156,17 @@ verification and future replacement without affecting specification semantics.
 
 These constraints define the stability requirements of the proposed
 architecture independently of future implementation choices.
+
+---
+
+## Architectural Design Philosophy
+
+Every architectural component should contribute to specification preservation.
+
+Complexity should only be introduced when it improves governance,
+traceability, reproducibility, or execution consistency.
+
+Architectural decisions should remain independent from individual language
+model implementations to maximize long-term applicability.
+
+Governance mechanisms should remain explainable, inspectable, and auditable.
