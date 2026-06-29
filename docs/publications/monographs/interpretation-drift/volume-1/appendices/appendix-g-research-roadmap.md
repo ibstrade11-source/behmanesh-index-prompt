@@ -179,3 +179,41 @@ Implementation precedes operational deployment.
 
 Skipping dependency levels is discouraged because it weakens architectural
 traceability.
+
+---
+
+## Long-Term Publication Vision
+
+The complete publication program is expected to evolve through successive
+volumes that progressively introduce:
+
+- formal mathematical models;
+- controlled empirical validation;
+- reference software implementations;
+- benchmark datasets;
+- reproducibility studies;
+- governance tooling;
+- industrial deployment guidance.
+
+Each future volume is intended to preserve the architectural specification
+established in Volume I while expanding technical depth.
+
+---
+
+## Long-Term Publication Vision
+
+The Behmanesh Structural Index publication program is intended to evolve
+through a sequence of progressively more detailed monographs.
+
+Successive volumes are expected to introduce:
+
+- mathematical formalization;
+- engineering metrics;
+- controlled experimentation;
+- benchmark datasets;
+- software implementation;
+- governance tooling;
+- industrial case studies;
+- operational deployment guidance.
+
+Architectural continuity shall be preserved across all future publications.
