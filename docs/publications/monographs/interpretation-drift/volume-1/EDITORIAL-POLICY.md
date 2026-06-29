@@ -21,3 +21,13 @@ Concepts should be defined once and referenced thereafter.
 
 Repeated explanatory material should be minimized unless repetition serves a
 clear pedagogical or architectural purpose.
+
+---
+
+## Freeze Policy
+
+Following publication of Volume I, subsequent modifications should normally be
+limited to editorial corrections, bibliographic improvements, and errata.
+
+Substantive architectural evolution is expected to occur within future
+volumes rather than through continual modification of the conceptual baseline.
