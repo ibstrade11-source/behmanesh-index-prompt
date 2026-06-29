@@ -63,3 +63,21 @@ Individual observations remain insufficient for architectural conclusions.
 Only recurring structural patterns justify modifications to execution
 governance.
 
+
+---
+
+## Representative Observations
+
+The categories presented in this chapter summarize recurring execution
+behaviors observed during analytical experimentation.
+
+Individual observations are treated as architectural indicators rather
+than isolated failures.
+
+Repeated appearance of identical structural behaviors across independent
+analytical sessions motivates the introduction of execution governance as
+an architectural response.
+
+Comprehensive empirical datasets remain outside the scope of Volume I and
+are reserved for subsequent volumes.
+
