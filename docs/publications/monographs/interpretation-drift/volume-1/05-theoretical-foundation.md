@@ -141,3 +141,22 @@ execution behavior.
 These concepts operate together while preserving clearly separated
 architectural responsibilities.
 
+
+---
+
+## Architectural Assumptions
+
+The proposed architecture assumes that analytical correctness depends upon the
+preservation of specification semantics throughout execution.
+
+Language models are therefore considered execution environments operating under
+externally defined governance constraints.
+
+Architectural correctness does not imply factual correctness of every produced
+statement.
+
+Instead, it indicates that execution remained structurally consistent with the
+declared analytical specification.
+
+This distinction separates architectural governance from domain expertise,
+factual verification, and model capability evaluation.
