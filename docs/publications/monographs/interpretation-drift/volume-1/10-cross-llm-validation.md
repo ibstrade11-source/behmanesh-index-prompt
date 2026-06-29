@@ -261,3 +261,16 @@ protocol suitable for future empirical investigation.
 
 Accordingly, this material should not be interpreted as evidence that the
 proposed evaluation has already been executed.
+
+---
+
+## Protocol versus Evidence
+
+Within this monograph a distinction is maintained between:
+
+- protocol specification;
+- experimental execution;
+- observed measurements;
+- engineering interpretation.
+
+Volume I contributes only the protocol specification.
