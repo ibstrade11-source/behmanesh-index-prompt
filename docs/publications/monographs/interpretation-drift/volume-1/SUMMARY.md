@@ -65,3 +65,17 @@ Volume I contributes:
 Empirical validation, quantitative analysis, and software implementation
 remain intentionally outside the declared scope of this volume.
 
+
+---
+
+## Executive Summary
+
+Volume I establishes the conceptual architecture required for execution
+governance.
+
+It intentionally separates architectural specification from empirical
+validation, mathematical formalization, software implementation, and
+operational deployment.
+
+These subsequent activities remain documented within the long-term research
+roadmap while preserving the conceptual boundaries defined for this volume.
