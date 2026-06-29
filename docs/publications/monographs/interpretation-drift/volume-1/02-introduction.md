@@ -59,3 +59,27 @@ architectures.
 
 This separation increases architectural longevity and implementation
 portability.
+
+---
+
+## Research Questions
+
+The conceptual architecture presented throughout this volume is motivated by
+a small set of engineering questions.
+
+RQ1.
+Can formally specified analytical frameworks be executed more faithfully
+through architectural governance mechanisms than through prompt engineering
+alone?
+
+RQ2.
+Can interpretation drift be treated as observable architectural evidence
+rather than as an isolated model behavior?
+
+RQ3.
+Can execution governance be specified independently of any individual large
+language model implementation?
+
+These questions define the conceptual boundaries of Volume I and motivate the
+research program documented throughout the remainder of the monograph.
+
