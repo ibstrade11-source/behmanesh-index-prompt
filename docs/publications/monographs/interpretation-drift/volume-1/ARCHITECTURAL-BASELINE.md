@@ -123,3 +123,17 @@ specification revisions rather than incremental undocumented modifications.
 
 Each architectural revision should preserve backward traceability to earlier
 baseline definitions.
+
+---
+
+## Engineering Assumptions
+
+The present architecture assumes that analytical execution can be represented
+as an observable sequence of specification-governed transitions.
+
+Execution governance therefore operates at the level of process organization
+rather than model internals.
+
+This assumption intentionally separates architectural verification from
+language-model implementation details, allowing future systems to evolve
+without invalidating the architectural specification.
