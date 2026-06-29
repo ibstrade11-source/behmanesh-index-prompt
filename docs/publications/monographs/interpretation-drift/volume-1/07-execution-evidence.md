@@ -109,3 +109,19 @@ Execution evidence may be classified according to:
 
 This classification supports systematic architectural analysis.
 
+
+---
+
+## Interpretation of Evidence
+
+Execution evidence should be interpreted cumulatively rather than
+independently.
+
+Individual observations may not justify architectural conclusions.
+
+Instead, recurring structural patterns observed across multiple analytical
+executions provide the engineering motivation for introducing explicit
+execution governance.
+
+Architectural evidence therefore functions as specification-supporting
+observation rather than empirical proof of architectural superiority.
