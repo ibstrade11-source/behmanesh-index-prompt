@@ -74,3 +74,16 @@ rather than a one-time editorial activity.
 Every future revision should preserve specification fidelity while documenting
 all architectural modifications through explicit audit records.
 
+
+---
+
+## Audit Maintenance
+
+Every substantial architectural revision should be followed by a complete
+consistency audit.
+
+Audit results should remain reproducible and independently verifiable whenever
+possible.
+
+Historical audit records should accumulate rather than overwrite previous
+verification evidence.
