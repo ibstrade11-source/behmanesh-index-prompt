@@ -63,3 +63,14 @@ Each future revision should verify:
 - appendix consistency.
 
 Every completed audit should be recorded within AUDIT-LOG.md.
+
+---
+
+## Audit Philosophy
+
+Architectural consistency is treated as a continuously verifiable property
+rather than a one-time editorial activity.
+
+Every future revision should preserve specification fidelity while documenting
+all architectural modifications through explicit audit records.
+
