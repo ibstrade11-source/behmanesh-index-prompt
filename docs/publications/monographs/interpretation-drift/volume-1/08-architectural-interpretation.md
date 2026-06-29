@@ -84,3 +84,25 @@ individual conversational outcomes.
 The resulting architectural principles remain independent of particular
 language models, prompts, or analytical domains.
 
+
+---
+
+## Interpretation Strategy
+
+Architectural interpretation transforms recurring execution observations
+into engineering knowledge.
+
+Individual observations are intentionally treated as insufficient for
+architectural conclusions.
+
+Instead, repeated structural regularities provide the basis for
+architectural interpretation.
+
+---
+
+## Engineering Perspective
+
+Architectural interpretation therefore functions as a bridge connecting
+empirical observation with architectural refinement while preserving
+clear separation between evidence and specification.
+
