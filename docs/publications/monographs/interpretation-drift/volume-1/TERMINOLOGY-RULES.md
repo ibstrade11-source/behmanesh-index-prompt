@@ -110,3 +110,17 @@ of the research program.
 Future terminology may extend this vocabulary but should avoid redefining
 previously established concepts without explicit architectural justification.
 
+
+---
+
+## Terminology Stability
+
+Terminology defined within this volume shall remain stable across future
+volumes unless explicitly superseded through documented architectural
+revision.
+
+Terminological stability contributes directly to specification preservation,
+traceability, and reproducibility throughout the research program.
+
+Any future terminology changes should therefore include explicit migration
+notes documenting conceptual continuity.
