@@ -85,3 +85,17 @@ formally documented architectural revision is explicitly introduced.
 
 Architectural evolution therefore proceeds through controlled extension rather
 than uncontrolled conceptual modification.
+
+---
+
+## Baseline Evolution Policy
+
+The architectural baseline established by Volume I shall evolve only through
+explicit architectural revision.
+
+Incremental engineering improvements shall extend the baseline without
+altering its governing assumptions unless such changes are formally documented
+and justified.
+
+Backward architectural traceability shall be preserved throughout future
+volumes.
