@@ -99,3 +99,17 @@ Every future architectural revision should be accompanied by:
 
 Audit records should remain cumulative to preserve complete architectural
 traceability.
+
+---
+
+## Audit Policy
+
+Every future audit should identify:
+
+- specification version;
+- reviewed documents;
+- identified deviations;
+- corrective actions;
+- publication status.
+
+Historical audit entries shall remain immutable.
