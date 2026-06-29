@@ -106,3 +106,16 @@ extensions rather than conceptual replacement.
 Backward compatibility of architectural concepts should therefore be preserved
 throughout future monograph volumes whenever possible.
 
+
+---
+
+## Specification Evolution
+
+The architectural specification documented in Volume I represents the baseline
+reference against which future revisions should be evaluated.
+
+Extensions are encouraged.
+
+Contradictory redefinitions of architectural objectives, terminology, or
+scope should instead be documented as explicit architectural revisions rather
+than silent modifications.
