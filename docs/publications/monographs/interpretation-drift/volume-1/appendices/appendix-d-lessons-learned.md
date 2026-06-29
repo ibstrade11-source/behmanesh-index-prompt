@@ -256,3 +256,14 @@ research program.
 Its principal value lies in preserving the reasoning process that connected
 empirical observations with architectural evaluation, thereby improving future
 traceability of design decisions.
+
+---
+
+## Transition to Volume II
+
+The lessons summarized here complete the conceptual phase of the present
+volume.
+
+Subsequent volumes are expected to transform these validated architectural
+principles into formal models, empirical methodologies, implementation
+strategies, and operational evaluation procedures.
