@@ -150,3 +150,18 @@ where governance mechanisms may improve specification preservation.
 
 Accordingly, evidence serves diagnostic rather than evaluative purposes within
 the architectural framework.
+
+---
+
+## Interpretation Principles
+
+Observed execution failures should not be interpreted as isolated model
+mistakes.
+
+Instead, recurring failure patterns provide architectural evidence regarding
+limitations of unguided execution.
+
+Architectural analysis therefore emphasizes repeated structural observations
+rather than individual execution instances.
+
+This distinction separates engineering evidence from anecdotal examples.
