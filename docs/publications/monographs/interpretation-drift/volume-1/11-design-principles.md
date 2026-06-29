@@ -199,3 +199,13 @@ Execution governance should preserve stable architectural behavior under:
 
 Architectural robustness therefore depends upon stability of specification
 rather than stability of generated text.
+
+---
+
+## Design Evolution Principles
+
+Future architectural evolution should preserve compatibility with previously
+published specifications whenever possible.
+
+When incompatible revisions become necessary, explicit migration guidance and
+architectural justification should accompany every specification revision.
