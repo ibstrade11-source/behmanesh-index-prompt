@@ -175,3 +175,16 @@ model-quality rankings.
 
 The primary evaluation object remains the preservation of architectural
 specification throughout analytical execution.
+
+---
+
+## Validation Philosophy
+
+Cross-LLM validation is intended to evaluate architectural robustness rather
+than comparative model capability.
+
+Future evaluations should include multiple model families executing identical
+analytical specifications under equivalent governance constraints.
+
+Observed similarities and differences will therefore be interpreted as
+architectural observations rather than competitive benchmarking.
