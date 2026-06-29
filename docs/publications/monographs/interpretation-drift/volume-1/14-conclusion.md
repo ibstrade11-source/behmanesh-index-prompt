@@ -35,3 +35,22 @@ Appendix G (Research Roadmap).
 Volume I intentionally concludes after establishing the architectural
 foundation required for subsequent empirical and implementation-oriented
 volumes.
+
+---
+
+## Closing Perspective
+
+This volume establishes the architectural specification required for
+Execution Governance.
+
+Its principal contribution is therefore conceptual stabilization rather than
+empirical demonstration.
+
+Subsequent volumes progressively extend this foundation through mathematical
+formalization, controlled experimentation, engineering implementation,
+software realization, and long-term validation.
+
+The architectural specification presented here should therefore be regarded
+as the reference baseline for all future developments within the research
+program.
+
