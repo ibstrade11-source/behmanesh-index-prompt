@@ -118,3 +118,18 @@ Audit Layer preserves traceability across the complete analytical lifecycle.
 
 Each layer operates independently while contributing collectively to
 architectural integrity.
+
+---
+
+## Architectural Characteristics
+
+The proposed architecture is intended to be:
+
+- modular;
+- extensible;
+- specification-driven;
+- execution-oriented;
+- implementation-independent.
+
+These characteristics facilitate incremental refinement without requiring
+changes to the governing architectural specification.
