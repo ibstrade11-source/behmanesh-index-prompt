@@ -107,3 +107,24 @@ developments will be constructed.
 
 The architectural specification defined here should remain stable throughout
 subsequent volumes.
+
+---
+
+## Reading Sequence
+
+Recommended reading order:
+
+1. Abstract
+2. Preface
+3. Introduction
+4. Problem Definition
+5. Theoretical Foundation
+6. Validation Design
+7. Execution Evidence
+8. Architecture
+9. Threats to Validity
+10. Conclusion
+11. Appendices
+
+This sequence follows the architectural dependency structure adopted by the
+monograph.
