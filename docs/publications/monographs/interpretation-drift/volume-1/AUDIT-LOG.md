@@ -113,3 +113,19 @@ Every future audit should identify:
 - publication status.
 
 Historical audit entries shall remain immutable.
+
+---
+
+## Audit Policy
+
+Every substantial architectural revision should be accompanied by a new audit
+entry documenting:
+
+- specification version;
+- executed consistency checks;
+- observed deviations;
+- corrective actions;
+- publication readiness.
+
+Historical audit entries should remain immutable to preserve architectural
+traceability.
