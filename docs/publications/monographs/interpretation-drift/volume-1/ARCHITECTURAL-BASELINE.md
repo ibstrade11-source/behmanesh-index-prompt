@@ -58,3 +58,16 @@ principles, or specification boundaries.
 
 Architectural evolution is therefore cumulative rather than replacement-based.
 
+
+---
+
+## Baseline Preservation Policy
+
+The architectural baseline established in Volume I shall remain the stable
+reference against which all future architectural revisions are evaluated.
+
+Future volumes may extend, refine, or operationalize this baseline but shall
+explicitly document every architectural deviation together with its rationale.
+
+Architectural evolution is therefore governed through documented specification
+preservation rather than implicit modification.
