@@ -28,3 +28,19 @@ The architecture should remain:
 Each principle contributes to long-term architectural stability rather than
 short-term optimization of any individual execution.
 
+
+---
+
+## Separation of Responsibilities
+
+Analytical frameworks define procedural specifications.
+
+Execution governance preserves those specifications.
+
+Language models execute governed procedures.
+
+Evaluation mechanisms verify architectural compliance.
+
+Separating these responsibilities reduces conceptual ambiguity while improving
+long-term maintainability of the execution architecture.
+
