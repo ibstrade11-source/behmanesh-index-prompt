@@ -1,26 +1,12 @@
 # Architectural Constraints
 
-## Constraint 1
+The architecture described in Volume I intentionally operates under the
+following constraints:
 
-Execution Governance shall remain the architectural objective.
+- no modification of internal LLM reasoning;
+- no dependence upon model-specific implementations;
+- explicit analytical specifications;
+- externally observable execution behavior;
+- architecture-first development.
 
-## Constraint 2
-
-Interpretation Drift shall not become the architectural objective.
-
-## Constraint 3
-
-Terminology shall remain backward compatible.
-
-## Constraint 4
-
-Specification preservation precedes architectural expansion.
-
-## Constraint 5
-
-Future implementation shall not invalidate conceptual assumptions
-established in Volume I.
-
-## Constraint 6
-
-Architectural evolution shall remain cumulative.
+These constraints define the conceptual boundary of the present volume.
