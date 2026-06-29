@@ -17,7 +17,6 @@ domains, analytical quality depends not only upon reasoning capability,
 but also upon preserving the structure, constraints, and semantics of
 the user-defined specification.
 
-Accordingly, the central engineering problem addressed in this
 The purpose of this monograph is not to study the internal reasoning mechanisms of
 Large Language Models.
 
