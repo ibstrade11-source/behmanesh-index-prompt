@@ -145,3 +145,14 @@ evidence:
 
 Volume I primarily addresses the first two levels while establishing the
 architectural basis for the remaining stages.
+
+---
+
+## Closing Statement
+
+The lessons collected throughout this appendix should be understood as
+architectural observations extracted from a longitudinal validation dialogue.
+
+Their primary purpose is to guide future empirical investigation and
+architectural refinement while preserving a clear distinction between observed
+behavior, engineering interpretation, and formal specification.
