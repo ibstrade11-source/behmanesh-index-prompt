@@ -28,3 +28,23 @@ Empirical validation, mathematical formalization, and software implementation
 are intentionally deferred to later volumes in accordance with the declared
 scope of this monograph.
 
+
+---
+
+## Executive Summary
+
+Volume I establishes the conceptual architecture required for execution
+governance.
+
+Its contribution is architectural rather than empirical.
+
+Observed execution behaviors motivate the architecture.
+
+Formal definitions establish the governing concepts.
+
+Architectural constraints preserve specification consistency.
+
+Subsequent volumes progressively introduce mathematical
+formalization, experimental validation, software implementation, and
+large-scale empirical evaluation.
+
