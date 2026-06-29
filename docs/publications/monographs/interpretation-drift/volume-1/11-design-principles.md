@@ -110,3 +110,28 @@ documentable, and reviewable.
 Architectural correctness should be evaluated continuously throughout
 execution rather than exclusively after completion.
 
+
+---
+
+## Engineering Principles
+
+The architecture follows several engineering principles.
+
+First, specification precedes execution.
+
+Second, governance precedes optimization.
+
+Third, reproducibility precedes performance evaluation.
+
+Fourth, architectural transparency precedes implementation complexity.
+
+These principles establish stable engineering priorities independent of
+future implementation technologies.
+
+---
+
+## Design Stability
+
+Architectural evolution should preserve governing principles while
+allowing implementation mechanisms to evolve over time.
+
