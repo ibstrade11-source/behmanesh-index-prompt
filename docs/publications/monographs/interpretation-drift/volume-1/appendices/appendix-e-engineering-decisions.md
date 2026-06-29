@@ -27,3 +27,14 @@ selection criteria.
 Alternative approaches were evaluated according to these criteria before
 selection into the proposed architecture.
 
+
+---
+
+## Engineering Decision Stability
+
+Engineering decisions documented in this appendix should be regarded as
+architectural baseline decisions.
+
+Future revisions may extend these decisions but should avoid replacing them
+without explicit architectural justification and documented specification
+analysis.
