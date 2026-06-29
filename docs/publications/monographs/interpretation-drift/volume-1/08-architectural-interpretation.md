@@ -137,3 +137,17 @@ architectural refinement rather than serving as the architectural objective
 itself.
 
 This distinction remains invariant throughout the monograph.
+
+---
+
+## Interpretation Principles
+
+Architectural interpretation proceeds through four stages:
+
+1. observation;
+2. structural classification;
+3. specification comparison;
+4. governance implication.
+
+Separating these stages reduces interpretive ambiguity and preserves
+architectural consistency across future analyses.
