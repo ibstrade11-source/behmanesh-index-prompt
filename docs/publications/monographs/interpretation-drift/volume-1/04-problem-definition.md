@@ -92,3 +92,23 @@ requirements.
 Collectively these requirements define the engineering scope addressed
 throughout this volume.
 
+
+---
+
+## Engineering Characteristics of the Problem
+
+Execution-governance failures are treated as structural rather than statistical
+phenomena.
+
+The same analytical specification may produce multiple execution paths even
+when no intentional modification of the framework has occurred.
+
+This variability complicates reproducibility, peer review, auditability, and
+longitudinal analytical consistency.
+
+Accordingly, the engineering objective is not merely to reduce execution
+variability but to establish mechanisms capable of preserving specification
+semantics throughout analytical execution.
+
+The proposed architecture therefore addresses governance of execution rather
+than optimization of model performance.
