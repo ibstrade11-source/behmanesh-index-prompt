@@ -133,3 +133,17 @@ traceable.
 
 This policy supports cumulative rather than disruptive architectural
 development.
+
+---
+
+## Architectural Invariants
+
+Throughout all future revisions the following properties shall remain stable:
+
+- architectural objective
+- specification-first methodology
+- execution governance orientation
+- interpretation drift as observable evidence
+- preservation of declared scope
+
+Modification of any invariant requires explicit architectural revision.
