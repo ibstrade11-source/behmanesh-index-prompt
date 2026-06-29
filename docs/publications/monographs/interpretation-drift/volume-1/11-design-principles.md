@@ -135,3 +135,24 @@ future implementation technologies.
 Architectural evolution should preserve governing principles while
 allowing implementation mechanisms to evolve over time.
 
+
+---
+
+## Architectural Design Constraints
+
+The execution-governance architecture follows several mandatory constraints.
+
+First, governance mechanisms shall remain external to language-model
+implementation.
+
+Second, architectural control shall operate through explicit execution
+specifications rather than implicit prompting heuristics.
+
+Third, execution traceability shall be preserved throughout every analytical
+stage.
+
+Fourth, architectural components shall remain modular to permit independent
+verification and future replacement without affecting specification semantics.
+
+These constraints define the stability requirements of the proposed
+architecture independently of future implementation choices.
