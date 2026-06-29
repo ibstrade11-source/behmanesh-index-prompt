@@ -87,3 +87,19 @@ possible.
 
 Historical audit records should accumulate rather than overwrite previous
 verification evidence.
+
+---
+
+## Audit Criteria
+
+Each future revision should verify:
+
+- objective consistency
+- terminology consistency
+- scope consistency
+- chapter consistency
+- appendix consistency
+- roadmap consistency
+- specification consistency
+
+Audit results should be archived within the persistent audit log.
