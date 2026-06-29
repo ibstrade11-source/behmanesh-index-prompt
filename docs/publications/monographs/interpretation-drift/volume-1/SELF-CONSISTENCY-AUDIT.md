@@ -9,3 +9,19 @@ Verification:
 - Interpretation Drift is classified as evidence.
 - Chapter terminology is specification-consistent.
 - No chapter elevates Interpretation Drift to architectural objective.
+
+---
+
+## Audit Methodology
+
+The audit evaluates:
+
+- objective consistency;
+- terminology consistency;
+- scope consistency;
+- architectural continuity;
+- chapter alignment;
+- appendix alignment.
+
+The audit intentionally evaluates structural integrity rather than scientific
+validity.
