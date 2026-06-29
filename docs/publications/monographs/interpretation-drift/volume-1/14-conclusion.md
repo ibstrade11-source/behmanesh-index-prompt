@@ -68,3 +68,17 @@ operational, mathematical, empirical, and software-oriented development.
 
 Subsequent volumes are expected to extend this specification while preserving
 its architectural integrity.
+
+---
+
+## Closing Remarks
+
+This volume intentionally concludes with an architectural specification rather
+than a completed engineering system.
+
+Its principal contribution is the formal organization of execution governance
+into a coherent architectural framework capable of supporting future
+operational, mathematical, empirical, and software-oriented development.
+
+Subsequent volumes are expected to extend this specification while preserving
+its architectural integrity.
