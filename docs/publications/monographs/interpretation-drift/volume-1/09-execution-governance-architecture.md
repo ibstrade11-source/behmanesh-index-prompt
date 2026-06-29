@@ -145,3 +145,20 @@ refinement.
 
 Each stage contributes to preserving architectural consistency throughout
 future system evolution.
+
+---
+
+## Architectural Quality Attributes
+
+The proposed architecture is intended to maximize:
+
+- specification fidelity;
+- execution consistency;
+- procedural transparency;
+- architectural traceability;
+- governance stability;
+- reproducibility;
+- maintainability.
+
+These quality attributes jointly define the expected engineering behavior of
+Execution Governance.
