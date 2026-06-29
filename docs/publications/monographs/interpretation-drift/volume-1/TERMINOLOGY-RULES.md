@@ -77,3 +77,14 @@ Whenever new terminology is introduced in future volumes it shall:
 - remain compatible with existing terminology;
 - avoid redefining established concepts;
 - preserve architectural consistency across the complete publication series.
+
+---
+
+## Terminology Governance
+
+Architectural terminology shall evolve only through explicit specification
+revision.
+
+Informal wording introduced during future publications shall never supersede
+the formally defined architectural vocabulary without documented revision of
+the governing specification.
