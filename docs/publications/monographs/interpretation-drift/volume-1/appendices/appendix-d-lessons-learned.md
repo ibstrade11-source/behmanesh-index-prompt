@@ -171,3 +171,16 @@ case study remain observable across:
 
 Such replication is necessary before broader architectural conclusions can be
 drawn.
+
+---
+
+## Observation versus Interpretation
+
+Throughout this research program a clear distinction is maintained between:
+
+- observed model behavior;
+- interpretation of those observations;
+- architectural implications derived from repeated evidence.
+
+Maintaining these distinctions reduces interpretive ambiguity and improves
+scientific transparency.
