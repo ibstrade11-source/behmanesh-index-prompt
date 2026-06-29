@@ -138,3 +138,15 @@ change.
 
 Instead, repeated structural patterns observed across analytical executions
 motivate the proposed execution-governance architecture.
+
+---
+
+## Evidence Interpretation
+
+Observed execution evidence should not be interpreted as isolated failures.
+
+Instead, repeated execution patterns provide architectural signals indicating
+where governance mechanisms may improve specification preservation.
+
+Accordingly, evidence serves diagnostic rather than evaluative purposes within
+the architectural framework.
