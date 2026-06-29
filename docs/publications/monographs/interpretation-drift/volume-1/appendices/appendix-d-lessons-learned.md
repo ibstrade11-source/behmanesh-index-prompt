@@ -72,3 +72,17 @@ decisions.
 
 Validation therefore precedes architectural generalization throughout the
 Behmanesh Structural Index research program.
+
+---
+
+## Methodological Lesson
+
+Dialogue-based case studies should distinguish clearly between:
+
+- architectural hypotheses;
+- empirical observations;
+- validation evidence;
+- engineering conclusions.
+
+Maintaining these distinctions improves scientific transparency and supports
+future replication.
