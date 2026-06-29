@@ -106,3 +106,21 @@ Architectural interpretation therefore functions as a bridge connecting
 empirical observation with architectural refinement while preserving
 clear separation between evidence and specification.
 
+
+---
+
+## Architectural Interpretation Principles
+
+Architectural interpretation focuses on persistent structural behavior rather
+than isolated execution outcomes.
+
+Individual execution failures are treated as observations.
+
+Architectural conclusions emerge only after recurring structural regularities
+have been identified across multiple analytical executions.
+
+Accordingly, Interpretation Drift serves as an engineering indicator of
+governance deficiencies rather than as an isolated execution defect.
+
+This distinction separates architectural diagnosis from individual model
+evaluation.
