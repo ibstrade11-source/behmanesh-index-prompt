@@ -115,3 +115,17 @@ implementation, verification, and deployment.
 
 Architectural continuity is therefore considered a governing design principle
 for the complete research program.
+
+---
+
+## Long-Term Research Strategy
+
+Future research is expected to progress incrementally from conceptual
+architecture toward operational engineering systems.
+
+Each successive volume should preserve the architectural specification
+established in Volume I while extending formalization, experimentation,
+implementation, verification, and deployment.
+
+Architectural continuity is therefore considered a governing design principle
+for the complete research program.
