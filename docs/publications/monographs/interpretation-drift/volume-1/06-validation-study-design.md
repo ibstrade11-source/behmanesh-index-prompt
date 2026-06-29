@@ -113,3 +113,16 @@ stable adherence to formally specified analytical procedures.
 
 Architectural validation therefore evaluates governance behavior rather than
 general intelligence or reasoning capability.
+
+---
+
+## Experimental Philosophy
+
+The purpose of validation is not to demonstrate superiority of a particular
+language model.
+
+Instead, validation investigates whether execution governance produces more
+stable adherence to formally specified analytical procedures.
+
+Architectural validation therefore evaluates governance behavior rather than
+general intelligence or reasoning capability.
