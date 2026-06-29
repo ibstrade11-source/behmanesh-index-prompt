@@ -40,3 +40,16 @@ for the remainder of the monograph series.
 
 New terminology may be introduced only when accompanied by explicit
 definitions and documented relationships to existing concepts.
+
+---
+
+## Terminology Governance
+
+Architectural terminology shall remain invariant across all future volumes.
+
+Whenever new terminology becomes necessary it shall:
+
+- be formally defined;
+- identify relationships with existing terminology;
+- avoid synonym drift;
+- preserve backward interpretability.
