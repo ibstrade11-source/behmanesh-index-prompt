@@ -45,3 +45,21 @@ Reproducible analytical output
 Interpretation Drift appears as architectural evidence supporting the
 necessity of this execution architecture rather than as the primary
 objective of the monograph.
+
+---
+
+## Architectural Layering
+
+Volume I is organized into successive architectural layers.
+
+Layer 1 establishes terminology.
+
+Layer 2 defines the engineering problem.
+
+Layer 3 derives governing principles.
+
+Layer 4 specifies execution governance.
+
+Layer 5 documents future architectural evolution.
+
+This layered organization minimizes conceptual dependency conflicts.
