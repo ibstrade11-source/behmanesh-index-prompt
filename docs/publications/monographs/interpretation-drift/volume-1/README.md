@@ -71,3 +71,24 @@ Recommended reading order:
 This sequence follows the intended architectural progression from
 specification toward future implementation.
 
+
+---
+
+## Reading Order
+
+Readers are encouraged to approach this volume sequentially.
+
+The Preface defines architectural scope.
+
+The Introduction establishes the engineering problem.
+
+Theoretical Foundation defines the conceptual vocabulary.
+
+Problem Definition motivates the architecture.
+
+Execution Governance Architecture presents the proposed solution.
+
+Conclusion summarizes architectural implications.
+
+Appendices document long-term research directions without expanding the scope
+of Volume I.
