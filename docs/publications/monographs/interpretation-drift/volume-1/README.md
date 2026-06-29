@@ -92,3 +92,18 @@ Conclusion summarizes architectural implications.
 
 Appendices document long-term research directions without expanding the scope
 of Volume I.
+
+---
+
+## Reader Orientation
+
+Volume I is intended to establish the architectural foundations of execution
+governance.
+
+Readers seeking empirical validation, mathematical formalization, software
+implementation, benchmark datasets, or quantitative evaluation should regard
+this volume as the architectural baseline upon which those future
+developments will be constructed.
+
+The architectural specification defined here should remain stable throughout
+subsequent volumes.
