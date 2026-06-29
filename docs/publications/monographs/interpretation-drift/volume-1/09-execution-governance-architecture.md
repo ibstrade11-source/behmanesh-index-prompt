@@ -133,3 +133,15 @@ The proposed architecture is intended to be:
 
 These characteristics facilitate incremental refinement without requiring
 changes to the governing architectural specification.
+
+---
+
+## Governance Lifecycle
+
+Execution Governance is viewed as a continuous engineering lifecycle
+consisting of specification definition, execution supervision, integrity
+assessment, evidence collection, architectural review, and specification
+refinement.
+
+Each stage contributes to preserving architectural consistency throughout
+future system evolution.
