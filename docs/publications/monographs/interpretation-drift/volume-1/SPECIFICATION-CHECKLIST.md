@@ -71,3 +71,18 @@ Publication should proceed only after confirming that:
 - terminology remains invariant;
 - no newly introduced section expands the declared scope without explicit
   specification revision.
+
+---
+
+## Publication Readiness Criteria
+
+Prior to publication every chapter should satisfy the following conditions:
+
+- Architectural objective remains unchanged.
+- Terminology remains specification-compliant.
+- No unsupported architectural claims are introduced.
+- Evidence and conclusions remain explicitly separated.
+- Scope remains consistent with Volume I.
+- Future-work statements remain non-assertive.
+- Cross references remain internally consistent.
+
