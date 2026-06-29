@@ -82,3 +82,14 @@ operational, mathematical, empirical, and software-oriented development.
 
 Subsequent volumes are expected to extend this specification while preserving
 its architectural integrity.
+
+---
+
+## Architectural Legacy
+
+Volume I establishes the permanent architectural baseline for the Behmanesh
+Structural Index research program.
+
+Future work is expected to extend this baseline while maintaining specification
+stability, terminology consistency, and architectural continuity across the
+entire publication series.
