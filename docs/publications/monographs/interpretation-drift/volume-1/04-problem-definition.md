@@ -38,3 +38,27 @@ last two properties rather than the first two.
 Accordingly, the central engineering challenge is defined as preserving
 execution structure rather than maximizing model capability.
 
+
+---
+
+## Architectural Perspective
+
+Execution errors are interpreted as failures of execution governance
+rather than failures of language-model intelligence.
+
+Accordingly, this work distinguishes between:
+
+- model capability;
+- execution quality;
+- specification preservation.
+
+These concepts remain analytically independent.
+
+---
+
+## Engineering Interpretation
+
+Within this architectural perspective, professional analytical quality
+depends upon preserving specification throughout execution rather than
+maximizing linguistic sophistication alone.
+
