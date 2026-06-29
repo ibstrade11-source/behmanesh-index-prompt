@@ -93,3 +93,19 @@ Structural Index research program.
 Future work is expected to extend this baseline while maintaining specification
 stability, terminology consistency, and architectural continuity across the
 entire publication series.
+
+---
+
+## Expected Contributions of the Research Program
+
+The broader research program aims to contribute to:
+
+- execution governance methodology;
+- specification-oriented LLM engineering;
+- framework-preserving analytical execution;
+- reproducible analytical workflows;
+- model-independent governance architectures.
+
+These objectives extend beyond the scope of Volume I while remaining
+architecturally consistent with its specification.
+
