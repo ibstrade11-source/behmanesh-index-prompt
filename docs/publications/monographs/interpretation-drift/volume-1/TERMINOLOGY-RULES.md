@@ -149,3 +149,16 @@ volumes unless an explicit architectural revision is documented.
 When revisions become necessary, previous terminology should remain traceable
 through documented change history rather than silent replacement.
 
+
+---
+
+## Terminology Stability
+
+Terminology shall evolve only through explicit specification revisions.
+
+Future publications shall avoid introducing synonymous expressions for core
+architectural concepts unless accompanied by formal definitions and migration
+guidance.
+
+Terminological stability contributes directly to architectural stability and
+longitudinal reproducibility.
