@@ -101,3 +101,20 @@ The architecture is designed so that implementation technologies may
 evolve without requiring modification of the governing architectural
 principles.
 
+
+---
+
+## Architectural Layers
+
+The proposed architecture is organized into complementary governance layers.
+
+Specification Layer defines analytical intent.
+
+Execution Layer governs procedural behavior.
+
+Verification Layer evaluates structural consistency.
+
+Audit Layer preserves traceability across the complete analytical lifecycle.
+
+Each layer operates independently while contributing collectively to
+architectural integrity.
