@@ -25,3 +25,14 @@ motivating the architectural design.
 
 All architectural conclusions shall therefore be interpreted relative
 to Execution Governance rather than Interpretation Drift.
+
+---
+
+## Structural Note
+
+The chapters contained in this volume intentionally prioritize architectural
+specification over exhaustive technical elaboration.
+
+Subsequent volumes progressively expand empirical evidence, mathematical
+formalization, implementation details, and validation studies while preserving
+the architectural specification established here.
