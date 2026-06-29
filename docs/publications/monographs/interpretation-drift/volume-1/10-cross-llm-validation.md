@@ -24,3 +24,20 @@ Consequently, future validation focuses upon specification preservation,
 framework fidelity, execution consistency, and reproducibility rather than
 overall answer quality.
 
+
+---
+
+## Planned Evaluation Dimensions
+
+Future validation studies are expected to evaluate:
+
+- procedural completeness;
+- execution ordering;
+- specification preservation;
+- structural consistency;
+- reproducibility;
+- governance stability.
+
+These dimensions intentionally remain architecture-centric and independent from
+vendor-specific benchmarking methodologies.
+
