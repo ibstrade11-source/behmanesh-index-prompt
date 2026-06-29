@@ -188,3 +188,20 @@ analytical specifications under equivalent governance constraints.
 
 Observed similarities and differences will therefore be interpreted as
 architectural observations rather than competitive benchmarking.
+
+---
+
+## Architectural Evaluation Strategy
+
+Cross-LLM validation is intended to evaluate architectural robustness rather
+than comparative model performance.
+
+Each participating model is expected to execute identical analytical
+specifications under equivalent governance conditions.
+
+Observed similarities strengthen claims regarding architectural generality,
+whereas systematic differences identify future engineering refinement
+opportunities.
+
+The unit of analysis therefore remains execution behavior rather than model
+capability.
