@@ -129,3 +129,19 @@ problem domains.
 
 Replication constitutes a central requirement for long-term architectural
 credibility.
+
+---
+
+## Evidence Hierarchy
+
+The Behmanesh Structural Index distinguishes several complementary forms of
+evidence:
+
+1. conceptual reasoning;
+2. repeated observational evidence;
+3. controlled empirical evaluation;
+4. independent replication;
+5. operational validation.
+
+Volume I primarily addresses the first two levels while establishing the
+architectural basis for the remaining stages.
