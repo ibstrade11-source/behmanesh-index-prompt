@@ -56,3 +56,13 @@ Volume I intentionally excludes:
 
 These exclusions preserve conceptual focus while providing a stable foundation
 for subsequent engineering work.
+
+---
+
+## Scope Preservation
+
+Future editorial revisions of Volume I should increase explanatory depth while
+preserving the architectural scope defined herein.
+
+Any expansion beyond conceptual architecture should be documented as belonging
+to subsequent volumes rather than incorporated retroactively into Volume I.
