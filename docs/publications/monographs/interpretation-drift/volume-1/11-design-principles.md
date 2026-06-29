@@ -44,3 +44,34 @@ Evaluation mechanisms verify architectural compliance.
 Separating these responsibilities reduces conceptual ambiguity while improving
 long-term maintainability of the execution architecture.
 
+
+---
+
+## Architectural Design Rationale
+
+Each design principle exists to constrain execution rather than to constrain
+reasoning.
+
+Execution governance therefore operates at the procedural layer while leaving
+the internal reasoning processes of language models unchanged.
+
+This separation preserves compatibility with future language models without
+requiring architectural redesign.
+
+---
+
+## Principle Interaction
+
+The architectural principles operate collectively.
+
+Specification preservation supports framework fidelity.
+
+Framework fidelity supports execution consistency.
+
+Execution consistency supports reproducibility.
+
+Reproducibility strengthens analytical reliability.
+
+The architecture therefore forms a mutually reinforcing governance system
+rather than a collection of independent rules.
+
