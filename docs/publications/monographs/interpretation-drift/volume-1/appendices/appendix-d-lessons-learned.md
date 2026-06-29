@@ -115,3 +115,17 @@ interaction settings, analytical frameworks, and independent investigators.
 
 Accordingly, the present case should be interpreted as evidence supporting
 future investigation rather than as definitive proof.
+
+---
+
+## Replication Principle
+
+Architectural confidence increases through independent replication rather than
+through repeated observation by a single investigator.
+
+Future studies should therefore reproduce comparable validation procedures
+using different language models, independent evaluators, and alternative
+problem domains.
+
+Replication constitutes a central requirement for long-term architectural
+credibility.
