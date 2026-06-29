@@ -11,3 +11,19 @@ analytical specifications.
 Accordingly, BSI governs execution through architectural constraints
 instead of attempting to modify the internal behavior of language
 models.
+
+---
+
+## Decision Criteria
+
+Architectural decisions documented throughout this volume follow four
+selection criteria.
+
+- specification preservation;
+- architectural simplicity;
+- implementation independence;
+- long-term maintainability.
+
+Alternative approaches were evaluated according to these criteria before
+selection into the proposed architecture.
+
