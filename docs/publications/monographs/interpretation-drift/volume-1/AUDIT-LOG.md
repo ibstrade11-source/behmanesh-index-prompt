@@ -23,3 +23,16 @@ None preventing publication of the conceptual architecture.
 
 Notes:
 Future audits shall append new entries without modifying previous records.
+
+---
+
+## Audit Policy
+
+Future audit entries shall be appended chronologically.
+
+Existing audit records shall never be modified retrospectively.
+
+Corrections shall instead appear as new audit entries preserving complete
+historical traceability.
+
+This policy ensures reproducible architectural governance.
