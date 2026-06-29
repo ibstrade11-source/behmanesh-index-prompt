@@ -48,3 +48,18 @@ It does not constitute empirical validation, external verification, or proof
 of practical effectiveness.
 
 Those objectives remain outside the scope of Volume I.
+
+---
+
+## Audit Principles
+
+Each future revision should verify:
+
+- objective stability;
+- terminology stability;
+- scope preservation;
+- chapter consistency;
+- roadmap consistency;
+- appendix consistency.
+
+Every completed audit should be recorded within AUDIT-LOG.md.
