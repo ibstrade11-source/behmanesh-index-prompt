@@ -101,3 +101,16 @@ Before publication every chapter should be examined for:
 
 Publication should proceed only after successful completion of all mandatory
 verification steps.
+
+---
+
+## Publication Readiness
+
+Prior to publication verify that:
+
+- every architectural claim has declared scope
+- future work is separated from current contribution
+- empirical statements remain evidence-based
+- speculative statements remain explicitly labeled
+- terminology follows the terminology rules
+- roadmap remains externally consistent
