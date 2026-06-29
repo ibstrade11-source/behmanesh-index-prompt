@@ -174,3 +174,17 @@ variation in language model implementations.
 
 Accordingly, governance mechanisms are evaluated by specification
 preservation rather than answer quality alone.
+
+---
+
+## Conceptual Boundaries
+
+The architectural problem addressed in this volume is intentionally limited to
+execution governance.
+
+Questions concerning model training, model optimization, parameter
+modification, benchmark competition, and capability enhancement remain outside
+the architectural scope defined for this monograph.
+
+Maintaining these conceptual boundaries reduces ambiguity throughout future
+architectural development.
