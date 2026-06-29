@@ -83,3 +83,21 @@ general empirical conclusions.
 
 Generalization therefore depends upon subsequent validation studies.
 
+
+---
+
+## Additional Threats
+
+Potential sources of bias include:
+
+- author participation in architectural development;
+- concentration of observations within a single analytical framework;
+- limited empirical evidence in the present conceptual volume;
+- future implementation uncertainty.
+
+These limitations are explicitly acknowledged in order to separate
+architectural specification from empirical confirmation.
+
+Future volumes are expected to reduce these threats through controlled
+experimental validation.
+
