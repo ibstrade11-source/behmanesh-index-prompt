@@ -81,3 +81,31 @@ an architectural response.
 Comprehensive empirical datasets remain outside the scope of Volume I and
 are reserved for subsequent volumes.
 
+
+---
+
+## Evidence Interpretation
+
+Observed execution behaviors should be interpreted collectively rather
+than independently.
+
+Multiple recurring observations provide stronger architectural evidence
+than isolated examples.
+
+Consequently, architectural conclusions are derived from structural
+patterns instead of individual conversations.
+
+---
+
+## Evidence Classification
+
+Execution evidence may be classified according to:
+
+- specification deviations;
+- procedural deviations;
+- execution inconsistencies;
+- traceability failures;
+- governance failures.
+
+This classification supports systematic architectural analysis.
+
