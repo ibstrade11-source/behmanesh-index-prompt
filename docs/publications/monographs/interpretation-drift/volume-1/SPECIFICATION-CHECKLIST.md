@@ -61,3 +61,13 @@ Additional publication checks:
 - terminology definitions remain unchanged;
 - roadmap remains consistent with declared scope;
 - future work introduces no present-tense claims.
+
+---
+
+Publication should proceed only after confirming that:
+
+- every chapter preserves the declared architectural objective;
+- appendices remain consistent with the architectural specification;
+- terminology remains invariant;
+- no newly introduced section expands the declared scope without explicit
+  specification revision.
