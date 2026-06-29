@@ -66,3 +66,14 @@ preserving the architectural scope defined herein.
 
 Any expansion beyond conceptual architecture should be documented as belonging
 to subsequent volumes rather than incorporated retroactively into Volume I.
+
+---
+
+## Scope Preservation
+
+Expansion of future volumes should increase technical depth without altering
+the conceptual boundaries established by Volume I.
+
+Consequently, Volume I functions as the architectural reference specification
+for the remainder of the publication series.
+
