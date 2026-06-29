@@ -142,3 +142,17 @@ This volume is primarily intended for researchers interested in:
 - formal specification of reasoning procedures.
 
 Readers seeking implementation details should consult future volumes.
+
+---
+
+## Intended Audience
+
+This volume is primarily intended for researchers interested in:
+
+- analytical methodology;
+- execution governance;
+- framework engineering;
+- reproducible analytical workflows;
+- formal specification of reasoning procedures.
+
+Readers seeking implementation details should consult future volumes.
