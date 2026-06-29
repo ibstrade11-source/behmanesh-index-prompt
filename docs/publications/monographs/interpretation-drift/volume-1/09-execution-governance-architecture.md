@@ -162,3 +162,14 @@ The proposed architecture is intended to maximize:
 
 These quality attributes jointly define the expected engineering behavior of
 Execution Governance.
+
+---
+
+## Architectural Assumptions
+
+The architecture assumes that analytical specifications can be represented
+explicitly, verified independently, monitored during execution, and evaluated
+after execution.
+
+Should these assumptions fail, governance quality necessarily decreases,
+independently of language model capability.
