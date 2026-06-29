@@ -86,3 +86,18 @@ Dialogue-based case studies should distinguish clearly between:
 
 Maintaining these distinctions improves scientific transparency and supports
 future replication.
+
+---
+
+## Research Perspective
+
+This case study demonstrates that sustained analytical interaction can serve
+simultaneously as:
+
+- a validation resource;
+- an observational resource;
+- a methodological resource;
+- an architectural evaluation resource.
+
+Future investigations may extend this methodology to additional language
+models and analytical frameworks.
