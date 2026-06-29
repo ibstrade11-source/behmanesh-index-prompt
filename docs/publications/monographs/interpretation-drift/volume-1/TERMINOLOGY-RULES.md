@@ -88,3 +88,14 @@ revision.
 Informal wording introduced during future publications shall never supersede
 the formally defined architectural vocabulary without documented revision of
 the governing specification.
+
+---
+
+## Terminology Stability Policy
+
+Terminology defined within this specification should remain stable across
+future volumes unless an explicit architectural revision supersedes an earlier
+definition.
+
+Terminological consistency is considered an architectural requirement rather
+than an editorial preference.
