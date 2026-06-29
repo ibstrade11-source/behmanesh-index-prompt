@@ -63,3 +63,13 @@ Every future revision shall explicitly identify:
 - compatibility with previous architectural versions.
 
 Specification evolution shall remain fully traceable.
+
+---
+
+## Specification Stability
+
+Architectural specifications remain normative.
+
+Supporting examples, engineering evidence, implementation strategies, and
+future research directions shall always remain subordinate to the governing
+architectural specification defined by this volume.
