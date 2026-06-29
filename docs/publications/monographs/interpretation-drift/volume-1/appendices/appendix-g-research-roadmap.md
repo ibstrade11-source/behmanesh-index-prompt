@@ -217,3 +217,17 @@ Successive volumes are expected to introduce:
 - operational deployment guidance.
 
 Architectural continuity shall be preserved across all future publications.
+
+---
+
+## Publication Policy
+
+Each future volume should satisfy three publication requirements before
+release:
+
+- architectural consistency with previous volumes;
+- explicit documentation of newly introduced concepts;
+- preservation of terminology defined by the architectural baseline.
+
+This policy aims to ensure cumulative rather than fragmented development of
+the Behmanesh Structural Index.
