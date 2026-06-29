@@ -184,3 +184,30 @@ Throughout this research program a clear distinction is maintained between:
 
 Maintaining these distinctions reduces interpretive ambiguity and improves
 scientific transparency.
+
+---
+
+## Architectural Validation Lifecycle
+
+The validation methodology illustrated by this case study follows an iterative
+sequence:
+
+Observation
+
+↓
+
+Pattern Identification
+
+↓
+
+Independent Verification
+
+↓
+
+Architectural Evaluation
+
+↓
+
+Framework Revision (when justified)
+
+Only repeated evidence should motivate architectural modification.
