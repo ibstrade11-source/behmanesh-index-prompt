@@ -84,3 +84,18 @@ Each future audit entry shall include:
 - publication recommendation.
 
 Previous audit records shall remain immutable.
+
+---
+
+## Audit Policy
+
+Every future architectural revision should be accompanied by:
+
+- specification verification;
+- terminology verification;
+- scope verification;
+- consistency verification;
+- publication readiness verification.
+
+Audit records should remain cumulative to preserve complete architectural
+traceability.
