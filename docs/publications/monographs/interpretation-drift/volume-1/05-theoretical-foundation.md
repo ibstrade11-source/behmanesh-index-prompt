@@ -160,3 +160,16 @@ declared analytical specification.
 
 This distinction separates architectural governance from domain expertise,
 factual verification, and model capability evaluation.
+
+---
+
+## Architectural Assumptions
+
+The proposed architecture assumes that execution quality emerges primarily
+from procedural organization rather than isolated model capability.
+
+Consequently, architectural governance focuses upon specification adherence,
+execution ordering, structural consistency, and verification mechanisms.
+
+These assumptions define the theoretical boundary conditions under which the
+architecture is intended to operate.
