@@ -225,3 +225,14 @@ patterns in large language models.
 
 The methodology itself therefore constitutes the principal contribution of the
 appendix.
+
+---
+
+## Scientific Rigor
+
+Architectural hypotheses should remain explicitly falsifiable.
+
+Future empirical evidence should be permitted to confirm, refine, or reject
+the interpretations presented throughout this case study.
+
+Such openness is essential for cumulative scientific progress.
