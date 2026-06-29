@@ -75,3 +75,38 @@ Reproducibility strengthens analytical reliability.
 The architecture therefore forms a mutually reinforcing governance system
 rather than a collection of independent rules.
 
+
+---
+
+## Architectural Principles
+
+The proposed architecture follows several governing principles.
+
+### Separation of Concerns
+
+Analytical specification remains independent from language-model
+implementation.
+
+Execution governance therefore operates as an external architectural
+layer.
+
+### Explicit Specification
+
+Analytical procedures should be represented explicitly rather than
+implicitly reconstructed during execution.
+
+### Deterministic Governance
+
+Execution order should remain stable whenever identical specifications
+are executed.
+
+### Traceable Decisions
+
+Every significant execution transition should remain observable,
+documentable, and reviewable.
+
+### Incremental Verification
+
+Architectural correctness should be evaluated continuously throughout
+execution rather than exclusively after completion.
+
