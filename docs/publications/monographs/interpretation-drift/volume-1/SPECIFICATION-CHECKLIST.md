@@ -19,3 +19,13 @@ Before publication reviewers should additionally verify:
 - Has any architectural definition changed?
 - Have new sections introduced specification drift?
 - Are appendices consistent with the architectural baseline?
+
+---
+
+Additional Verification
+
+- Scope remains unchanged.
+- Architectural terminology remains invariant.
+- Future-work statements are separated from present contributions.
+- Architectural evidence is never presented as completed validation.
+- All roadmap statements remain prospective.
