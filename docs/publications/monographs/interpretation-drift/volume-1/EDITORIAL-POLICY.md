@@ -12,3 +12,12 @@ Editorial revisions should prioritize:
 
 Future revisions should preserve architectural intent while improving
 readability.
+
+---
+
+## Redundancy Policy
+
+Concepts should be defined once and referenced thereafter.
+
+Repeated explanatory material should be minimized unless repetition serves a
+clear pedagogical or architectural purpose.
