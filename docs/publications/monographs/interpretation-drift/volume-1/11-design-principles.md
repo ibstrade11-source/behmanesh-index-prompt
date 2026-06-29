@@ -9,3 +9,22 @@ relationship between formal specifications and language-model execution.
 These principles should therefore be interpreted as architectural design
 guidelines for framework-oriented analytical systems rather than
 recommendations for operating independently of language models.
+
+---
+
+## Architectural Design Philosophy
+
+Execution governance is intentionally designed according to several principles.
+
+The architecture should remain:
+
+- model independent;
+- specification driven;
+- reproducible;
+- extensible;
+- auditable;
+- traceable.
+
+Each principle contributes to long-term architectural stability rather than
+short-term optimization of any individual execution.
+
