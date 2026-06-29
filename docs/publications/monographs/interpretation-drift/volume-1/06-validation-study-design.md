@@ -40,3 +40,34 @@ Evaluation focuses on execution integrity rather than answer preference.
 Architectural validity therefore depends upon preservation of analytical
 structure rather than subjective output quality.
 
+
+---
+
+## Experimental Variables
+
+Future controlled studies are expected to maintain constant analytical
+tasks while varying only execution governance conditions.
+
+Representative variables include:
+
+- execution ordering;
+- specification completeness;
+- governance mechanisms;
+- analytical framework;
+- language-model implementation.
+
+---
+
+## Evaluation Criteria
+
+Evaluation focuses upon architectural properties rather than task
+accuracy alone.
+
+Representative criteria include:
+
+- framework fidelity;
+- specification preservation;
+- execution consistency;
+- traceability completeness;
+- reproducibility.
+
