@@ -1,11 +1,13 @@
 # Maintenance Policy
 
-Future maintenance activities may include:
+After publication, Volume I should remain architecturally stable.
 
-- clarification;
-- editorial refinement;
-- terminology alignment;
-- consistency improvement;
-- cross-reference updates.
+Maintenance activities should normally be limited to:
 
-Maintenance shall not silently modify architectural intent.
+- correction of typographical errors;
+- clarification of wording;
+- bibliography improvements;
+- reference maintenance;
+- documented errata.
+
+Architectural modifications belong in subsequent volumes.
