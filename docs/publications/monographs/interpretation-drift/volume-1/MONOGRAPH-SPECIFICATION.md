@@ -39,3 +39,14 @@ However, every revision should preserve:
 Architectural maturity should increase while preserving foundational
 specification.
 
+
+---
+
+## Specification Evolution Policy
+
+Future revisions shall preserve the architectural objective defined by this
+specification.
+
+Whenever terminology, architectural assumptions, or governance mechanisms are
+extended, such modifications shall be explicitly documented rather than
+implicitly replacing previously published specifications.
