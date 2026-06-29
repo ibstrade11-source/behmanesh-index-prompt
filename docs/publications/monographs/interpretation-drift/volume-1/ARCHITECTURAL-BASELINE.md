@@ -156,3 +156,22 @@ Every future architectural modification should document:
 - expected architectural consequences
 
 This policy preserves architectural continuity across the publication series.
+
+---
+
+## Baseline Evolution
+
+The architectural baseline should evolve only through explicit specification
+revisions.
+
+Editorial clarification may improve readability without altering the
+architectural intent established by the baseline.
+
+Every future architectural modification should document:
+
+- motivation
+- affected components
+- compatibility
+- expected architectural consequences
+
+This policy preserves architectural continuity across the publication series.
