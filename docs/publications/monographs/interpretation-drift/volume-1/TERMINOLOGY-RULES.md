@@ -124,3 +124,17 @@ traceability, and reproducibility throughout the research program.
 
 Any future terminology changes should therefore include explicit migration
 notes documenting conceptual continuity.
+
+---
+
+## Terminological Stability
+
+Terminology introduced by the architectural specification should remain stable
+throughout subsequent volumes.
+
+When new concepts become necessary, they should extend rather than replace the
+existing conceptual vocabulary.
+
+Renaming established concepts without explicit architectural justification is
+discouraged because it weakens longitudinal consistency across the research
+program.
