@@ -160,3 +160,22 @@ Implementation precedes operational deployment.
 
 Skipping dependency levels is discouraged because it weakens architectural
 traceability.
+
+---
+
+## Architectural Dependency Graph
+
+The research program follows cumulative architectural dependencies.
+
+Conceptual architecture precedes formal specification.
+
+Formal specification precedes measurement.
+
+Measurement precedes experimentation.
+
+Experimentation precedes implementation.
+
+Implementation precedes operational deployment.
+
+Skipping dependency levels is discouraged because it weakens architectural
+traceability.
