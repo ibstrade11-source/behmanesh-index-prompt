@@ -59,3 +59,13 @@ The audit process itself is considered part of execution governance.
 Consequently, documentation quality, specification stability, terminology
 consistency, and architectural alignment are continuously monitored rather
 than evaluated only immediately before publication.
+
+---
+
+## Continuous Governance
+
+The audit process itself is considered part of execution governance.
+
+Consequently, documentation quality, specification stability, terminology
+consistency, and architectural alignment are continuously monitored rather
+than evaluated only immediately before publication.
