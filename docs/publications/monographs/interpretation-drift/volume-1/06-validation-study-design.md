@@ -71,3 +71,19 @@ Representative criteria include:
 - traceability completeness;
 - reproducibility.
 
+
+---
+
+## Planned Experimental Structure
+
+Future validation studies are expected to compare baseline execution against
+execution governed by the proposed architecture.
+
+Each experimental condition shall execute identical analytical specifications
+under equivalent procedural constraints.
+
+Evaluation metrics are expected to include framework fidelity, specification
+preservation, execution consistency, traceability, and reproducibility.
+
+Quantitative statistical evaluation belongs to later volumes after operational
+metrics have been formally defined.
