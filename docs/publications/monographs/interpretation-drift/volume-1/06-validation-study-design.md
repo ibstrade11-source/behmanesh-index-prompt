@@ -87,3 +87,16 @@ preservation, execution consistency, traceability, and reproducibility.
 
 Quantitative statistical evaluation belongs to later volumes after operational
 metrics have been formally defined.
+
+---
+
+## Planned Evaluation Structure
+
+Future empirical evaluation is expected to compare governed execution against
+baseline execution under identical analytical conditions.
+
+Measurements may include framework fidelity, specification preservation,
+execution consistency, reproducibility, and traceability.
+
+Detailed experimental protocols are intentionally deferred beyond the scope of
+Volume I.
