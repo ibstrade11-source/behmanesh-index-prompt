@@ -165,3 +165,14 @@ Architectural analysis therefore emphasizes repeated structural observations
 rather than individual execution instances.
 
 This distinction separates engineering evidence from anecdotal examples.
+
+---
+
+## Evidence Classification Strategy
+
+Execution evidence should be interpreted according to multiple independent
+dimensions including severity, recurrence, reproducibility, architectural
+impact, recoverability, and specification relevance.
+
+This multidimensional classification supports progressively more rigorous
+engineering analysis throughout future empirical investigations.
