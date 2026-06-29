@@ -35,3 +35,19 @@ The long-term objective is the establishment of a reusable engineering
 discipline for specification-governed analytical execution that remains
 independent of individual language-model generations.
 
+
+---
+
+## Research Priorities
+
+Future research should prioritize:
+
+- reproducible execution datasets;
+- quantitative governance metrics;
+- benchmark development;
+- automated specification verification;
+- large-scale cross-domain evaluation.
+
+The ordering reflects architectural dependency rather than estimated
+implementation difficulty.
+
