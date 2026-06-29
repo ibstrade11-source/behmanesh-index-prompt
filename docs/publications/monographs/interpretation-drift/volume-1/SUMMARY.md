@@ -48,3 +48,20 @@ Subsequent volumes progressively introduce mathematical
 formalization, experimental validation, software implementation, and
 large-scale empirical evaluation.
 
+
+---
+
+## Summary of Contributions
+
+Volume I contributes:
+
+- formal architectural specification;
+- conceptual execution-governance architecture;
+- terminology standardization;
+- specification governance;
+- architectural interpretation methodology;
+- long-term research roadmap.
+
+Empirical validation, quantitative analysis, and software implementation
+remain intentionally outside the declared scope of this volume.
+
