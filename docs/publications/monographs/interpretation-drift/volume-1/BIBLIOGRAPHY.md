@@ -14,3 +14,20 @@ scholarly citation format containing, whenever available:
 
 Future revisions should progressively replace abbreviated entries with fully
 specified bibliographic records.
+
+---
+
+## Reference Classification
+
+The bibliography is organized conceptually into:
+
+- Formal Methods
+- Software Architecture
+- Verification
+- Large Language Models
+- Prompt Engineering
+- AI Alignment
+- Execution Governance
+
+This classification supports future expansion while maintaining structural
+consistency.
