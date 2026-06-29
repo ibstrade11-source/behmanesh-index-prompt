@@ -231,3 +231,17 @@ decision traceability, and framework fidelity across independent executions.
 
 This perspective intentionally distinguishes architectural reproducibility
 from output similarity alone.
+
+---
+
+## Expected Sources of Variation
+
+Different language models may exhibit different execution traces despite
+receiving identical governance specifications.
+
+Such differences should not immediately be interpreted as architectural
+failures.
+
+Instead, future studies should distinguish between implementation-dependent
+variation and architecture-dependent variation through controlled
+cross-platform experimentation.
