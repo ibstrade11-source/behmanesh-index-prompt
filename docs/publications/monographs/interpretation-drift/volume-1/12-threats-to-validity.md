@@ -101,3 +101,20 @@ architectural specification from empirical confirmation.
 Future volumes are expected to reduce these threats through controlled
 experimental validation.
 
+
+---
+
+## Architectural Scope Limitation
+
+Because this volume establishes conceptual architecture rather than empirical
+performance claims, its principal validity threat concerns architectural
+completeness rather than statistical inference.
+
+Future empirical studies remain responsible for validating reproducibility,
+generalizability, measurement reliability, and operational effectiveness.
+
+Accordingly, architectural correctness should not be interpreted as empirical
+confirmation.
+
+The separation between conceptual specification and empirical validation is
+maintained intentionally throughout the publication series.
