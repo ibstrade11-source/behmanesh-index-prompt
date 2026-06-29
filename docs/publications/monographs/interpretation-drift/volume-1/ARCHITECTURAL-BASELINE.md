@@ -113,3 +113,13 @@ structure independently from future changes in underlying language models.
 
 These assumptions define the conceptual boundary within which the remainder
 of the research program operates.
+
+---
+
+## Controlled Architectural Evolution
+
+Future architectural evolution shall occur through explicitly documented
+specification revisions rather than incremental undocumented modifications.
+
+Each architectural revision should preserve backward traceability to earlier
+baseline definitions.
