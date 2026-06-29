@@ -66,3 +66,14 @@ Future terminology may be introduced only when:
 - it improves architectural precision.
 
 Terminological expansion shall never introduce conceptual ambiguity.
+
+---
+
+## Terminology Governance
+
+Whenever new terminology is introduced in future volumes it shall:
+
+- receive an explicit definition;
+- remain compatible with existing terminology;
+- avoid redefining established concepts;
+- preserve architectural consistency across the complete publication series.
