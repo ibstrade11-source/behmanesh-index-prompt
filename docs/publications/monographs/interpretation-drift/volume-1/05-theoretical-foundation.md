@@ -114,3 +114,30 @@ The present theoretical formulation intentionally remains independent of
 particular prompting strategies, model architectures, benchmark datasets,
 or implementation technologies.
 
+
+---
+
+## Architectural Assumptions
+
+The proposed architecture assumes that analytical quality primarily
+depends upon execution behavior rather than internal model reasoning.
+
+This assumption motivates specification-governed execution as the
+principal architectural mechanism.
+
+---
+
+## Conceptual Relationships
+
+Execution Governance establishes the governing architecture.
+
+Framework Fidelity represents the desired architectural property.
+
+Interpretation Drift functions as observable execution evidence.
+
+Epistemic Integrity Gap provides diagnostic interpretation of observed
+execution behavior.
+
+These concepts operate together while preserving clearly separated
+architectural responsibilities.
+
