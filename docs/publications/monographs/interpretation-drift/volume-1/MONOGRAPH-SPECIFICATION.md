@@ -21,3 +21,21 @@ The following constraints govern every revision of this volume.
   specification.
 - Subsequent implementation documents shall remain specification-compatible.
 - Architectural continuity has priority over document growth.
+
+---
+
+## Specification Evolution Policy
+
+Future editions may introduce additional architectural mechanisms.
+
+However, every revision should preserve:
+
+- architectural objective;
+- architectural terminology;
+- execution-governance perspective;
+- declared scope;
+- specification consistency.
+
+Architectural maturity should increase while preserving foundational
+specification.
+
