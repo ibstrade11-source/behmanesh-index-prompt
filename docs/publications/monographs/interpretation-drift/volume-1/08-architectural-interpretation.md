@@ -151,3 +151,18 @@ Architectural interpretation proceeds through four stages:
 
 Separating these stages reduces interpretive ambiguity and preserves
 architectural consistency across future analyses.
+
+---
+
+## Architectural Consequences
+
+Once execution failures are interpreted as architectural evidence, the
+appropriate engineering response becomes governance rather than repeated prompt
+modification.
+
+This perspective shifts analytical attention from prompt optimization toward
+architectural stability, specification preservation, and execution
+consistency.
+
+Execution governance therefore functions as a structural response to recurring
+execution variability.
