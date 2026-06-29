@@ -119,3 +119,17 @@ Extensions are encouraged.
 Contradictory redefinitions of architectural objectives, terminology, or
 scope should instead be documented as explicit architectural revisions rather
 than silent modifications.
+
+---
+
+## Specification Evolution
+
+Future revisions should preserve backward compatibility with the architectural
+specification defined in this volume.
+
+Whenever specification changes become necessary, previous versions should
+remain documented so that architectural evolution remains historically
+traceable.
+
+This policy supports cumulative rather than disruptive architectural
+development.
