@@ -41,3 +41,44 @@ Future validation studies are expected to evaluate:
 These dimensions intentionally remain architecture-centric and independent from
 vendor-specific benchmarking methodologies.
 
+
+---
+
+## Validation Philosophy
+
+Cross-LLM validation does not attempt to compare language models.
+
+Instead, it evaluates whether architectural execution governance remains
+stable when identical analytical specifications are executed across multiple
+independent systems.
+
+The unit of comparison is therefore execution behavior rather than model
+capability.
+
+---
+
+## Controlled Comparison Strategy
+
+Future validation studies should maintain constant:
+
+- analytical specification;
+- analytical task;
+- execution procedure;
+- evaluation criteria.
+
+Only the executing language model changes.
+
+This experimental strategy isolates architectural robustness from differences
+in underlying model implementation.
+
+---
+
+## Expected Outcomes
+
+Cross-LLM validation seeks to determine:
+
+- preservation of framework fidelity;
+- preservation of execution order;
+- preservation of specification integrity;
+- preservation of analytical consistency.
+
