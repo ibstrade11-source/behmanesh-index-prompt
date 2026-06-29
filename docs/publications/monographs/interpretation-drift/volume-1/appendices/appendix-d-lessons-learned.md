@@ -211,3 +211,17 @@ Architectural Evaluation
 Framework Revision (when justified)
 
 Only repeated evidence should motivate architectural modification.
+
+---
+
+## Final Research Principle
+
+The objective of this case study is not to demonstrate the superiority of a
+particular framework.
+
+Its purpose is to illustrate a reproducible methodology for observing,
+analyzing, validating, and architecturally interpreting recurring behavioral
+patterns in large language models.
+
+The methodology itself therefore constitutes the principal contribution of the
+appendix.
