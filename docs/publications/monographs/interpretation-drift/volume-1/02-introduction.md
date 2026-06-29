@@ -45,3 +45,17 @@ Observed execution behaviors, including Interpretation Drift, are
 presented as architectural evidence motivating the proposed execution
 governance mechanisms rather than as the primary subject of the
 monograph.
+
+---
+
+## Engineering Perspective
+
+This work adopts an engineering perspective in which architectural governance
+is separated from language-model development.
+
+Accordingly, advances in execution governance remain applicable across future
+model generations without requiring modification of underlying model
+architectures.
+
+This separation increases architectural longevity and implementation
+portability.
