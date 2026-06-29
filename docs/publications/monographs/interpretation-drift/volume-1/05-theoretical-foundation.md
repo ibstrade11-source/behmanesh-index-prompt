@@ -189,3 +189,19 @@ the preservation of formally specified analytical procedures.
 
 Accordingly, every theoretical construct introduced herein should be
 interpreted relative to execution architecture rather than cognitive theory.
+
+---
+
+## Theoretical Scope
+
+The theoretical framework proposed in this volume is intentionally limited to
+execution governance.
+
+It does not attempt to construct a unified theory of language models, human
+reasoning, or artificial intelligence.
+
+Instead, it defines a restricted engineering perspective whose objective is
+the preservation of formally specified analytical procedures.
+
+Accordingly, every theoretical construct introduced herein should be
+interpreted relative to execution architecture rather than cognitive theory.
