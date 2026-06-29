@@ -141,3 +141,22 @@ claims, results, validations, or demonstrated capabilities of Volume I.
 
 They are recorded solely to document the intended continuation of the
 research program while preserving the conceptual scope of this volume.
+
+---
+
+## Architectural Dependency Graph
+
+The research program follows cumulative architectural dependencies.
+
+Conceptual architecture precedes formal specification.
+
+Formal specification precedes measurement.
+
+Measurement precedes experimentation.
+
+Experimentation precedes implementation.
+
+Implementation precedes operational deployment.
+
+Skipping dependency levels is discouraged because it weakens architectural
+traceability.
