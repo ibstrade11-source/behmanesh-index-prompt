@@ -126,3 +126,21 @@ requiring modifications to underlying model architectures.
 
 Accordingly, governance mechanisms operate at the execution layer rather than
 the inference layer.
+
+---
+
+## Architectural Problem Characteristics
+
+The engineering problem considered in this volume is characterized by:
+
+- repeated procedural inconsistency;
+- unstable framework interpretation;
+- specification deviation;
+- reduced execution traceability;
+- limited reproducibility.
+
+These characteristics are interpreted as observable architectural phenomena
+rather than defects of any individual language model.
+
+Consequently, the engineering objective is the governance of execution rather
+than modification of model internals.
