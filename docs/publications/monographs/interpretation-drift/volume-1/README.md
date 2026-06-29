@@ -52,3 +52,22 @@ the sequence below.
 Supporting specification documents may be consulted throughout the reading
 process whenever architectural terminology requires clarification.
 
+
+---
+
+## Reading Sequence
+
+Recommended reading order:
+
+1. Abstract
+2. Preface
+3. Problem Definition
+4. Theoretical Foundation
+5. Execution Governance Architecture
+6. Conclusion
+7. Research Roadmap
+8. Supporting Appendices
+
+This sequence follows the intended architectural progression from
+specification toward future implementation.
+
