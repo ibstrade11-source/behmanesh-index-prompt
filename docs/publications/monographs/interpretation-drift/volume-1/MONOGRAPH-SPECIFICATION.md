@@ -85,3 +85,13 @@ Future extensions may elaborate operational details without modifying the
 architectural objective defined herein.
 
 Architectural evolution is therefore additive rather than substitutive.
+
+---
+
+## Specification Evolution
+
+Future revisions shall extend the specification without redefining its
+architectural objective.
+
+Architectural evolution is therefore expected to occur through additive
+clarification rather than conceptual replacement.
