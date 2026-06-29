@@ -31,3 +31,14 @@ The bibliography is organized conceptually into:
 
 This classification supports future expansion while maintaining structural
 consistency.
+
+---
+
+## Future Bibliographic Expansion
+
+Future editions are expected to include a substantially expanded literature
+review covering execution fidelity, formal specification compliance,
+verification theory, trustworthy AI, and execution-governance architectures.
+
+Volume I intentionally limits literature coverage in order to prioritize
+architectural specification.
