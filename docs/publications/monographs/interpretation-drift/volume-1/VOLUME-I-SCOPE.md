@@ -77,3 +77,17 @@ the conceptual boundaries established by Volume I.
 Consequently, Volume I functions as the architectural reference specification
 for the remainder of the publication series.
 
+
+---
+
+## Scope Boundaries
+
+Volume I deliberately excludes implementation-specific engineering decisions.
+
+Likewise, optimization techniques, benchmark performance comparisons,
+deployment methodologies, and production engineering remain outside the scope
+of the present document.
+
+This restriction preserves a stable conceptual baseline upon which future
+engineering work can be constructed without repeatedly redefining the
+architecture itself.
