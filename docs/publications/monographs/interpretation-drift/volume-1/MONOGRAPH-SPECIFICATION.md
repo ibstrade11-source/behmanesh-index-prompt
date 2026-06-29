@@ -50,3 +50,16 @@ specification.
 Whenever terminology, architectural assumptions, or governance mechanisms are
 extended, such modifications shall be explicitly documented rather than
 implicitly replacing previously published specifications.
+
+---
+
+## Specification Evolution Policy
+
+Every future revision shall explicitly identify:
+
+- unchanged architectural assumptions;
+- newly introduced assumptions;
+- deprecated assumptions;
+- compatibility with previous architectural versions.
+
+Specification evolution shall remain fully traceable.
