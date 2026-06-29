@@ -44,3 +44,17 @@ Future development should extend this baseline through additional layers of
 formalization and implementation without redefining its governing principles.
 
 Architectural continuity therefore represents an explicit research constraint.
+
+---
+
+## Baseline Preservation Policy
+
+The architectural baseline established by Volume I shall remain stable
+throughout the evolution of the research program.
+
+Future revisions may extend the architecture without redefining its
+fundamental terminology, architectural objective, execution-governance
+principles, or specification boundaries.
+
+Architectural evolution is therefore cumulative rather than replacement-based.
+
