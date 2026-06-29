@@ -25,3 +25,26 @@ BSI.
 
 Their role is to justify execution governance rather than to explain
 model internals.
+
+---
+
+## Categories of Architectural Evidence
+
+Execution evidence is interpreted at the architectural level rather than at the
+semantic level.
+
+Observed execution behaviors become architecturally relevant whenever they
+affect specification preservation, procedural ordering, reproducibility, or
+framework fidelity.
+
+Examples include:
+
+- omitted procedural stages;
+- reordered analytical sequences;
+- inconsistent interpretation of identical specifications;
+- uncontrolled expansion or reduction of analytical scope;
+- loss of structural traceability across repeated executions.
+
+These observations motivate architectural governance without making claims
+regarding the internal reasoning mechanisms of language models.
+
