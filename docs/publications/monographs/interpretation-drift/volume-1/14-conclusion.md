@@ -24,3 +24,14 @@ Execution Governance.
 
 Interpretation Drift remains evidence motivating the architecture and
 is not itself the architectural endpoint.
+
+---
+
+## Continuation of the Research Program
+
+The long-term development of the Behmanesh Structural Index is documented in
+Appendix G (Research Roadmap).
+
+Volume I intentionally concludes after establishing the architectural
+foundation required for subsequent empirical and implementation-oriented
+volumes.
