@@ -1,4 +1,8 @@
-# Cross-LLM Validation
+# Proposed Cross-LLM Validation Protocol
+
+This chapter specifies a proposed validation protocol rather than reporting completed experimental results.
+All empirical evaluation remains future work unless explicitly stated otherwise.
+
 
 Multiple language models were included in this study to evaluate whether
 the observed execution patterns were limited to a single implementation.
