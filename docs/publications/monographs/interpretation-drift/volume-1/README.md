@@ -156,3 +156,16 @@ This volume is primarily intended for researchers interested in:
 - formal specification of reasoning procedures.
 
 Readers seeking implementation details should consult future volumes.
+
+---
+
+## How This Volume Should Be Read
+
+The chapters are intentionally organized from architectural motivation toward
+architectural specification.
+
+Readers are encouraged to interpret each chapter as one component of a single
+execution-governance architecture rather than as an independent discussion.
+
+Supporting specification documents, terminology rules, audit procedures, and
+roadmap appendices collectively define the complete conceptual baseline.
