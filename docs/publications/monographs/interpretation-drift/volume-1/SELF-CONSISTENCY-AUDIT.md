@@ -36,3 +36,15 @@ It does not constitute empirical validation, external verification, or
 evidence of engineering effectiveness.
 
 Those activities belong to subsequent stages of the research program.
+
+---
+
+## Audit Interpretation
+
+Successful completion of this audit indicates internal architectural
+consistency only.
+
+It does not constitute empirical validation, external verification, or proof
+of practical effectiveness.
+
+Those objectives remain outside the scope of Volume I.
