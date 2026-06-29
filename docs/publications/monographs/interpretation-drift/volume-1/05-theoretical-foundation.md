@@ -205,3 +205,13 @@ the preservation of formally specified analytical procedures.
 
 Accordingly, every theoretical construct introduced herein should be
 interpreted relative to execution architecture rather than cognitive theory.
+
+---
+
+## Architectural Abstraction
+
+Execution Governance is formulated independently of any individual analytical
+framework or language model implementation.
+
+Consequently, the architecture is intended to remain conceptually stable while
+its operational realization evolves over successive research stages.
