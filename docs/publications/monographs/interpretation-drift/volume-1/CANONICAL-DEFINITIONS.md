@@ -10,3 +10,13 @@ than redefining concepts independently.
 
 This policy reduces semantic divergence, simplifies maintenance, and improves
 terminological consistency across future volumes.
+
+---
+
+## Terminology Governance
+
+Terminological consistency is treated as an architectural quality attribute.
+
+Any modification of canonical terminology should be explicitly documented,
+versioned, and justified to preserve traceability throughout the research
+program.
