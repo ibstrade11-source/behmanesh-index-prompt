@@ -51,3 +51,27 @@ Future research should prioritize:
 The ordering reflects architectural dependency rather than estimated
 implementation difficulty.
 
+
+---
+
+## Research Prioritization
+
+Future work should prioritize developments according to dependency order.
+
+Priority 1:
+formal specification.
+
+Priority 2:
+measurement methodology.
+
+Priority 3:
+controlled experimentation.
+
+Priority 4:
+software implementation.
+
+Priority 5:
+production deployment.
+
+This ordering preserves architectural dependency throughout the research
+program.
