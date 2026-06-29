@@ -99,3 +99,17 @@ and justified.
 
 Backward architectural traceability shall be preserved throughout future
 volumes.
+
+---
+
+## Architectural Assumptions
+
+The execution-governance architecture presented in this volume assumes that
+analytical quality depends not only on model capability but also on the
+stability of procedural execution.
+
+Accordingly, governance mechanisms are designed to preserve analytical
+structure independently from future changes in underlying language models.
+
+These assumptions define the conceptual boundary within which the remainder
+of the research program operates.
