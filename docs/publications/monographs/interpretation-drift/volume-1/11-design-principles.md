@@ -184,3 +184,18 @@ reasoning itself.
 Architectural success is measured through reproducibility, traceability,
 specification preservation, and execution consistency rather than output
 uniformity.
+
+---
+
+## Architectural Stability Principles
+
+Execution governance should preserve stable architectural behavior under:
+
+- repeated execution;
+- independent reviewers;
+- alternative language models;
+- future software implementations;
+- evolving analytical methodologies.
+
+Architectural robustness therefore depends upon stability of specification
+rather than stability of generated text.
