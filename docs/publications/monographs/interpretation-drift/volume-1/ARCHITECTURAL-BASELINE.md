@@ -71,3 +71,17 @@ explicitly document every architectural deviation together with its rationale.
 
 Architectural evolution is therefore governed through documented specification
 preservation rather than implicit modification.
+
+---
+
+## Baseline Preservation Policy
+
+The architectural baseline established in Volume I shall remain stable
+throughout subsequent volumes.
+
+Future extensions are expected to refine, formalize, validate, and implement
+the architecture without altering its governing specification unless a
+formally documented architectural revision is explicitly introduced.
+
+Architectural evolution therefore proceeds through controlled extension rather
+than uncontrolled conceptual modification.
