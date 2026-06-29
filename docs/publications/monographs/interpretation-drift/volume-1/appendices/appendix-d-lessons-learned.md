@@ -156,3 +156,18 @@ architectural observations extracted from a longitudinal validation dialogue.
 Their primary purpose is to guide future empirical investigation and
 architectural refinement while preserving a clear distinction between observed
 behavior, engineering interpretation, and formal specification.
+
+---
+
+## External Validity
+
+Future work should determine whether the behavioral patterns identified in this
+case study remain observable across:
+
+- different language model families;
+- different prompting styles;
+- different analytical frameworks;
+- different domains of application.
+
+Such replication is necessary before broader architectural conclusions can be
+drawn.
