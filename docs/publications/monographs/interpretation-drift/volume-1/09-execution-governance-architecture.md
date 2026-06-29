@@ -76,3 +76,28 @@ details.
 Consequently, future implementation evolution should occur without
 changing the governing architectural specification.
 
+
+---
+
+## Governance Layers
+
+Execution Governance is organized into complementary architectural
+layers.
+
+- specification layer;
+- execution layer;
+- verification layer;
+- diagnostic layer;
+- governance layer.
+
+Each layer performs an independent architectural responsibility while
+remaining coordinated through explicit specifications.
+
+---
+
+## Architectural Stability
+
+The architecture is designed so that implementation technologies may
+evolve without requiring modification of the governing architectural
+principles.
+
