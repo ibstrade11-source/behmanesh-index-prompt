@@ -1,12 +1,15 @@
 # Scope Boundaries
 
-Volume I does not attempt to provide:
+Volume I defines architectural principles only.
 
-- empirical proof;
-- production software;
-- benchmark results;
-- mathematical proofs;
-- implementation details.
+It does not claim:
 
-Instead, the volume establishes the conceptual architecture required to support
-those future activities.
+- empirical validation;
+- mathematical proof;
+- production implementation;
+- benchmark superiority.
+
+These activities belong to subsequent phases of the research program.
+
+This separation preserves the conceptual integrity of the architectural
+specification.
