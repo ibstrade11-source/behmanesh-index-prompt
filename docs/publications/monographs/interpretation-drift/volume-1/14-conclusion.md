@@ -14,3 +14,13 @@ professional LLM-assisted analytical workflows.
 
 Future research should evaluate these architectural principles across
 additional models, domains, and independent research groups.
+
+---
+
+## Final Specification Check
+
+The contribution of this volume is the architectural formulation of
+Execution Governance.
+
+Interpretation Drift remains evidence motivating the architecture and
+is not itself the architectural endpoint.
