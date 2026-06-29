@@ -36,3 +36,16 @@ Corrections shall instead appear as new audit entries preserving complete
 historical traceability.
 
 This policy ensures reproducible architectural governance.
+
+---
+
+## Logging Policy
+
+Every future audit shall preserve chronological history.
+
+Previous audit records shall never be edited.
+
+Corrections shall always appear as new audit entries.
+
+This policy preserves architectural traceability throughout the evolution of
+the monograph.
