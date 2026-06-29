@@ -32,3 +32,15 @@ research program unless a future architectural revision is formally approved.
 - Audit records preserve historical traceability.
 
 These invariants provide long-term architectural stability.
+
+---
+
+## Baseline Stability
+
+The architectural baseline established in Volume I is intended to remain
+stable throughout subsequent volumes.
+
+Future development should extend this baseline through additional layers of
+formalization and implementation without redefining its governing principles.
+
+Architectural continuity therefore represents an explicit research constraint.
