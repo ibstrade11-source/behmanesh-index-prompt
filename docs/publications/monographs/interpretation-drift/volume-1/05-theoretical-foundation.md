@@ -72,3 +72,22 @@ These assumptions define the theoretical boundary conditions of the proposed
 architecture and remain intentionally independent from future empirical
 validation.
 
+
+---
+
+## Relationship Between Architecture and Evidence
+
+Execution Governance constitutes the architectural construct.
+
+Framework Fidelity represents an architectural property expected to emerge under
+successful governance.
+
+Interpretation Drift represents observable execution evidence motivating the
+need for governance.
+
+Epistemic Integrity Gap represents a diagnostic mechanism used to identify
+structural inconsistencies between specification and execution.
+
+The four concepts therefore occupy distinct architectural roles and shall not
+be interpreted interchangeably.
+
