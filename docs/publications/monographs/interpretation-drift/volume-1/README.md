@@ -180,3 +180,16 @@ architectural chapters before reviewing appendices.
 The appendices provide governance policies, specification constraints,
 terminology, audit mechanisms, and long-term planning that complement the
 main architectural narrative.
+
+---
+
+## Reading Strategy
+
+Readers primarily interested in the conceptual architecture are encouraged to
+read Chapters 1 through 5 before examining the appendices.
+
+Readers interested in long-term engineering development should continue with
+Appendix G after completing the conclusion.
+
+The remaining appendices provide supporting architectural documentation rather
+than introducing additional theoretical claims.
