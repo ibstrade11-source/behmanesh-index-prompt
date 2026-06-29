@@ -160,3 +160,17 @@ remaining independent of model internals.
 
 This separation preserves architectural portability across future language
 models and execution environments.
+
+---
+
+## Engineering Interpretation of the Problem
+
+Execution governance is framed as an architectural engineering problem
+rather than a model-quality problem.
+
+The objective is not to improve reasoning capability, but to preserve
+faithful execution of formally specified analytical procedures despite
+variation in language model implementations.
+
+Accordingly, governance mechanisms are evaluated by specification
+preservation rather than answer quality alone.
