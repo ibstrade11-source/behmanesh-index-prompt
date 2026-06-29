@@ -209,3 +209,16 @@ published specifications whenever possible.
 
 When incompatible revisions become necessary, explicit migration guidance and
 architectural justification should accompany every specification revision.
+
+---
+
+## Design Philosophy
+
+Architectural simplicity is intentionally preferred over premature
+optimization.
+
+Every additional architectural component should contribute measurable value
+to execution governance while preserving explainability, traceability,
+predictability, and specification consistency.
+
+Architectural growth therefore remains incremental rather than accumulative.
