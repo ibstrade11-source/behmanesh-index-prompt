@@ -193,3 +193,19 @@ Volume I.
 
 Finally, every architectural component should contribute to improved
 traceability, reproducibility, and specification compliance.
+
+---
+
+## Architectural Assumptions
+
+The architectural specification presented in this volume assumes:
+
+- formal analytical specifications exist;
+- execution can be externally governed;
+- governance mechanisms remain model-independent;
+- specification preservation is observable;
+- execution traces can be compared against specifications.
+
+Future implementation work may relax or refine these assumptions as empirical
+evidence accumulates.
+
