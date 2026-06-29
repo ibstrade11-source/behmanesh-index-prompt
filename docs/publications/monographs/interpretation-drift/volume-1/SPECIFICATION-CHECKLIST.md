@@ -86,3 +86,18 @@ Prior to publication every chapter should satisfy the following conditions:
 - Future-work statements remain non-assertive.
 - Cross references remain internally consistent.
 
+
+---
+
+## Pre-Publication Verification
+
+Before publication every chapter should be examined for:
+
+- architectural consistency;
+- terminology consistency;
+- specification preservation;
+- scope consistency;
+- absence of unsupported architectural claims.
+
+Publication should proceed only after successful completion of all mandatory
+verification steps.
