@@ -173,3 +173,23 @@ after execution.
 
 Should these assumptions fail, governance quality necessarily decreases,
 independently of language model capability.
+
+---
+
+## Architectural Design Principles
+
+The execution-governance architecture presented in this volume follows several
+long-term engineering principles.
+
+First, architectural stability takes precedence over implementation
+optimization.
+
+Second, specification preservation takes precedence over execution
+flexibility whenever conflicts arise.
+
+Third, governance components should remain modular so that future extensions
+can be incorporated without altering the conceptual foundation established by
+Volume I.
+
+Finally, every architectural component should contribute to improved
+traceability, reproducibility, and specification compliance.
