@@ -73,3 +73,15 @@ Architectural specifications remain normative.
 Supporting examples, engineering evidence, implementation strategies, and
 future research directions shall always remain subordinate to the governing
 architectural specification defined by this volume.
+
+---
+
+## Specification Stability
+
+The architectural specification established by Volume I shall remain the
+reference specification for subsequent volumes.
+
+Future extensions may elaborate operational details without modifying the
+architectural objective defined herein.
+
+Architectural evolution is therefore additive rather than substitutive.
