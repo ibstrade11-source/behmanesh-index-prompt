@@ -58,3 +58,17 @@ of behavior rather than isolated observations.
 
 This perspective improves the long-term maintainability of execution
 governance architectures.
+
+---
+
+## Meta-Lesson — Validation Before Generalization
+
+Architectural conclusions should emerge only after repeated observations have
+been evaluated for consistency.
+
+Premature generalization from isolated examples increases the likelihood of
+architectural overfitting and weakens the evidential basis of engineering
+decisions.
+
+Validation therefore precedes architectural generalization throughout the
+Behmanesh Structural Index research program.
