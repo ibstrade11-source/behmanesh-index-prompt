@@ -42,3 +42,10 @@ frameworks.
 
 Accordingly, its intended scope is complementary to existing language-model
 engineering approaches rather than a replacement for them.
+
+---
+
+The historical evolution summarized above motivates the architectural
+questions investigated throughout the remainder of this monograph, thereby
+providing the conceptual transition from historical context to formal
+architectural specification.
