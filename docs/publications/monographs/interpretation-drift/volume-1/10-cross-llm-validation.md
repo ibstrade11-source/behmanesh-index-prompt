@@ -249,3 +249,15 @@ failures.
 Instead, future studies should distinguish between implementation-dependent
 variation and architecture-dependent variation through controlled
 cross-platform experimentation.
+
+---
+
+## Planned Evaluation Status
+
+No experimental results are presented within Volume I.
+
+The objective of this chapter is solely to define a reproducible evaluation
+protocol suitable for future empirical investigation.
+
+Accordingly, this material should not be interpreted as evidence that the
+proposed evaluation has already been executed.
