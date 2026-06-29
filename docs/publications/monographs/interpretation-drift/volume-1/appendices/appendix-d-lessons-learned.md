@@ -38,3 +38,16 @@ regarding execution governance and specification preservation.
 
 The primary contribution of the dialogue therefore lies in validating existing
 architectural principles.
+
+---
+
+## Lesson 9 — Pattern-Driven Engineering
+
+Architectural evolution should be motivated by recurring behavioral patterns
+rather than isolated execution failures.
+
+Within this case study, architectural conclusions emerged from repeated
+observations collected across multiple interactions.
+
+Pattern-oriented engineering provides a stronger foundation for architectural
+decision-making than anecdotal observations.
