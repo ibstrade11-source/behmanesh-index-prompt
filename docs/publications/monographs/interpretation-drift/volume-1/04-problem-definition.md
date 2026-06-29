@@ -112,3 +112,17 @@ semantics throughout analytical execution.
 
 The proposed architecture therefore addresses governance of execution rather
 than optimization of model performance.
+
+---
+
+## Engineering Perspective
+
+Execution Governance is formulated as an engineering coordination problem
+rather than a language-model capability problem.
+
+The objective is to improve the reproducibility, traceability, specification
+preservation, and structural consistency of analytical execution without
+requiring modifications to underlying model architectures.
+
+Accordingly, governance mechanisms operate at the execution layer rather than
+the inference layer.
