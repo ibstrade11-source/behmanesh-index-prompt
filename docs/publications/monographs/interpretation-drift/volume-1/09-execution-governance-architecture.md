@@ -31,3 +31,12 @@ The architecture provides governance for:
 
 Interpretation Drift is treated as one execution behavior that these
 mechanisms are designed to reduce.
+
+---
+
+## Specification Preservation
+
+The architectural objective remains execution governance.
+
+Interpretation Drift functions exclusively as one category of evidence
+motivating this architecture.
