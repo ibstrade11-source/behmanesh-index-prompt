@@ -137,3 +137,22 @@ rather than model internals.
 This assumption intentionally separates architectural verification from
 language-model implementation details, allowing future systems to evolve
 without invalidating the architectural specification.
+
+---
+
+## Baseline Evolution
+
+The architectural baseline should evolve only through explicit specification
+revisions.
+
+Editorial clarification may improve readability without altering the
+architectural intent established by the baseline.
+
+Every future architectural modification should document:
+
+- motivation
+- affected components
+- compatibility
+- expected architectural consequences
+
+This policy preserves architectural continuity across the publication series.
