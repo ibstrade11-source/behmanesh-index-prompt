@@ -75,3 +75,20 @@ production deployment.
 
 This ordering preserves architectural dependency throughout the research
 program.
+
+---
+
+## Research Prioritization
+
+Research activities should progress according to architectural dependency.
+
+Priority should therefore be assigned in the following order:
+
+1. specification preservation;
+2. mathematical formalization;
+3. engineering metrics;
+4. controlled experimentation;
+5. software implementation;
+6. industrial validation.
+
+Later stages should build upon validated results from earlier stages.
