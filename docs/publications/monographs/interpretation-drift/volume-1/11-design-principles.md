@@ -170,3 +170,17 @@ Architectural decisions should remain independent from individual language
 model implementations to maximize long-term applicability.
 
 Governance mechanisms should remain explainable, inspectable, and auditable.
+
+---
+
+## Design Philosophy
+
+Each architectural principle exists to reduce unnecessary variability while
+preserving analytical flexibility.
+
+Governance therefore constrains execution structure rather than analytical
+reasoning itself.
+
+Architectural success is measured through reproducibility, traceability,
+specification preservation, and execution consistency rather than output
+uniformity.
