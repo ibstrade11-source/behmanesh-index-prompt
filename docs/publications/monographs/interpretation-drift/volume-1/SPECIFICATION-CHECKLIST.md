@@ -39,3 +39,15 @@ Additional verification:
 - roadmap remains synchronized with scope;
 - audit log updated;
 - architectural assumptions explicitly documented.
+
+---
+
+## Publication Readiness Criteria
+
+Before publication verify additionally:
+
+- architectural terminology remains invariant;
+- chapter dependencies remain logically consistent;
+- appendix material introduces no conflicting architectural assumptions;
+- roadmap remains compatible with the declared scope;
+- audit documentation is complete.
