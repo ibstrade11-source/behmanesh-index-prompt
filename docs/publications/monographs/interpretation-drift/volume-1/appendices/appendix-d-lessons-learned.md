@@ -236,3 +236,12 @@ Future empirical evidence should be permitted to confirm, refine, or reject
 the interpretations presented throughout this case study.
 
 Such openness is essential for cumulative scientific progress.
+
+---
+
+## Engineering Generalization
+
+Although this investigation was conducted within the context of the Behmanesh
+Structural Index, the methodology may also inform the engineering of other
+execution-governance systems whose objective is faithful specification
+execution rather than specification reinterpretation.
