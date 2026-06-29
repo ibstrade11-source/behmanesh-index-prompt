@@ -49,3 +49,26 @@ supporting the need for execution-governance mechanisms.
 
 They should not be interpreted as comprehensive explanations of the
 internal operation of Large Language Models.
+
+---
+
+## Architectural Assumptions
+
+The architecture presented in this volume operates under several explicit
+assumptions.
+
+First, analytical frameworks possess structural specifications that remain
+independent from any individual language model.
+
+Second, execution quality can be evaluated independently from answer quality.
+
+Third, preserving procedural structure increases reproducibility regardless of
+the internal implementation of the language model.
+
+Fourth, execution governance represents an architectural layer positioned above
+individual reasoning mechanisms rather than within them.
+
+These assumptions define the theoretical boundary conditions of the proposed
+architecture and remain intentionally independent from future empirical
+validation.
+
