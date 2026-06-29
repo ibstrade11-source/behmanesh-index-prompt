@@ -1,12 +1,13 @@
 # Architectural Assumptions
 
-This volume assumes:
+Volume I assumes:
 
-- analytical frameworks can be specified formally;
-- specification fidelity is measurable;
-- execution behavior is observable;
-- governance mechanisms may reduce specification deviation;
-- architectural principles remain model-independent;
-- implementation details evolve independently from conceptual architecture.
+- analytical specifications can be stated explicitly;
+- execution behavior can be observed;
+- deviations can be documented;
+- governance mechanisms can reduce inconsistency.
 
-These assumptions provide the conceptual foundation of the present work.
+Future empirical work should evaluate each assumption independently.
+
+Architectural assumptions remain open to revision if contradicted by future
+evidence.
