@@ -29,3 +29,12 @@ experimental.
 Its primary deliverable is a coherent execution-governance specification that
 provides a stable foundation for future mathematical formalization,
 experimental validation, software implementation, and operational deployment.
+
+---
+
+The present work therefore serves as the architectural reference specification
+for subsequent volumes rather than as the final demonstration of the complete
+engineering program.
+
+Its principal objective is architectural stabilization before progressive
+operational expansion.
