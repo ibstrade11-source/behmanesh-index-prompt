@@ -91,3 +91,15 @@ of the present document.
 This restriction preserves a stable conceptual baseline upon which future
 engineering work can be constructed without repeatedly redefining the
 architecture itself.
+
+---
+
+## Scope Preservation
+
+The scope declared for Volume I shall remain stable across editorial revisions.
+
+Additional explanatory material may improve clarity but shall not introduce
+new architectural claims, empirical conclusions, mathematical proofs, or
+implementation results beyond the declared conceptual boundary.
+
+This policy preserves longitudinal comparability between future editions.
