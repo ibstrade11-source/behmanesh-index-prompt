@@ -25,3 +25,16 @@ behavioral consistency.
 
 Natural dialogue therefore complements conventional benchmark-oriented
 evaluation.
+
+---
+
+## Lesson 8 — Critical Dialogue as an Architectural Validation Case
+
+The dialogue should be interpreted as a validation case rather than as the
+origin of the architectural framework.
+
+Repeated observations supported previously established architectural decisions
+regarding execution governance and specification preservation.
+
+The primary contribution of the dialogue therefore lies in validating existing
+architectural principles.
