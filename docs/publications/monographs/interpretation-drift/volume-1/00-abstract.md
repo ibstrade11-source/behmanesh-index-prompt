@@ -11,7 +11,7 @@ The proposed architecture does not modify the internal behavior
 of Large Language Models.
 
 Instead, it introduces external engineering mechanisms that
-standardize execution, strengthen Framework Fidelity, strengthen
+standardize execution, preserve Framework Fidelity, strengthen
 reproducibility, and reduce deviations from formally specified
 analytical procedures.
 

@@ -34,7 +34,7 @@ BSI structures the execution environment in which analytical
 specifications are interpreted, executed, validated, and reviewed.
 
 The objective is to reduce uncontrolled deviation from formal
-specifications while improving framework fidelity, execution
+specifications while preserving framework fidelity, execution
 consistency, reproducibility, and output quality.
 
 ## Scope of This Volume
