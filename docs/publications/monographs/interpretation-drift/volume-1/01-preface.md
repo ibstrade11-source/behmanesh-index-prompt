@@ -49,3 +49,17 @@ preserve architectural clarity and minimize premature engineering detail.
 
 The cumulative interpretation of the complete volume therefore carries greater
 architectural significance than isolated chapter reading.
+
+---
+
+## Reader Responsibilities
+
+Readers are encouraged to distinguish carefully between:
+
+- demonstrated architectural contributions;
+- planned future developments;
+- engineering hypotheses;
+- empirical validation;
+- implementation objectives.
+
+This distinction preserves correct interpretation of the present volume.
