@@ -40,3 +40,39 @@ The architectural objective remains execution governance.
 
 Interpretation Drift functions exclusively as one category of evidence
 motivating this architecture.
+
+---
+
+## Architectural Layers
+
+Execution Governance may be interpreted as a layered architecture.
+
+Layer 1:
+Specification definition.
+
+Layer 2:
+Governance constraints.
+
+Layer 3:
+Execution monitoring.
+
+Layer 4:
+Consistency verification.
+
+Layer 5:
+Traceability recording.
+
+Each layer performs a distinct architectural responsibility while
+remaining independent from internal language-model implementation.
+
+---
+
+## Architectural Stability
+
+Long-term architectural stability depends upon preserving interfaces
+between governance components rather than preserving implementation
+details.
+
+Consequently, future implementation evolution should occur without
+changing the governing architectural specification.
+
