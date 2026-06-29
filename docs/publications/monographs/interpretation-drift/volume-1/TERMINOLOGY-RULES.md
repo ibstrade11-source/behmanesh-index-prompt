@@ -53,3 +53,16 @@ Whenever new terminology becomes necessary it shall:
 - identify relationships with existing terminology;
 - avoid synonym drift;
 - preserve backward interpretability.
+
+---
+
+## Terminology Governance
+
+Future terminology may be introduced only when:
+
+- it describes a genuinely new architectural concept;
+- it does not redefine an existing concept;
+- it preserves compatibility with previously defined terminology;
+- it improves architectural precision.
+
+Terminological expansion shall never introduce conceptual ambiguity.
