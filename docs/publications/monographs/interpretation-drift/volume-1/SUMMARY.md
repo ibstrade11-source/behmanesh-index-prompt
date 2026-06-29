@@ -256,3 +256,16 @@ git push origin conceptual-refactor-volume1
 git tag -f volume1-freeze
 
 git push origin volume1-freeze --force
+
+---
+
+## Final Perspective
+
+The architectural contribution of Volume I should be interpreted as a stable
+reference specification.
+
+Future revisions are expected to extend its engineering maturity while
+preserving its governing architectural commitments and terminology.
+
+The long-term objective is therefore cumulative architectural evolution rather
+than repeated architectural redesign.
