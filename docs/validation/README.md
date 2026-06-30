@@ -1,14 +1,5 @@
 # Validation
 
-Validation documents demonstrate whether implementation and architecture satisfy intended behavior.
+Validation evaluates architectural claims through benchmarks, comparisons and case studies.
 
-This directory contains:
-
-Benchmarks
-
-Case Studies
-
-Cross-LLM Validation
-
-Comparative Analyses
-
+Validation never defines theory.
