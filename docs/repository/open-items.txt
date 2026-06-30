@@ -1,4 +1,0 @@
-docs/repository/document-index.txt:124:# RFC-XXXX
-docs/repository/document-index.txt:130:# DHR-XXXX
-docs/templates/rfc.md:1:# RFC-XXXX
-docs/templates/design-history-record.md:1:# DHR-XXXX

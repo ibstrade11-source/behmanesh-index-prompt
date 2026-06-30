@@ -1,4 +1,0 @@
-docs/theory/README.md:1:# Theory
-docs/knowledge-base/concepts/framework-fidelity.md:1:# Framework Fidelity
-docs/knowledge-base/README.md:1:# Knowledge Base
-docs/knowledge-base/SUMMARY.md:1:# BSI Knowledge Base
