@@ -1,3 +1,0 @@
-# References
-
-Repository reference material.
