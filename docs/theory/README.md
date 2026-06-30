@@ -1,16 +1,5 @@
 # Theory
 
-This section contains theoretical concepts introduced or adopted by BSI.
+The Theory layer defines the scientific foundations of the Behmanesh Structural Index.
 
-Examples include:
-
-- Framework Fidelity
-
-- Interpretation Drift
-
-- Pattern-driven AI Architecture
-
-- Epistemic Integrity
-
-These documents are implementation independent.
-
+Theory is independent of implementation details.
