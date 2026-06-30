@@ -1,14 +1,10 @@
-# BSI Documentation
+# Documentation Architecture
 
-This directory contains all technical documentation of the Behmanesh Structural Index (BSI).
-
-Documentation is organized into five major categories.
-
-- Theory
-- Architecture
-- Specifications
-- Validation
-- Design History
-
-Each category serves a distinct role in the evolution of BSI.
-
+- publications/ : Publishable research artifacts
+- repository/ : Repository engineering documentation
+- theory/ : Scientific foundations
+- validation/ : Validation and benchmarking
+- knowledge-base/ : Canonical knowledge
+- CASE_STUDIES/ : Case studies
+- rfcs/ : Requests for comments
+- templates/ : Document templates
