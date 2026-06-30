@@ -6,7 +6,7 @@ docs/
 ├── theory/
 ├── validation/
 ├── knowledge-base/
-├── CASE_STUDIES/
+├── case-studies/
 ├── rfcs/
 ├── templates/
 └── tables/
