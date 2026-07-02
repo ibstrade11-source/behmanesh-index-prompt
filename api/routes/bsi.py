@@ -1,12 +1,27 @@
 from fastapi import APIRouter
 from core.bsi_engine import compute_bsi
 from core.bsi_pipeline import run_pipeline
+from core.llm_client import call_llm, LLMNotConfigured, LLMRequestFailed
 from datetime import datetime
+from pathlib import Path
 
 router = APIRouter()
 
 BSI_VERSION = "3.4.2"
 ENGINE_VERSION = "bsi-core-1.0"
+
+_PROMPT_PATH = Path(__file__).resolve().parents[2] / "MASTER_PROMPT_BSI_v3.4.2.md"
+_INPUT_PLACEHOLDER = "[متن، مقاله یا محتوای ورودی]"
+
+
+def _render_master_prompt(text: str) -> str:
+    template = _PROMPT_PATH.read_text(encoding="utf-8")
+    if _INPUT_PLACEHOLDER not in template:
+        raise RuntimeError(
+            f"Expected placeholder '{_INPUT_PLACEHOLDER}' not found in "
+            f"{_PROMPT_PATH.name}. Update _INPUT_PLACEHOLDER in bsi.py."
+        )
+    return template.replace(_INPUT_PLACEHOLDER, text)
 
 
 @router.get("/version")
@@ -16,7 +31,7 @@ def version():
         "engine": ENGINE_VERSION,
         "pipeline_stages": ["BSI", "EIG", "ECC", "DRAFT", "REIG", "FINAL"],
         "api_version": "1.2.0",
-        "endpoints": ["/bsi/score", "/bsi/analyze", "/bsi/compare", "/bsi/version"]
+        "endpoints": ["/bsi/score", "/bsi/analyze", "/bsi/analyze_llm", "/bsi/compare", "/bsi/version"]
     }
 
 
@@ -70,6 +85,40 @@ def analyze(payload: dict):
     result = compute_bsi(text)
     details = result.get("details", {})
     return run_pipeline(text, details)
+
+
+@router.post("/analyze_llm")
+def analyze_llm(payload: dict):
+    """
+    Like /analyze, but calls a real LLM with the full
+    MASTER_PROMPT_BSI_v3.4.2.md template to produce the rich
+    Manifest/Latent/Meta prose with [FACT]/[INFERENCE]/[HYPOTHESIS]/
+    [SPECULATION] tags. Requires LLM_PROVIDER and LLM_API_KEY to be set as
+    environment variables on the server. Also runs the existing rule-based
+    scorer on the same text and includes both.
+    """
+    text = payload.get("text", "")
+    if len(text) < 10:
+        return {"error": {"code": "TEXT_TOO_SHORT", "message": "Minimum length is 10"}}
+
+    try:
+        prompt = _render_master_prompt(text)
+        final_synthesis = call_llm(prompt)
+    except LLMNotConfigured as e:
+        return {"error": {"code": "LLM_NOT_CONFIGURED", "message": str(e)}}
+    except LLMRequestFailed as e:
+        return {"error": {"code": "LLM_REQUEST_FAILED", "message": str(e)}}
+
+    rule_based = compute_bsi(text)
+
+    return {
+        "version": BSI_VERSION,
+        "timestamp": datetime.utcnow().isoformat(),
+        "final_synthesis": final_synthesis,
+        "rule_based_bsi_score": rule_based.get("bsi"),
+        "rule_based_eig_score": rule_based.get("eig"),
+        "rule_based_interpretation": rule_based.get("label"),
+    }
 
 
 @router.post("/compare")
